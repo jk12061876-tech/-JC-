@@ -1,0 +1,4701 @@
+{
+  "product_info": {
+    "product_type": "Server Hardware Components",
+    "categories": {
+      "Server Memory": [
+        "DDR3",
+        "DDR4",
+        "DDR5",
+        "ECC RAM"
+      ],
+      "Server Processor": [
+        "Intel Xeon",
+        "AMD EPYC",
+        "CPU"
+      ],
+      "Server Hard Drive": [
+        "2.5in SFF HDD",
+        "3.5in LFF HDD",
+        "Enterprise SSD",
+        "NVMe SSD"
+      ],
+      "Server Card": [
+        "RAID Card",
+        "HBA Card",
+        "Network Card",
+        "Storage Controller"
+      ],
+      "Server Motherboard": [
+        "Dual Socket Motherboard",
+        "Server Board"
+      ],
+      "Server Power Supply": [
+        "Redundant PSU",
+        "Hot-swap PSU"
+      ]
+    },
+    "brands": [
+      "HP",
+      "HPE",
+      "Dell",
+      "Lenovo",
+      "IBM"
+    ],
+    "condition": "Brand New",
+    "target_customers": {
+      "Data Centers": "数据中心",
+      "IT Service Providers": "IT服务提供商",
+      "Cloud Providers": "云服务商",
+      "System Integrators": "系统集成商",
+      "IT Resellers": "IT经销商",
+      "Enterprise IT Departments": "企业IT部门",
+      "Hosting Companies": "托管服务商",
+      "Telecom Companies": "电信公司"
+    }
+  },
+  "leads": [
+    {
+      "lead_id": "Peru_SERVER_001",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "collection_date": "2025-12-21T10:36:33.793407",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Mining IT, Banking, Telecommunications]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .pe 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Peru server hardware importers",
+            "Peru data center equipment buyers",
+            "Peru IT hardware distributors",
+            "Peru server parts suppliers looking to buy",
+            "Peru HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Peru\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Peru+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Peru官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793438",
+        "last_updated": "2025-12-21T10:36:33.793439",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Peru_SERVER_002",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "collection_date": "2025-12-21T10:36:33.793486",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Mining IT, Banking, Telecommunications]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .pe 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Peru server hardware importers",
+            "Peru data center equipment buyers",
+            "Peru IT hardware distributors",
+            "Peru server parts suppliers looking to buy",
+            "Peru HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Peru\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Peru+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Peru官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793502",
+        "last_updated": "2025-12-21T10:36:33.793503",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Peru_SERVER_003",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "collection_date": "2025-12-21T10:36:33.793527",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Mining IT, Banking, Telecommunications]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .pe 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Peru server hardware importers",
+            "Peru data center equipment buyers",
+            "Peru IT hardware distributors",
+            "Peru server parts suppliers looking to buy",
+            "Peru HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Peru\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Peru+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Peru官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793538",
+        "last_updated": "2025-12-21T10:36:33.793539",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Peru_SERVER_004",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "collection_date": "2025-12-21T10:36:33.793557",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Mining IT, Banking, Telecommunications]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .pe 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Peru server hardware importers",
+            "Peru data center equipment buyers",
+            "Peru IT hardware distributors",
+            "Peru server parts suppliers looking to buy",
+            "Peru HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Peru\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Peru+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Peru官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793563",
+        "last_updated": "2025-12-21T10:36:33.793564",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Peru_SERVER_005",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "collection_date": "2025-12-21T10:36:33.793581",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Mining IT, Banking, Telecommunications]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .pe 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Peru server hardware importers",
+            "Peru data center equipment buyers",
+            "Peru IT hardware distributors",
+            "Peru server parts suppliers looking to buy",
+            "Peru HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Peru\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Peru+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Peru官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793590",
+        "last_updated": "2025-12-21T10:36:33.793591",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Bolivia_SERVER_001",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "collection_date": "2025-12-21T10:36:33.793644",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Government IT, Telecom, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .bo 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Bolivia server hardware importers",
+            "Bolivia data center equipment buyers",
+            "Bolivia IT hardware distributors",
+            "Bolivia server parts suppliers looking to buy",
+            "Bolivia HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Bolivia\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Bolivia+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Bolivia官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793653",
+        "last_updated": "2025-12-21T10:36:33.793654",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Bolivia_SERVER_002",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "collection_date": "2025-12-21T10:36:33.793700",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Government IT, Telecom, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .bo 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Bolivia server hardware importers",
+            "Bolivia data center equipment buyers",
+            "Bolivia IT hardware distributors",
+            "Bolivia server parts suppliers looking to buy",
+            "Bolivia HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Bolivia\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Bolivia+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Bolivia官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793713",
+        "last_updated": "2025-12-21T10:36:33.793714",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Bolivia_SERVER_003",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "collection_date": "2025-12-21T10:36:33.793739",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Government IT, Telecom, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .bo 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Bolivia server hardware importers",
+            "Bolivia data center equipment buyers",
+            "Bolivia IT hardware distributors",
+            "Bolivia server parts suppliers looking to buy",
+            "Bolivia HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Bolivia\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Bolivia+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Bolivia官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793754",
+        "last_updated": "2025-12-21T10:36:33.793755",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Bolivia_SERVER_004",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "collection_date": "2025-12-21T10:36:33.793776",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Government IT, Telecom, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .bo 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Bolivia server hardware importers",
+            "Bolivia data center equipment buyers",
+            "Bolivia IT hardware distributors",
+            "Bolivia server parts suppliers looking to buy",
+            "Bolivia HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Bolivia\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Bolivia+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Bolivia官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793784",
+        "last_updated": "2025-12-21T10:36:33.793785",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Bolivia_SERVER_005",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "collection_date": "2025-12-21T10:36:33.793801",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Government IT, Telecom, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .bo 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Bolivia server hardware importers",
+            "Bolivia data center equipment buyers",
+            "Bolivia IT hardware distributors",
+            "Bolivia server parts suppliers looking to buy",
+            "Bolivia HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Bolivia\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Bolivia+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Bolivia官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793813",
+        "last_updated": "2025-12-21T10:36:33.793814",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Egypt_SERVER_001",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "collection_date": "2025-12-21T10:36:33.793863",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Telecom, Banking, Government IT]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .eg 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Egypt server hardware importers",
+            "Egypt data center equipment buyers",
+            "Egypt IT hardware distributors",
+            "Egypt server parts suppliers looking to buy",
+            "Egypt HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Egypt\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Egypt+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Egypt官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793873",
+        "last_updated": "2025-12-21T10:36:33.793874",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Egypt_SERVER_002",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "collection_date": "2025-12-21T10:36:33.793892",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Telecom, Banking, Government IT]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .eg 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Egypt server hardware importers",
+            "Egypt data center equipment buyers",
+            "Egypt IT hardware distributors",
+            "Egypt server parts suppliers looking to buy",
+            "Egypt HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Egypt\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Egypt+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Egypt官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793902",
+        "last_updated": "2025-12-21T10:36:33.793903",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Egypt_SERVER_003",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "collection_date": "2025-12-21T10:36:33.793921",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Telecom, Banking, Government IT]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .eg 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Egypt server hardware importers",
+            "Egypt data center equipment buyers",
+            "Egypt IT hardware distributors",
+            "Egypt server parts suppliers looking to buy",
+            "Egypt HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Egypt\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Egypt+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Egypt官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793926",
+        "last_updated": "2025-12-21T10:36:33.793927",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Egypt_SERVER_004",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "collection_date": "2025-12-21T10:36:33.793943",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Telecom, Banking, Government IT]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .eg 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Egypt server hardware importers",
+            "Egypt data center equipment buyers",
+            "Egypt IT hardware distributors",
+            "Egypt server parts suppliers looking to buy",
+            "Egypt HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Egypt\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Egypt+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Egypt官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793950",
+        "last_updated": "2025-12-21T10:36:33.793951",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Egypt_SERVER_005",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "collection_date": "2025-12-21T10:36:33.793964",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Telecom, Banking, Government IT]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .eg 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Egypt server hardware importers",
+            "Egypt data center equipment buyers",
+            "Egypt IT hardware distributors",
+            "Egypt server parts suppliers looking to buy",
+            "Egypt HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Egypt\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Egypt+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Egypt官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.793973",
+        "last_updated": "2025-12-21T10:36:33.793974",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_SERVER_001",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "collection_date": "2025-12-21T10:36:33.794025",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Oil & Gas IT, Banking, Telecom]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .kz 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Kazakhstan server hardware importers",
+            "Kazakhstan data center equipment buyers",
+            "Kazakhstan IT hardware distributors",
+            "Kazakhstan server parts suppliers looking to buy",
+            "Kazakhstan HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Kazakhstan\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Kazakhstan+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Kazakhstan官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794039",
+        "last_updated": "2025-12-21T10:36:33.794040",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_SERVER_002",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "collection_date": "2025-12-21T10:36:33.794066",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Oil & Gas IT, Banking, Telecom]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .kz 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Kazakhstan server hardware importers",
+            "Kazakhstan data center equipment buyers",
+            "Kazakhstan IT hardware distributors",
+            "Kazakhstan server parts suppliers looking to buy",
+            "Kazakhstan HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Kazakhstan\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Kazakhstan+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Kazakhstan官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794075",
+        "last_updated": "2025-12-21T10:36:33.794076",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_SERVER_003",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "collection_date": "2025-12-21T10:36:33.794141",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Oil & Gas IT, Banking, Telecom]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .kz 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Kazakhstan server hardware importers",
+            "Kazakhstan data center equipment buyers",
+            "Kazakhstan IT hardware distributors",
+            "Kazakhstan server parts suppliers looking to buy",
+            "Kazakhstan HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Kazakhstan\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Kazakhstan+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Kazakhstan官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794146",
+        "last_updated": "2025-12-21T10:36:33.794147",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_SERVER_004",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "collection_date": "2025-12-21T10:36:33.794170",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Oil & Gas IT, Banking, Telecom]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .kz 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Kazakhstan server hardware importers",
+            "Kazakhstan data center equipment buyers",
+            "Kazakhstan IT hardware distributors",
+            "Kazakhstan server parts suppliers looking to buy",
+            "Kazakhstan HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Kazakhstan\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Kazakhstan+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Kazakhstan官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794184",
+        "last_updated": "2025-12-21T10:36:33.794185",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_SERVER_005",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "collection_date": "2025-12-21T10:36:33.794202",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Oil & Gas IT, Banking, Telecom]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .kz 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "Kazakhstan server hardware importers",
+            "Kazakhstan data center equipment buyers",
+            "Kazakhstan IT hardware distributors",
+            "Kazakhstan server parts suppliers looking to buy",
+            "Kazakhstan HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"Kazakhstan\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=Kazakhstan+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在Kazakhstan官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794238",
+        "last_updated": "2025-12-21T10:36:33.794239",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "UAE_SERVER_001",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "collection_date": "2025-12-21T10:36:33.794297",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Data Centers, Cloud Providers, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .ae 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "UAE server hardware importers",
+            "UAE data center equipment buyers",
+            "UAE IT hardware distributors",
+            "UAE server parts suppliers looking to buy",
+            "UAE HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"UAE\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=UAE+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在UAE官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794307",
+        "last_updated": "2025-12-21T10:36:33.794308",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "UAE_SERVER_002",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "collection_date": "2025-12-21T10:36:33.794322",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Data Centers, Cloud Providers, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .ae 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "UAE server hardware importers",
+            "UAE data center equipment buyers",
+            "UAE IT hardware distributors",
+            "UAE server parts suppliers looking to buy",
+            "UAE HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"UAE\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=UAE+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在UAE官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794333",
+        "last_updated": "2025-12-21T10:36:33.794334",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "UAE_SERVER_003",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "collection_date": "2025-12-21T10:36:33.794363",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Data Centers, Cloud Providers, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .ae 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "UAE server hardware importers",
+            "UAE data center equipment buyers",
+            "UAE IT hardware distributors",
+            "UAE server parts suppliers looking to buy",
+            "UAE HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"UAE\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=UAE+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在UAE官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794369",
+        "last_updated": "2025-12-21T10:36:33.794370",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "UAE_SERVER_004",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "collection_date": "2025-12-21T10:36:33.794392",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Data Centers, Cloud Providers, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .ae 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "UAE server hardware importers",
+            "UAE data center equipment buyers",
+            "UAE IT hardware distributors",
+            "UAE server parts suppliers looking to buy",
+            "UAE HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"UAE\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=UAE+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在UAE官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794401",
+        "last_updated": "2025-12-21T10:36:33.794402",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    },
+    {
+      "lead_id": "UAE_SERVER_005",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "collection_date": "2025-12-21T10:36:33.794428",
+      "company_info": {
+        "company_name": "[待搜索]",
+        "company_name_local": "[当地语言名称]",
+        "business_type": "[建议: 数据中心, IT服务提供商, 云服务商]",
+        "target_industry": "[建议: Data Centers, Cloud Providers, Banking]",
+        "company_size": "SME (11-500人)",
+        "website": "[通常以 .ae 结尾]",
+        "address": "[完整地址]",
+        "year_established": "[年份]"
+      },
+      "contact_info": {
+        "primary_email": "[如: info@company.com, sales@company.com]",
+        "secondary_email": "[备用邮箱]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "linkedin_company": "[LinkedIn公司页面]",
+        "contact_person": {
+          "name": "[采购经理/IT经理姓名]",
+          "title": "[如: IT Procurement Manager, Data Center Manager]",
+          "email": "[个人邮箱]",
+          "phone": "[直拨电话]",
+          "whatsapp": "[个人WhatsApp]",
+          "linkedin": "[个人LinkedIn URL]"
+        }
+      },
+      "procurement_needs": {
+        "looking_for_supplier": true,
+        "has_stable_supplier": "[需确认: 如果有稳定供应商则跳过]",
+        "products_interested": {
+          "Server Memory": "[是否需要: DDR3/DDR4/DDR5]",
+          "Server CPU": "[是否需要: Intel Xeon / AMD EPYC]",
+          "Server HDD/SSD": "[是否需要: 2.5\"/3.5\" HDD, Enterprise SSD]",
+          "RAID/HBA Card": "[是否需要]",
+          "Server Motherboard": "[是否需要]",
+          "Server PSU": "[是否需要]"
+        },
+        "preferred_brands": "[HP/Dell/Lenovo - 询问偏好]",
+        "purchase_volume": "[月度/年度采购量]",
+        "budget_range": "[预算范围]",
+        "urgency": "[紧急/常规]"
+      },
+      "sourcing_evidence": {
+        "evidence_type": "[从哪里发现的]",
+        "evidence_details": "[具体证据]",
+        "sources": [
+          "[ ] B2B平台买家询盘",
+          "[ ] LinkedIn招聘IT采购职位",
+          "[ ] 公司网站采购页面",
+          "[ ] 贸易展会参展",
+          "[ ] 新闻报道扩张/新项目",
+          "[ ] 政府采购公告"
+        ]
+      },
+      "collection_guide": {
+        "step1_search": {
+          "action": "在搜索引擎查找",
+          "queries": [
+            "UAE server hardware importers",
+            "UAE data center equipment buyers",
+            "UAE IT hardware distributors",
+            "UAE server parts suppliers looking to buy",
+            "UAE HP server parts buyers"
+          ],
+          "what_to_find": "公司名称、网站、基本联系方式"
+        },
+        "step2_linkedin": {
+          "action": "LinkedIn深度搜索",
+          "company_search": "\"UAE\" AND (\"data center\" OR \"IT infrastructure\" OR \"server\")",
+          "people_search": "IT Manager, Procurement Manager, CTO",
+          "what_to_collect": "公司页面、关键人员、联系方式"
+        },
+        "step3_website": {
+          "action": "访问公司网站",
+          "what_to_check": [
+            "联系页面 (Contact Us)",
+            "关于我们 (About)",
+            "服务/产品页面",
+            "采购/供应商页面"
+          ],
+          "what_to_collect": "官方邮箱、电话、业务范围"
+        },
+        "step4_b2b": {
+          "action": "检查B2B平台",
+          "platforms": [
+            "Alibaba: https://www.alibaba.com/trade/search?SearchText=UAE+server+hardware",
+            "TradeKey: 搜索买家询盘",
+            "Global Sources: 查看采购需求"
+          ],
+          "what_to_find": "买家询盘、采购需求、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证联系方式",
+          "tools": [
+            "Hunter.io - 邮箱验证",
+            "WhatsApp - 验证号码是否有WhatsApp",
+            "LinkedIn - 验证人员真实性"
+          ]
+        }
+      },
+      "due_diligence": {
+        "company_verification": {
+          "task": "公司注册验证",
+          "status": "待完成",
+          "how": "在UAE官方注册处查询",
+          "findings": "[记录发现]"
+        },
+        "business_legitimacy": {
+          "task": "业务合法性检查",
+          "status": "待完成",
+          "checks": [
+            "[ ] 网站存在且活跃",
+            "[ ] LinkedIn公司页面存在",
+            "[ ] Google可以搜到公司",
+            "[ ] 有办公地址",
+            "[ ] 域名年龄 > 1年"
+          ]
+        },
+        "financial_check": {
+          "task": "财务状况检查",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 公司规模和员工数",
+            "[ ] 办公地点档次",
+            "[ ] 网站专业度",
+            "[ ] 是否有其他供应商",
+            "[ ] 信用报告 (如可获得)"
+          ]
+        },
+        "it_capability": {
+          "task": "IT采购能力评估",
+          "status": "待完成",
+          "indicators": [
+            "[ ] 是否有IT部门",
+            "[ ] 是否有数据中心",
+            "[ ] 是否经营IT业务",
+            "[ ] 是否有服务器相关业务",
+            "[ ] 技术人员规模"
+          ]
+        },
+        "reputation_check": {
+          "task": "声誉调查",
+          "status": "待完成",
+          "sources": [
+            "[ ] Google新闻搜索",
+            "[ ] 社交媒体检查",
+            "[ ] 客户评价",
+            "[ ] 行业论坛",
+            "[ ] Better Business Bureau等"
+          ]
+        },
+        "risk_assessment": {
+          "overall_risk": "[低/中/高]",
+          "red_flags": [],
+          "green_flags": [],
+          "recommendation": "[推荐/谨慎/不推荐]",
+          "notes": "[其他备注]"
+        }
+      },
+      "priority_score": {
+        "total_score": 0,
+        "factors": {
+          "company_size": 0,
+          "industry_fit": 0,
+          "sourcing_urgency": 0,
+          "contact_quality": 0,
+          "business_legitimacy": 0
+        },
+        "priority_level": "[高/中/低]"
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:36:33.794439",
+        "last_updated": "2025-12-21T10:36:33.794440",
+        "data_quality": "0%",
+        "completion_status": "待收集",
+        "assigned_to": "[销售人员]",
+        "follow_up_date": "[跟进日期]",
+        "status": "New Lead",
+        "notes": []
+      }
+    }
+  ],
+  "total_leads": 25,
+  "countries_covered": [
+    "Peru",
+    "Bolivia",
+    "Egypt",
+    "Kazakhstan",
+    "UAE"
+  ],
+  "generated_date": "2025-12-21T10:36:33.794456",
+  "next_steps": [
+    "1. 使用提供的搜索查询在Google/LinkedIn搜索",
+    "2. 检查B2B平台的服务器硬件买家询盘",
+    "3. 收集完整的联系信息 (邮箱、电话、WhatsApp)",
+    "4. 验证公司是否正在寻找供应商",
+    "5. 执行背景调查",
+    "6. 评估优先级",
+    "7. 开始联系"
+  ]
+}

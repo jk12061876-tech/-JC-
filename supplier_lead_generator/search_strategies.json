@@ -1,0 +1,459 @@
+{
+  "Peru": {
+    "google_search_terms": [
+      "\"Peru\" importers directory",
+      "\"Peru\" companies looking for suppliers",
+      "\"Peru\" procurement requirements",
+      "\"Peru\" import export directory",
+      "\"Peru\" chamber of commerce members",
+      "\"Peru\" trade association directory",
+      "\"Peru\" business directory",
+      "site:linkedin.com \"Peru\" company buyer",
+      "site:alibaba.com \"Peru\" buyer"
+    ],
+    "linkedin_search": [
+      "LinkedIn公司搜索: 地区=Peru, 行业=你的目标行业",
+      "搜索采购经理、进口经理职位",
+      "关注公司招聘信息中的采购岗位"
+    ],
+    "b2b_platforms": [
+      {
+        "name": "Alibaba.com",
+        "url": "https://www.alibaba.com",
+        "type": "B2B平台",
+        "description": "全球最大B2B平台，公开买家信息",
+        "search_url": "https://www.alibaba.com/trade/search?SearchText={keyword}+buyer"
+      },
+      {
+        "name": "TradeKey",
+        "url": "https://www.tradekey.com",
+        "type": "B2B平台",
+        "description": "国际B2B市场，买家目录",
+        "search_url": "https://www.tradekey.com/buyers/{country}"
+      },
+      {
+        "name": "Global Sources",
+        "url": "https://www.globalsources.com",
+        "type": "B2B平台",
+        "description": "采购商信息",
+        "search_url": "https://www.globalsources.com/buyers.htm"
+      },
+      {
+        "name": "EC21",
+        "url": "https://www.ec21.com",
+        "type": "B2B平台",
+        "description": "韩国B2B平台",
+        "search_url": "https://www.ec21.com/buyer/buyer_list.html"
+      },
+      {
+        "name": "Made-in-China",
+        "url": "https://www.made-in-china.com",
+        "type": "B2B平台",
+        "description": "中国制造网",
+        "search_url": "https://www.made-in-china.com/trade-leads/"
+      }
+    ],
+    "government_sources": [
+      {
+        "name": "SUNARP - 秘鲁公共注册管理局",
+        "url": "https://www.sunarp.gob.pe",
+        "type": "公司注册",
+        "description": "公开的公司注册信息"
+      },
+      {
+        "name": "SUNAT - 秘鲁税务局",
+        "url": "https://www.sunat.gob.pe",
+        "type": "纳税人信息",
+        "description": "公开的纳税人登记信息"
+      },
+      {
+        "name": "Peruvian Chamber of Commerce",
+        "url": "https://www.camaralima.org.pe",
+        "type": "商会目录",
+        "description": "会员企业名录"
+      },
+      {
+        "name": "LinkedIn Peru Companies",
+        "url": "https://www.linkedin.com/search/results/companies/?geoUrn=%5B%22102927786%22%5D",
+        "type": "企业社交",
+        "description": "公开的公司页面"
+      },
+      {
+        "name": "Peru Export Directory",
+        "url": "https://www.adexperu.org.pe",
+        "type": "进出口商",
+        "description": "出口商协会目录"
+      }
+    ],
+    "recommended_approach": [
+      "1. 从官方商会获取会员名录",
+      "2. 在LinkedIn搜索公司和采购人员",
+      "3. 检查B2B平台的买家询盘",
+      "4. 查看贸易展会参展商名单",
+      "5. 搜索政府采购门户",
+      "6. 关注行业协会网站"
+    ]
+  },
+  "Bolivia": {
+    "google_search_terms": [
+      "\"Bolivia\" importers directory",
+      "\"Bolivia\" companies looking for suppliers",
+      "\"Bolivia\" procurement requirements",
+      "\"Bolivia\" import export directory",
+      "\"Bolivia\" chamber of commerce members",
+      "\"Bolivia\" trade association directory",
+      "\"Bolivia\" business directory",
+      "site:linkedin.com \"Bolivia\" company buyer",
+      "site:alibaba.com \"Bolivia\" buyer"
+    ],
+    "linkedin_search": [
+      "LinkedIn公司搜索: 地区=Bolivia, 行业=你的目标行业",
+      "搜索采购经理、进口经理职位",
+      "关注公司招聘信息中的采购岗位"
+    ],
+    "b2b_platforms": [
+      {
+        "name": "Alibaba.com",
+        "url": "https://www.alibaba.com",
+        "type": "B2B平台",
+        "description": "全球最大B2B平台，公开买家信息",
+        "search_url": "https://www.alibaba.com/trade/search?SearchText={keyword}+buyer"
+      },
+      {
+        "name": "TradeKey",
+        "url": "https://www.tradekey.com",
+        "type": "B2B平台",
+        "description": "国际B2B市场，买家目录",
+        "search_url": "https://www.tradekey.com/buyers/{country}"
+      },
+      {
+        "name": "Global Sources",
+        "url": "https://www.globalsources.com",
+        "type": "B2B平台",
+        "description": "采购商信息",
+        "search_url": "https://www.globalsources.com/buyers.htm"
+      },
+      {
+        "name": "EC21",
+        "url": "https://www.ec21.com",
+        "type": "B2B平台",
+        "description": "韩国B2B平台",
+        "search_url": "https://www.ec21.com/buyer/buyer_list.html"
+      },
+      {
+        "name": "Made-in-China",
+        "url": "https://www.made-in-china.com",
+        "type": "B2B平台",
+        "description": "中国制造网",
+        "search_url": "https://www.made-in-china.com/trade-leads/"
+      }
+    ],
+    "government_sources": [
+      {
+        "name": "FUNDEMPRESA - 玻利维亚商业登记处",
+        "url": "https://www.fundempresa.org.bo",
+        "type": "公司注册",
+        "description": "公开的公司注册信息"
+      },
+      {
+        "name": "Bolivian Chamber of Commerce",
+        "url": "https://www.cainco.org.bo",
+        "type": "商会目录",
+        "description": "会员企业名录"
+      },
+      {
+        "name": "LinkedIn Bolivia Companies",
+        "url": "https://www.linkedin.com/search/results/companies/?geoUrn=%5B%22100446943%22%5D",
+        "type": "企业社交",
+        "description": "公开的公司页面"
+      }
+    ],
+    "recommended_approach": [
+      "1. 从官方商会获取会员名录",
+      "2. 在LinkedIn搜索公司和采购人员",
+      "3. 检查B2B平台的买家询盘",
+      "4. 查看贸易展会参展商名单",
+      "5. 搜索政府采购门户",
+      "6. 关注行业协会网站"
+    ]
+  },
+  "Egypt": {
+    "google_search_terms": [
+      "\"Egypt\" importers directory",
+      "\"Egypt\" companies looking for suppliers",
+      "\"Egypt\" procurement requirements",
+      "\"Egypt\" import export directory",
+      "\"Egypt\" chamber of commerce members",
+      "\"Egypt\" trade association directory",
+      "\"Egypt\" business directory",
+      "site:linkedin.com \"Egypt\" company buyer",
+      "site:alibaba.com \"Egypt\" buyer"
+    ],
+    "linkedin_search": [
+      "LinkedIn公司搜索: 地区=Egypt, 行业=你的目标行业",
+      "搜索采购经理、进口经理职位",
+      "关注公司招聘信息中的采购岗位"
+    ],
+    "b2b_platforms": [
+      {
+        "name": "Alibaba.com",
+        "url": "https://www.alibaba.com",
+        "type": "B2B平台",
+        "description": "全球最大B2B平台，公开买家信息",
+        "search_url": "https://www.alibaba.com/trade/search?SearchText={keyword}+buyer"
+      },
+      {
+        "name": "TradeKey",
+        "url": "https://www.tradekey.com",
+        "type": "B2B平台",
+        "description": "国际B2B市场，买家目录",
+        "search_url": "https://www.tradekey.com/buyers/{country}"
+      },
+      {
+        "name": "Global Sources",
+        "url": "https://www.globalsources.com",
+        "type": "B2B平台",
+        "description": "采购商信息",
+        "search_url": "https://www.globalsources.com/buyers.htm"
+      },
+      {
+        "name": "EC21",
+        "url": "https://www.ec21.com",
+        "type": "B2B平台",
+        "description": "韩国B2B平台",
+        "search_url": "https://www.ec21.com/buyer/buyer_list.html"
+      },
+      {
+        "name": "Made-in-China",
+        "url": "https://www.made-in-china.com",
+        "type": "B2B平台",
+        "description": "中国制造网",
+        "search_url": "https://www.made-in-china.com/trade-leads/"
+      }
+    ],
+    "government_sources": [
+      {
+        "name": "GAFI - 埃及投资总局",
+        "url": "https://www.investinegypt.gov.eg",
+        "type": "投资与注册",
+        "description": "公司注册信息"
+      },
+      {
+        "name": "Egyptian Commercial Registry",
+        "url": "https://www.mcit.gov.eg",
+        "type": "商业登记",
+        "description": "公开的商业登记"
+      },
+      {
+        "name": "Federation of Egyptian Chambers of Commerce",
+        "url": "https://www.fedcoc.org.eg",
+        "type": "商会联合会",
+        "description": "会员企业目录"
+      },
+      {
+        "name": "Egypt Exporters Directory",
+        "url": "https://www.expoegypt.gov.eg",
+        "type": "出口商目录",
+        "description": "出口企业名录"
+      },
+      {
+        "name": "LinkedIn Egypt Companies",
+        "url": "https://www.linkedin.com/search/results/companies/?geoUrn=%5B%22106155005%22%5D",
+        "type": "企业社交",
+        "description": "公开的公司页面"
+      }
+    ],
+    "recommended_approach": [
+      "1. 从官方商会获取会员名录",
+      "2. 在LinkedIn搜索公司和采购人员",
+      "3. 检查B2B平台的买家询盘",
+      "4. 查看贸易展会参展商名单",
+      "5. 搜索政府采购门户",
+      "6. 关注行业协会网站"
+    ]
+  },
+  "Kazakhstan": {
+    "google_search_terms": [
+      "\"Kazakhstan\" importers directory",
+      "\"Kazakhstan\" companies looking for suppliers",
+      "\"Kazakhstan\" procurement requirements",
+      "\"Kazakhstan\" import export directory",
+      "\"Kazakhstan\" chamber of commerce members",
+      "\"Kazakhstan\" trade association directory",
+      "\"Kazakhstan\" business directory",
+      "site:linkedin.com \"Kazakhstan\" company buyer",
+      "site:alibaba.com \"Kazakhstan\" buyer"
+    ],
+    "linkedin_search": [
+      "LinkedIn公司搜索: 地区=Kazakhstan, 行业=你的目标行业",
+      "搜索采购经理、进口经理职位",
+      "关注公司招聘信息中的采购岗位"
+    ],
+    "b2b_platforms": [
+      {
+        "name": "Alibaba.com",
+        "url": "https://www.alibaba.com",
+        "type": "B2B平台",
+        "description": "全球最大B2B平台，公开买家信息",
+        "search_url": "https://www.alibaba.com/trade/search?SearchText={keyword}+buyer"
+      },
+      {
+        "name": "TradeKey",
+        "url": "https://www.tradekey.com",
+        "type": "B2B平台",
+        "description": "国际B2B市场，买家目录",
+        "search_url": "https://www.tradekey.com/buyers/{country}"
+      },
+      {
+        "name": "Global Sources",
+        "url": "https://www.globalsources.com",
+        "type": "B2B平台",
+        "description": "采购商信息",
+        "search_url": "https://www.globalsources.com/buyers.htm"
+      },
+      {
+        "name": "EC21",
+        "url": "https://www.ec21.com",
+        "type": "B2B平台",
+        "description": "韩国B2B平台",
+        "search_url": "https://www.ec21.com/buyer/buyer_list.html"
+      },
+      {
+        "name": "Made-in-China",
+        "url": "https://www.made-in-china.com",
+        "type": "B2B平台",
+        "description": "中国制造网",
+        "search_url": "https://www.made-in-china.com/trade-leads/"
+      }
+    ],
+    "government_sources": [
+      {
+        "name": "Ministry of Justice - Business Registry",
+        "url": "https://www.egov.kz",
+        "type": "公司注册",
+        "description": "公开的企业注册信息"
+      },
+      {
+        "name": "Kazakhstan Chamber of Commerce",
+        "url": "https://www.chamber.kz",
+        "type": "商会目录",
+        "description": "会员企业名录"
+      },
+      {
+        "name": "QazTrade - 哈萨克斯坦贸易促进局",
+        "url": "https://www.qaztrade.com",
+        "type": "贸易促进",
+        "description": "进出口商信息"
+      },
+      {
+        "name": "LinkedIn Kazakhstan Companies",
+        "url": "https://www.linkedin.com/search/results/companies/?geoUrn=%5B%22101490751%22%5D",
+        "type": "企业社交",
+        "description": "公开的公司页面"
+      }
+    ],
+    "recommended_approach": [
+      "1. 从官方商会获取会员名录",
+      "2. 在LinkedIn搜索公司和采购人员",
+      "3. 检查B2B平台的买家询盘",
+      "4. 查看贸易展会参展商名单",
+      "5. 搜索政府采购门户",
+      "6. 关注行业协会网站"
+    ]
+  },
+  "UAE": {
+    "google_search_terms": [
+      "\"UAE\" importers directory",
+      "\"UAE\" companies looking for suppliers",
+      "\"UAE\" procurement requirements",
+      "\"UAE\" import export directory",
+      "\"UAE\" chamber of commerce members",
+      "\"UAE\" trade association directory",
+      "\"UAE\" business directory",
+      "site:linkedin.com \"UAE\" company buyer",
+      "site:alibaba.com \"UAE\" buyer"
+    ],
+    "linkedin_search": [
+      "LinkedIn公司搜索: 地区=UAE, 行业=你的目标行业",
+      "搜索采购经理、进口经理职位",
+      "关注公司招聘信息中的采购岗位"
+    ],
+    "b2b_platforms": [
+      {
+        "name": "Alibaba.com",
+        "url": "https://www.alibaba.com",
+        "type": "B2B平台",
+        "description": "全球最大B2B平台，公开买家信息",
+        "search_url": "https://www.alibaba.com/trade/search?SearchText={keyword}+buyer"
+      },
+      {
+        "name": "TradeKey",
+        "url": "https://www.tradekey.com",
+        "type": "B2B平台",
+        "description": "国际B2B市场，买家目录",
+        "search_url": "https://www.tradekey.com/buyers/{country}"
+      },
+      {
+        "name": "Global Sources",
+        "url": "https://www.globalsources.com",
+        "type": "B2B平台",
+        "description": "采购商信息",
+        "search_url": "https://www.globalsources.com/buyers.htm"
+      },
+      {
+        "name": "EC21",
+        "url": "https://www.ec21.com",
+        "type": "B2B平台",
+        "description": "韩国B2B平台",
+        "search_url": "https://www.ec21.com/buyer/buyer_list.html"
+      },
+      {
+        "name": "Made-in-China",
+        "url": "https://www.made-in-china.com",
+        "type": "B2B平台",
+        "description": "中国制造网",
+        "search_url": "https://www.made-in-china.com/trade-leads/"
+      }
+    ],
+    "government_sources": [
+      {
+        "name": "DED - 迪拜经济发展局",
+        "url": "https://www.dubaided.gov.ae",
+        "type": "商业登记",
+        "description": "迪拜公司注册信息"
+      },
+      {
+        "name": "Abu Dhabi DED",
+        "url": "https://www.adcci.gov.ae",
+        "type": "商业登记",
+        "description": "阿布扎比公司注册"
+      },
+      {
+        "name": "Dubai Chamber of Commerce",
+        "url": "https://www.dubaichamber.com",
+        "type": "商会目录",
+        "description": "会员企业名录"
+      },
+      {
+        "name": "UAE Trade Portal",
+        "url": "https://trade.gov.ae",
+        "type": "贸易门户",
+        "description": "贸易商信息"
+      },
+      {
+        "name": "LinkedIn UAE Companies",
+        "url": "https://www.linkedin.com/search/results/companies/?geoUrn=%5B%22104305776%22%5D",
+        "type": "企业社交",
+        "description": "公开的公司页面"
+      }
+    ],
+    "recommended_approach": [
+      "1. 从官方商会获取会员名录",
+      "2. 在LinkedIn搜索公司和采购人员",
+      "3. 检查B2B平台的买家询盘",
+      "4. 查看贸易展会参展商名单",
+      "5. 搜索政府采购门户",
+      "6. 关注行业协会网站"
+    ]
+  }
+}
