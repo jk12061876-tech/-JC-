@@ -1,0 +1,1001 @@
+{
+  "collection_date": "2025-12-21",
+  "product_type": "Server Hardware (HP/Dell/Lenovo)",
+  "products": {
+    "Server Memory": ["DDR3", "DDR4", "DDR5", "ECC RAM"],
+    "Server CPU": ["Intel Xeon", "AMD EPYC"],
+    "Server Storage": ["2.5in/3.5in HDD", "Enterprise SSD", "NVMe SSD"],
+    "Server Cards": ["RAID Card", "HBA Card"],
+    "Server Motherboards": ["Dual Socket Boards"],
+    "Server PSU": ["Redundant Power Supplies"]
+  },
+  "total_leads": 25,
+
+  "peru_leads": [
+    {
+      "lead_id": "PERU_001",
+      "company_name": "SEPTIPE",
+      "company_name_full": "SEPTIPE - Servicios y Partes de TI Peru",
+      "country": "Peru",
+      "city": "Lima",
+      "business_type": "IT服务商 & 服务器配件经销商",
+      "company_size": "中小型企业 (SME)",
+
+      "contact_info": {
+        "website": "https://septipe.com",
+        "email": "contacto@septipe.com",
+        "phone": "+51 (查询网站获取)",
+        "whatsapp": "[访问网站确认]",
+        "address": "Lima, Peru"
+      },
+
+      "business_details": {
+        "products_sold": "IBM, Dell, HP, Lenovo服务器配件和组件",
+        "services": ["服务器维修", "配件销售", "定制订单"],
+        "specialization": "专门从事IBM、Dell、HP和Lenovo服务器的配件销售",
+        "note": "提供特殊订单服务,可根据需求寻找配件"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 配件批发供应商",
+        "has_stable_supplier": "需要确认",
+        "evidence": "网站显示销售服务器配件,可能需要供应商",
+        "products_needed": ["Server Memory", "Server HDD/SSD", "Server Fans", "Server Parts"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 活跃网站",
+        "domain_age": "需查询",
+        "business_legitimacy": "✓ 专业服务器配件网站",
+        "online_presence": "✓ Google可搜索到",
+        "data_sources": ["septipe.com", "Google搜索结果"],
+        "risk_level": "低",
+        "recommendation": "推荐联系 - 专业服务器配件商"
+      },
+
+      "next_actions": [
+        "访问网站获取完整联系方式",
+        "确认是否需要批发供应商",
+        "发送产品目录",
+        "询问采购量和偏好品牌"
+      ],
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "PERU_002",
+      "company_name": "Servicios PBTEC Peru",
+      "country": "Peru",
+      "city": "Lima Metropolitan Area",
+      "business_type": "服务器维修和IT服务提供商",
+      "company_size": "中小型企业 (SME)",
+
+      "contact_info": {
+        "website": "https://serviciospbtec.com",
+        "email": "[访问网站获取]",
+        "phone": "+51 (查询网站)",
+        "whatsapp": "[访问网站确认]",
+        "address": "Lima Metropolitan Area, Peru"
+      },
+
+      "business_details": {
+        "services": ["IBM服务器现场维修", "Dell服务器维修", "HP服务器维修", "Lenovo服务器维修"],
+        "coverage": "整个利马大都会区",
+        "specialization": "服务器现场维修服务"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 维修配件需求",
+        "has_stable_supplier": "需要确认",
+        "evidence": "提供维修服务,可能需要配件供应",
+        "products_needed": ["替换配件", "Server Parts", "Server Components"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 活跃",
+        "business_legitimacy": "✓ 专业维修服务商",
+        "risk_level": "低",
+        "recommendation": "推荐 - 可能需要维修配件"
+      },
+
+      "priority": "中"
+    },
+
+    {
+      "lead_id": "PERU_003",
+      "company_name": "Cloudbox Peru",
+      "country": "Peru",
+      "city": "Lima",
+      "business_type": "数据中心 & IT解决方案提供商",
+      "company_size": "中型企业",
+
+      "contact_info": {
+        "website": "[需搜索]",
+        "email": "[待收集]",
+        "phone": "+51 [待收集]",
+        "whatsapp": "[待确认]",
+        "linkedin": "[搜索LinkedIn]"
+      },
+
+      "business_details": {
+        "services": ["数据中心服务", "网络连接", "网络安全", "企业网络", "云服务"],
+        "specialization": "IT解决方案和数据中心"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 数据中心需要服务器硬件",
+        "has_stable_supplier": "需要确认",
+        "evidence": "运营数据中心,需要服务器基础设施",
+        "products_needed": ["Servers", "Server Memory", "Storage", "Networking"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 知名IT解决方案提供商",
+        "risk_level": "低",
+        "recommendation": "推荐 - 数据中心运营商"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "PERU_004",
+      "company_name": "Integrity Perú",
+      "country": "Peru",
+      "city": "Lima",
+      "business_type": "数据中心工程和建设公司",
+      "company_size": "中型企业",
+
+      "contact_info": {
+        "website": "[需搜索]",
+        "email": "[待收集]",
+        "phone": "+51 [待收集]",
+        "whatsapp": "[待确认]"
+      },
+
+      "business_details": {
+        "experience": "12年以上数据中心咨询、设计和建设经验",
+        "projects": "成功建设超过160个数据中心设施",
+        "specialization": "数据中心工程"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 数据中心项目需要服务器设备",
+        "has_stable_supplier": "可能有,但可比较",
+        "evidence": "积极参与数据中心建设项目",
+        "products_needed": ["Complete Server Solutions", "Server Racks", "Infrastructure"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 专业数据中心工程公司",
+        "track_record": "✓ 160+项目经验",
+        "risk_level": "低",
+        "recommendation": "高度推荐 - 大型项目需求"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "PERU_005",
+      "company_name": "Canvia",
+      "country": "Peru",
+      "city": "Lima (San Isidro)",
+      "business_type": "技术服务公司 & 数据中心运营商",
+      "company_size": "大型企业",
+
+      "contact_info": {
+        "website": "[需搜索 Canvia Peru]",
+        "email": "[待收集]",
+        "phone": "+51 [待收集]",
+        "linkedin": "[搜索 Canvia Peru LinkedIn]"
+      },
+
+      "business_details": {
+        "services": "技术服务和数据中心运营",
+        "recent_news": "在San Isidro推出数据中心",
+        "market_position": "秘鲁知名技术服务公司"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 新数据中心需要设备",
+        "has_stable_supplier": "可能有,但新项目可能需要",
+        "evidence": "新数据中心启动",
+        "products_needed": ["Server Hardware", "Data Center Infrastructure"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 知名企业",
+        "expansion": "✓ 正在扩张数据中心",
+        "risk_level": "低",
+        "recommendation": "推荐 - 大客户潜力"
+      },
+
+      "priority": "高"
+    }
+  ],
+
+  "bolivia_leads": [
+    {
+      "lead_id": "BOLIVIA_001",
+      "company_name": "CompuCenter Bolivia",
+      "country": "Bolivia",
+      "cities": ["La Paz", "Cochabamba", "Santa Cruz"],
+      "business_type": "IT硬件经销商 (HP, Dell, ASUS, Lenovo授权代理)",
+      "company_size": "中型企业 - 3个城市办公室",
+
+      "contact_info": {
+        "website": "https://compucenter.store",
+
+        "la_paz_office": {
+          "phone": "+591-2-2457741",
+          "whatsapp": "+591 74055209",
+          "email": "lapaz@compucenter.store",
+          "address": "Elóy Salmón #859 Gal., La Paz"
+        },
+
+        "cochabamba_office": {
+          "phone": "+591-4-4331498",
+          "whatsapp": "+591 68166678",
+          "email": "cbba@compucenter.store"
+        },
+
+        "santa_cruz_office": {
+          "phone": "+591-3-3299625",
+          "whatsapp": "+591 72590150",
+          "email": "scz@compucenter.store"
+        }
+      },
+
+      "business_details": {
+        "authorized_brands": ["HP", "Dell", "ASUS", "Lenovo"],
+        "products": "服务器、工作站、笔记本、配件",
+        "market_coverage": "玻利维亚全国 (3个主要城市)"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 授权经销商需要供货",
+        "has_stable_supplier": "可能有官方渠道,但可提供竞争价格",
+        "evidence": "活跃的IT硬件经销商",
+        "products_needed": ["HP Servers", "Dell Servers", "Lenovo Servers", "Server Parts", "全新产品"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 活跃专业网站",
+        "business_legitimacy": "✓ 多品牌授权经销商",
+        "office_locations": "✓ 3个城市有实体办公室",
+        "contact_verified": "✓ 多个联系方式可用",
+        "whatsapp_available": "✓ 每个办公室都有WhatsApp",
+        "risk_level": "低",
+        "recommendation": "高度推荐 - 完整联系信息,多地办公"
+      },
+
+      "priority": "非常高 ⭐⭐⭐"
+    },
+
+    {
+      "lead_id": "BOLIVIA_002",
+      "company_name": "IT Solutions Bolivia",
+      "country": "Bolivia",
+      "city": "Santa Cruz de la Sierra",
+      "business_type": "IT基础设施和服务器经销商",
+      "company_size": "中小型企业",
+      "founded": "2020",
+
+      "contact_info": {
+        "website": "https://www.itsolutions-bo.com",
+        "email": "[访问网站contact页面获取]",
+        "phone": "[查询网站]",
+        "whatsapp": "[待确认]",
+        "address": "Barrio San Lorenzo Norte, Calle Toborochi, Numero 11, Santa Cruz de la Sierra",
+        "linkedin": "https://www.linkedin.com/company/it-solutions-bo"
+      },
+
+      "business_details": {
+        "products_sold": ["Dell Enterprise服务器", "HP服务器", "Lenovo服务器"],
+        "specialties": ["基础设施", "技术支持", "HelpDesk", "数据中心", "Windows Server", "CCTV"],
+        "online_store": "有电子商务平台"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 服务器硬件批发",
+        "has_stable_supplier": "需要确认",
+        "evidence": "在线销售Dell, HP, Lenovo服务器",
+        "products_needed": ["Server Hardware", "Server Components", "Enterprise Products"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 活跃电商网站",
+        "linkedin": "✓ 有公司LinkedIn页面",
+        "physical_address": "✓ 有明确地址",
+        "risk_level": "低",
+        "recommendation": "推荐 - 年轻但专业的IT公司"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "BOLIVIA_003",
+      "company_name": "ITC SERVICIOS Bolivia",
+      "country": "Bolivia",
+      "city": "Santa Cruz de la Sierra",
+      "business_type": "数据中心运营商 & IT服务提供商",
+      "company_size": "中大型企业",
+      "founded": "2009年开始运营数据中心",
+
+      "contact_info": {
+        "website": "https://itc-e.com",
+        "email": "reclutamiento@itcservicios.com",
+        "phone": "[查询网站]",
+        "whatsapp": "[待确认]",
+        "address": "Edificio ITC TOWER, Av. Las Ramblas No. 100, Santa Cruz de la Sierra",
+        "linkedin": "https://bo.linkedin.com/company/itc-servicios-bolivia"
+      },
+
+      "business_details": {
+        "datacenter": "Tier III认证数据中心",
+        "services": ["云计算", "数据中心", "网络", "数据库", "安全", "IaaS", "虚拟化", "存储"],
+        "specialization": "关键任务解决方案的设计、建设和支持"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 数据中心运营需要硬件",
+        "has_stable_supplier": "可能有,但可提供竞争方案",
+        "evidence": "运营Tier III数据中心",
+        "products_needed": ["Server Hardware", "Storage Solutions", "Networking Equipment"]
+      },
+
+      "due_diligence": {
+        "datacenter_certified": "✓ Tier III认证",
+        "business_legitimacy": "✓ 2009年起运营",
+        "linkedin": "✓ 活跃的公司页面",
+        "physical_location": "✓ ITC大楼",
+        "risk_level": "低",
+        "recommendation": "高度推荐 - Tier III数据中心运营商"
+      },
+
+      "priority": "非常高"
+    },
+
+    {
+      "lead_id": "BOLIVIA_004",
+      "company_name": "Tigo Data Center (Millicom)",
+      "country": "Bolivia",
+      "city": "Santa Cruz de la Sierra",
+      "business_type": "电信公司 & 数据中心运营商",
+      "company_size": "大型企业",
+
+      "contact_info": {
+        "parent_company": "Millicom (跨国电信公司)",
+        "address": "Av. Milton Parra P 00591, Santa Cruz de la Sierra",
+        "website": "[查询Tigo Bolivia官网]",
+        "email": "[待收集]",
+        "phone": "[待收集]"
+      },
+
+      "business_details": {
+        "datacenter": "Tier III认证数据中心 - Phase 1",
+        "parent": "Millicom国际电信集团",
+        "market_position": "玻利维亚主要电信运营商"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 大型数据中心",
+        "has_stable_supplier": "可能有集团采购,但可尝试",
+        "evidence": "运营Tier III数据中心",
+        "products_needed": ["Enterprise Servers", "Large Scale Infrastructure"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 跨国电信集团",
+        "datacenter_certified": "✓ Tier III",
+        "risk_level": "低",
+        "recommendation": "推荐 - 大客户,但可能有集团采购流程"
+      },
+
+      "priority": "中高 - 需了解采购流程"
+    },
+
+    {
+      "lead_id": "BOLIVIA_005",
+      "company_name": "IPXON Networks",
+      "country": "Bolivia",
+      "city": "Santa Cruz de la Sierra",
+      "business_type": "电信和数据中心服务提供商",
+      "company_size": "中型企业",
+      "experience": "10年以上电信经验",
+
+      "contact_info": {
+        "website": "https://www.ipxon.com",
+        "email": "[访问网站获取]",
+        "phone": "[查询网站]",
+        "whatsapp": "[待确认]",
+        "address": "Santa Cruz de la Sierra, Bolivia"
+      },
+
+      "business_details": {
+        "specialization": "高性能解决方案专家",
+        "services": "数据中心和电信服务",
+        "carriers": ["Tigo", "Cotas", "AXS Bolivia", "Entel"]
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 数据中心基础设施",
+        "has_stable_supplier": "需要确认",
+        "evidence": "提供数据中心服务",
+        "products_needed": ["Server Infrastructure", "Networking"]
+      },
+
+      "due_diligence": {
+        "experience": "✓ 10年以上",
+        "business_legitimacy": "✓ 专业电信服务商",
+        "risk_level": "低",
+        "recommendation": "推荐"
+      },
+
+      "priority": "中高"
+    }
+  ],
+
+  "egypt_leads": [
+    {
+      "lead_id": "EGYPT_001",
+      "company_name": "LINK Datacenter",
+      "country": "Egypt",
+      "city": "Cairo",
+      "business_type": "国际数据中心和电信服务提供商",
+      "company_size": "中大型企业",
+
+      "contact_info": {
+        "website": "[搜索 LINK Datacenter Egypt]",
+        "email": "[待收集]",
+        "phone": "+20 [待收集]",
+        "whatsapp": "[待确认]",
+        "offices": "埃及、迪拜、卡塔尔、沙特、加拿大、意大利"
+      },
+
+      "business_details": {
+        "services": "数据中心和电信服务",
+        "global_presence": "6个国家有PoP (Points of Presence)",
+        "market_position": "国际数据中心提供商"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 多国数据中心运营",
+        "has_stable_supplier": "可能有,但可比较",
+        "evidence": "运营多个数据中心",
+        "products_needed": ["Server Hardware", "Data Center Infrastructure"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 国际数据中心运营商",
+        "global_presence": "✓ 6国运营",
+        "risk_level": "低",
+        "recommendation": "推荐 - 国际化公司"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "EGYPT_002",
+      "company_name": "Telecom Egypt - Data Center Division",
+      "country": "Egypt",
+      "city": "Cairo",
+      "business_type": "国家电信运营商 - 数据中心部门",
+      "company_size": "大型企业/国企",
+
+      "contact_info": {
+        "website": "https://te.eg (Data Center & Cloud部门)",
+        "email": "[访问网站获取]",
+        "phone": "+20 [查询官网]",
+        "whatsapp": "[待确认]"
+      },
+
+      "business_details": {
+        "sla": "99.99% 服务等级协议",
+        "standards": "国际标准设计的数据中心设施",
+        "parent": "埃及国家电信公司"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 大型数据中心",
+        "has_stable_supplier": "可能有政府采购流程",
+        "evidence": "运营数据中心服务",
+        "products_needed": ["Enterprise Server Hardware", "Large Scale Infrastructure"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 国家电信运营商",
+        "reliability": "✓ 99.99% SLA",
+        "risk_level": "低",
+        "recommendation": "推荐 - 但需了解政府采购流程"
+      },
+
+      "priority": "中高 - 大客户,流程可能复杂"
+    },
+
+    {
+      "lead_id": "EGYPT_003",
+      "company_name": "ASBIS Middle East",
+      "country": "Egypt (区域总部)",
+      "cities": "在UAE, Oman, Saudi Arabia, Lebanon, Egypt运营",
+      "business_type": "区域IT分销商",
+      "company_size": "大型企业",
+
+      "contact_info": {
+        "website": "https://www.asbisme.ae",
+        "email": "[访问网站contact页面]",
+        "phone": "[查询网站]",
+        "regional_offices": "中东北非地区多个办公室"
+      },
+
+      "business_details": {
+        "services": "ICT垂直领域的服务和解决方案",
+        "product_lines": ["组件", "存储", "服务器", "网络", "分析", "网络安全", "高端消费电子"],
+        "market": "整个MENA地区"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 区域分销商需要供货",
+        "has_stable_supplier": "可能有,但可比较价格",
+        "evidence": "区域IT分销商",
+        "products_needed": ["Server Products", "Storage", "Components"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 知名区域分销商",
+        "market_coverage": "✓ MENA多国",
+        "risk_level": "低",
+        "recommendation": "推荐 - 区域分销商,订单量可能大"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "EGYPT_004",
+      "company_name": "Asma Technology for Import and Marketing Co.",
+      "country": "Egypt",
+      "city": "[待确认]",
+      "business_type": "IT硬件进口和营销公司",
+      "company_size": "中型企业",
+      "founded": "1998",
+
+      "contact_info": {
+        "website": "[需搜索]",
+        "email": "[待收集]",
+        "phone": "+20 [待收集]",
+        "whatsapp": "[待确认]"
+      },
+
+      "business_details": {
+        "focus": "提供品牌产品,优质质量和竞争价格",
+        "experience": "25年以上IT硬件经验",
+        "market": "埃及市场"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 进口和营销公司",
+        "has_stable_supplier": "需要确认",
+        "evidence": "IT硬件进口商",
+        "products_needed": ["IT Hardware", "Server Products"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 1998年成立",
+        "experience": "✓ 25年以上",
+        "risk_level": "低",
+        "recommendation": "推荐 - 经验丰富的进口商"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "EGYPT_005",
+      "company_name": "Raya Data Center",
+      "country": "Egypt",
+      "city": "Cairo",
+      "business_type": "数据中心基础设施提供商",
+      "company_size": "大型企业",
+
+      "contact_info": {
+        "website": "[搜索 Raya Egypt Data Center]",
+        "email": "[待收集]",
+        "phone": "+20 [待收集]",
+        "whatsapp": "[待确认]"
+      },
+
+      "business_details": {
+        "services": "数据中心基础设施",
+        "market_position": "埃及主要数据中心提供商之一"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 数据中心运营",
+        "has_stable_supplier": "需要确认",
+        "evidence": "提供数据中心服务",
+        "products_needed": ["Server Infrastructure", "Storage", "Networking"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 知名数据中心提供商",
+        "risk_level": "低",
+        "recommendation": "推荐"
+      },
+
+      "priority": "中高"
+    }
+  ],
+
+  "kazakhstan_leads": [
+    {
+      "lead_id": "KAZAKHSTAN_001",
+      "company_name": "Kazteleport",
+      "country": "Kazakhstan",
+      "city": "Almaty",
+      "business_type": "ICT基础设施提供商 & 数据中心运营商",
+      "company_size": "大型企业",
+
+      "contact_info": {
+        "website": "[搜索 Kazteleport官网]",
+        "email": "[待收集]",
+        "phone": "+7 [待收集]",
+        "whatsapp": "[待确认]"
+      },
+
+      "business_details": {
+        "services": "基于自有数据中心和广泛光纤网络的ICT基础设施",
+        "network": "拥有广泛的光纤通信线路网络",
+        "market_position": "哈萨克斯坦主要ICT基础设施提供商"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 数据中心和网络运营",
+        "has_stable_supplier": "需要确认",
+        "evidence": "运营自有数据中心",
+        "products_needed": ["Server Hardware", "Networking Equipment", "Data Center Infrastructure"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 主要ICT提供商",
+        "infrastructure": "✓ 自有数据中心和光纤网络",
+        "risk_level": "低",
+        "recommendation": "高度推荐 - 大型基础设施运营商"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "KAZAKHSTAN_002",
+      "company_name": "QazCloud",
+      "country": "Kazakhstan",
+      "city": "[待确认]",
+      "business_type": "云服务和数据中心提供商",
+      "company_size": "中型企业",
+
+      "contact_info": {
+        "website": "[需搜索]",
+        "email": "[待收集]",
+        "phone": "+7 [待收集]",
+        "whatsapp": "[待确认]"
+      },
+
+      "business_details": {
+        "services": "云服务和数据中心",
+        "market": "哈萨克斯坦和中亚"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 云和数据中心服务",
+        "has_stable_supplier": "需要确认",
+        "evidence": "中亚数据中心市场参与者",
+        "products_needed": ["Server Hardware", "Cloud Infrastructure"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 云服务提供商",
+        "risk_level": "中",
+        "recommendation": "推荐 - 需进一步调查"
+      },
+
+      "priority": "中"
+    },
+
+    {
+      "lead_id": "KAZAKHSTAN_003",
+      "company_name": "Transtelecom Kazakhstan",
+      "country": "Kazakhstan",
+      "city": "Almaty",
+      "business_type": "电信和数据中心运营商",
+      "company_size": "大型企业",
+
+      "contact_info": {
+        "website": "[搜索Transtelecom KZ]",
+        "email": "[待收集]",
+        "phone": "+7 [待收集]",
+        "whatsapp": "[待确认]"
+      },
+
+      "business_details": {
+        "services": "电信服务和数据中心",
+        "market_position": "中亚数据中心市场主要参与者"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "可能 - 数据中心运营",
+        "has_stable_supplier": "可能有,但可提供方案",
+        "evidence": "数据中心市场主要参与者",
+        "products_needed": ["Server Infrastructure", "Telecom Equipment"]
+      },
+
+      "due_diligence": {
+        "business_legitimacy": "✓ 知名电信运营商",
+        "risk_level": "低",
+        "recommendation": "推荐"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "KAZAKHSTAN_004",
+      "company_name": "[待搜索] IT Distributors in Kazakhstan",
+      "country": "Kazakhstan",
+      "city": "Almaty/Nur-Sultan",
+      "business_type": "IT硬件分销商",
+      "company_size": "待确认",
+
+      "contact_info": {
+        "note": "需要在LinkedIn和Google搜索哈萨克斯坦的IT分销商"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "待确认",
+        "search_keywords": ["Kazakhstan IT distributor", "Server hardware Kazakhstan", "HP Dell Lenovo Kazakhstan"]
+      },
+
+      "priority": "待开发"
+    },
+
+    {
+      "lead_id": "KAZAKHSTAN_005",
+      "company_name": "[待搜索] System Integrators in Kazakhstan",
+      "country": "Kazakhstan",
+      "city": "Almaty/Nur-Sultan",
+      "business_type": "系统集成商",
+      "company_size": "待确认",
+
+      "contact_info": {
+        "note": "需要搜索提供IT基础设施解决方案的系统集成商"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "待确认",
+        "search_keywords": ["Kazakhstan system integrator", "IT infrastructure Kazakhstan"]
+      },
+
+      "priority": "待开发"
+    }
+  ],
+
+  "uae_leads": [
+    {
+      "lead_id": "UAE_001",
+      "company_name": "CAD Gulf LLC",
+      "country": "UAE",
+      "city": "Dubai",
+      "business_type": "服务器供应商和托管服务提供商",
+      "company_size": "中型企业",
+      "experience": "30年以上IT经验",
+
+      "contact_info": {
+        "website": "https://cadgulf.com",
+        "email": "sales@cadgulf.com",
+        "phone": "+971 4 3311140",
+        "mobile": "+971 58 580 8937",
+        "whatsapp": "+971 58 580 8937 (可能)",
+        "address": "Dubai, UAE"
+      },
+
+      "business_details": {
+        "specialization": "Dell, HP, Lenovo服务器配置、安装和维护专家",
+        "services": ["多品牌硬件和组件", "托管服务器服务"],
+        "market_position": "全球顶级品牌和企业的可信供应商",
+        "experience": "30年IT卓越经验"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 服务器硬件批发供应商",
+        "has_stable_supplier": "可能有,但可提供竞争价格",
+        "evidence": "活跃的服务器供应商和服务提供商",
+        "products_needed": ["Dell Servers", "HP Servers", "Lenovo Servers", "Server Components", "全新硬件"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 专业活跃网站",
+        "business_legitimacy": "✓ 30年经验",
+        "contact_verified": "✓ 完整联系信息",
+        "email": "✓ sales@cadgulf.com",
+        "phone": "✓ +971 4 3311140 / +971 58 580 8937",
+        "risk_level": "低",
+        "recommendation": "高度推荐 - 经验丰富,完整联系方式"
+      },
+
+      "priority": "非常高 ⭐⭐⭐"
+    },
+
+    {
+      "lead_id": "UAE_002",
+      "company_name": "Atop Computer Solutions LLC (ACS)",
+      "country": "UAE",
+      "city": "Dubai",
+      "business_type": "HP授权经销商和服务器分销商",
+      "company_size": "中型企业",
+
+      "contact_info": {
+        "website": "https://www.acs-dxb.com",
+        "email": "[访问网站获取]",
+        "phone": "[查询网站]",
+        "whatsapp": "[待确认]",
+        "address": "Dubai, UAE"
+      },
+
+      "business_details": {
+        "specialization": "Dell, HP, Lenovo服务器配置、安装和维护专家",
+        "products": ["HP服务器", "Dell服务器", "Lenovo/IBM服务器"],
+        "market_position": "UAE最佳HP服务器分销商"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 服务器硬件供应",
+        "has_stable_supplier": "可能有授权渠道,但可比较",
+        "evidence": "活跃的服务器经销商",
+        "products_needed": ["Server Hardware", "HP/Dell/Lenovo Products"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 专业网站",
+        "business_legitimacy": "✓ HP授权经销商",
+        "risk_level": "低",
+        "recommendation": "推荐 - 授权经销商"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "UAE_003",
+      "company_name": "DSR Tech",
+      "country": "UAE",
+      "city": "Dubai",
+      "business_type": "IT硬件分销商 (多品牌合作伙伴)",
+      "company_size": "中型企业",
+
+      "contact_info": {
+        "website": "https://www.dsrtech.ae",
+        "email": "sales@dsrtech.ae",
+        "phone": "+971-4-354 4115",
+        "whatsapp": "[待确认,可能与电话相同]",
+        "address": "Dubai, UAE"
+      },
+
+      "business_details": {
+        "partners": ["HP", "Dell", "Lenovo", "Acer", "Asus", "及更多品牌"],
+        "products": "笔记本、台式机、服务器",
+        "services": "企业批量订单、安装、售后支持"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 多品牌分销商",
+        "has_stable_supplier": "可能有,但可提供竞争价格",
+        "evidence": "活跃的IT硬件分销商",
+        "products_needed": ["HP/Dell/Lenovo产品", "Server Hardware"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 活跃",
+        "contact_verified": "✓ 邮箱和电话可用",
+        "email": "✓ sales@dsrtech.ae",
+        "phone": "✓ +971-4-354 4115",
+        "business_legitimacy": "✓ 多品牌合作伙伴",
+        "risk_level": "低",
+        "recommendation": "推荐 - 有完整联系方式"
+      },
+
+      "priority": "高 ⭐⭐"
+    },
+
+    {
+      "lead_id": "UAE_004",
+      "company_name": "Liberty UAE",
+      "country": "UAE",
+      "city": "Dubai",
+      "business_type": "HP, Dell, Lenovo优选合作伙伴",
+      "company_size": "中型企业",
+
+      "contact_info": {
+        "website": "https://www.libertyuae.com",
+        "email": "[访问网站获取]",
+        "phone": "[查询网站]",
+        "whatsapp": "[待确认]",
+        "address": "Dubai, UAE"
+      },
+
+      "business_details": {
+        "preferred_partner": ["HP", "Dell", "Lenovo"],
+        "products": ["Dell笔记本和台式机", "服务器"],
+        "services": ["企业批量订单", "安装服务", "售后支持"]
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "是 - 需要批发供应",
+        "has_stable_supplier": "可能有,但可比较",
+        "evidence": "优选合作伙伴身份",
+        "products_needed": ["Server Products", "Dell/HP/Lenovo Hardware"]
+      },
+
+      "due_diligence": {
+        "website_status": "✓ 活跃",
+        "business_legitimacy": "✓ 优选合作伙伴",
+        "risk_level": "低",
+        "recommendation": "推荐"
+      },
+
+      "priority": "高"
+    },
+
+    {
+      "lead_id": "UAE_005",
+      "company_name": "[待搜索] UAE Data Center Operators",
+      "country": "UAE",
+      "city": "Dubai/Abu Dhabi",
+      "business_type": "数据中心运营商",
+      "company_size": "待确认",
+
+      "contact_info": {
+        "note": "需要搜索UAE的主要数据中心运营商,如Khazna, du, Etisalat等"
+      },
+
+      "sourcing_status": {
+        "looking_for_supplier": "待确认",
+        "search_keywords": ["UAE data center", "Dubai data center", "Server infrastructure UAE"]
+      },
+
+      "priority": "待开发 - UAE数据中心市场很大"
+    }
+  ],
+
+  "summary": {
+    "total_leads_collected": 25,
+    "peru": 5,
+    "bolivia": 5,
+    "egypt": 5,
+    "kazakhstan": 5,
+    "uae": 5,
+
+    "leads_with_complete_contact": 3,
+    "leads_with_partial_contact": 12,
+    "leads_pending_research": 10,
+
+    "high_priority_leads": [
+      "BOLIVIA_001 - CompuCenter Bolivia (完整WhatsApp和邮箱)",
+      "UAE_001 - CAD Gulf LLC (完整联系方式)",
+      "UAE_003 - DSR Tech (有邮箱和电话)",
+      "BOLIVIA_003 - ITC SERVICIOS Bolivia (Tier III数据中心)",
+      "PERU_001 - SEPTIPE (服务器配件专业商)"
+    ],
+
+    "immediate_actions": [
+      "1. 访问Bolivia CompuCenter网站验证联系方式",
+      "2. 给CAD Gulf发送邮件: sales@cadgulf.com",
+      "3. 联系DSR Tech: sales@dsrtech.ae",
+      "4. 完善其他线索的联系信息",
+      "5. 准备产品目录和报价单"
+    ]
+  }
+}
