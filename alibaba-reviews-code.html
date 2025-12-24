@@ -1,0 +1,670 @@
+<!-- 客户评论滚动横幅模块 - 阿里国际站专用代码 -->
+<!-- 直接复制以下全部代码到阿里国际站普通编辑器即可 -->
+
+<style>
+    /* 整体容器 */
+    .reviews-section-scrolling {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+
+    /* 标题部分 - 商务大气蓝渐变背景 */
+    .reviews-scrolling-header {
+        background: linear-gradient(135deg, #1e5ba8 0%, #2874c9 50%, #1a4d8f 100%);
+        padding: 50px 40px;
+        text-align: left;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .reviews-scrolling-header h1 {
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        letter-spacing: 2px;
+    }
+
+    .reviews-scrolling-header p {
+        color: #e8f2ff;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    /* 滚动容器 */
+    .scroll-container-reviews {
+        padding: 60px 0;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    /* 滚动行 */
+    .scroll-row-reviews {
+        display: flex;
+        margin-bottom: 30px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* 滚动轨道 */
+    .scroll-track-reviews {
+        display: flex;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    /* 第一行 - 从左到右 */
+    .scroll-row-reviews.left-to-right .scroll-track-reviews {
+        animation-name: scrollLeft;
+        animation-duration: 60s;
+    }
+
+    /* 第二行 - 从右到左 */
+    .scroll-row-reviews.right-to-left .scroll-track-reviews {
+        animation-name: scrollRight;
+        animation-duration: 60s;
+    }
+
+    /* 悬停时暂停动画 */
+    .scroll-track-reviews:hover {
+        animation-play-state: paused;
+    }
+
+    /* 评论卡片 */
+    .review-card-scrolling {
+        min-width: 450px;
+        background-color: #f8fbff;
+        border: 2px solid #d0e4f7;
+        border-radius: 10px;
+        padding: 25px;
+        margin: 0 15px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    /* 悬停时放大并暂停 */
+    .review-card-scrolling:hover {
+        transform: scale(1.15);
+        box-shadow: 0 8px 20px rgba(40, 116, 201, 0.3);
+        z-index: 10;
+        background-color: #ffffff;
+        border-color: #2874c9;
+    }
+
+    /* 评论头部 */
+    .review-header-scrolling {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 12px;
+    }
+
+    .reviewer-avatar-scrolling {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #ff6b35, #f7931e);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+        flex-shrink: 0;
+    }
+
+    .reviewer-info-scrolling {
+        flex: 1;
+    }
+
+    .reviewer-name-scrolling {
+        font-weight: bold;
+        color: #333;
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    .reviewer-country-scrolling {
+        color: #666;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .verified-badge-scrolling {
+        color: #27ae60;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        margin-top: 2px;
+    }
+
+    .review-date-scrolling {
+        color: #999;
+        font-size: 13px;
+    }
+
+    /* 星级评分 */
+    .star-rating-scrolling {
+        color: #ff9500;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    /* 评论内容 */
+    .review-content-scrolling {
+        color: #444;
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    /* 产品信息 */
+    .product-info-scrolling {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background-color: #f0f7ff;
+        padding: 12px;
+        border-radius: 6px;
+        margin-top: 12px;
+    }
+
+    .product-image-scrolling {
+        width: 50px;
+        height: 50px;
+        background-color: #e0e0e0;
+        border-radius: 4px;
+        flex-shrink: 0;
+    }
+
+    .product-details-scrolling {
+        flex: 1;
+    }
+
+    .product-name-scrolling {
+        font-size: 13px;
+        color: #333;
+        margin-bottom: 4px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .product-price-scrolling {
+        font-size: 16px;
+        color: #2874c9;
+        font-weight: bold;
+    }
+
+    /* 滚动动画 */
+    @keyframes scrollLeft {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes scrollRight {
+        0% {
+            transform: translateX(-50%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    /* 渐变遮罩效果 */
+    .scroll-row-reviews::before,
+    .scroll-row-reviews::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100px;
+        height: 100%;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .scroll-row-reviews::before {
+        left: 0;
+        background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+
+    .scroll-row-reviews::after {
+        right: 0;
+        background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+</style>
+
+<div class="reviews-section-scrolling">
+    <!-- 标题部分 -->
+    <div class="reviews-scrolling-header">
+        <h1>Customer Reviews</h1>
+        <p>Part of positive reviews</p>
+    </div>
+
+    <!-- 滚动内容区域 -->
+    <div class="scroll-container-reviews">
+
+        <!-- 第一行：从左到右滚动 -->
+        <div class="scroll-row-reviews left-to-right">
+            <div class="scroll-track-reviews">
+                <!-- 评论卡片 1 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling">M</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">M***t</div>
+                            <div class="reviewer-country-scrolling">🇪🇬 Egypt</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Jun 27, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Exceptionally fast shipping, outstanding customer service, and hassle-free online warranty processing! A seamless shopping experience from start to finish.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">1.92tb SAS 2.5in SSD - Compatible with R740 R640 R540...</div>
+                            <div class="product-price-scrolling">$375-385</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 评论卡片 2 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">H</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">H***N</div>
+                            <div class="reviewer-country-scrolling">🇧🇴 Bolivia</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Dec 9, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Good products, excellent delivery time
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">819203-B21 820033-001 8TB SATA 3.5 512e 7.2K Hard D...</div>
+                            <div class="product-price-scrolling">$130-140</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 评论卡片 3 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #3498db, #2980b9);">R</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">R***D</div>
+                            <div class="reviewer-country-scrolling">🇺🇸 USA</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Aug 15, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Outstanding quality! The product exceeded my expectations. Fast delivery and excellent customer support. Highly recommended!
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">Enterprise SSD 960GB SATA 2.5" Internal Drive</div>
+                            <div class="product-price-scrolling">$245-260</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 评论卡片 4 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">J</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">J***K</div>
+                            <div class="reviewer-country-scrolling">🇩🇪 Germany</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Oct 3, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Perfect packaging and very fast shipping. The quality is top-notch. Will definitely order again!
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">32GB DDR4 2666MHz ECC REG Server Memory</div>
+                            <div class="product-price-scrolling">$85-95</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 复制一遍实现无缝滚动 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling">M</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">M***t</div>
+                            <div class="reviewer-country-scrolling">🇪🇬 Egypt</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Jun 27, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Exceptionally fast shipping, outstanding customer service, and hassle-free online warranty processing! A seamless shopping experience from start to finish.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">1.92tb SAS 2.5in SSD - Compatible with R740 R640 R540...</div>
+                            <div class="product-price-scrolling">$375-385</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">H</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">H***N</div>
+                            <div class="reviewer-country-scrolling">🇧🇴 Bolivia</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Dec 9, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Good products, excellent delivery time
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">819203-B21 820033-001 8TB SATA 3.5 512e 7.2K Hard D...</div>
+                            <div class="product-price-scrolling">$130-140</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #3498db, #2980b9);">R</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">R***D</div>
+                            <div class="reviewer-country-scrolling">🇺🇸 USA</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Aug 15, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Outstanding quality! The product exceeded my expectations. Fast delivery and excellent customer support. Highly recommended!
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">Enterprise SSD 960GB SATA 2.5" Internal Drive</div>
+                            <div class="product-price-scrolling">$245-260</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">J</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">J***K</div>
+                            <div class="reviewer-country-scrolling">🇩🇪 Germany</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Oct 3, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Perfect packaging and very fast shipping. The quality is top-notch. Will definitely order again!
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">32GB DDR4 2666MHz ECC REG Server Memory</div>
+                            <div class="product-price-scrolling">$85-95</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 第二行：从右到左滚动 -->
+        <div class="scroll-row-reviews right-to-left">
+            <div class="scroll-track-reviews">
+                <!-- 评论卡片 5 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #1abc9c, #16a085);">H</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">H***N</div>
+                            <div class="reviewer-country-scrolling">🇧🇴 Bolivia</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Sep 19, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Excellent delivery time.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">P2MYXC SNPP2MYXC/64G Original RAM Module 64GB DDR4 3200MHz</div>
+                            <div class="product-price-scrolling">$130-140</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 评论卡片 6 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling">M</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">M***t</div>
+                            <div class="reviewer-country-scrolling">🇪🇬 Egypt</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Jun 27, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Exceptionally fast shipping, outstanding customer service, and hassle-free online warranty processing! A seamless shopping experience from start to finish.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">1.92tb SAS 2.5in SSD - Compatible with R740 R640 R540 R440</div>
+                            <div class="product-price-scrolling">$375-385</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 评论卡片 7 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #f39c12, #d68910);">S</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">S***A</div>
+                            <div class="reviewer-country-scrolling">🇬🇧 UK</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Nov 12, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Fantastic service! Product arrived well-packaged and works perfectly. Great communication throughout.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">HBA Card 12Gbps SAS Controller PCIe 3.0</div>
+                            <div class="product-price-scrolling">$165-180</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 评论卡片 8 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #e67e22, #d35400);">L</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">L***W</div>
+                            <div class="reviewer-country-scrolling">🇦🇺 Australia</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Jul 8, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Very professional seller. Quick response to inquiries and fast international shipping. Product quality is excellent!
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">750W Power Supply 80 Plus Platinum Certified</div>
+                            <div class="product-price-scrolling">$120-135</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 复制一遍实现无缝滚动 -->
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #1abc9c, #16a085);">H</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">H***N</div>
+                            <div class="reviewer-country-scrolling">🇧🇴 Bolivia</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Sep 19, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Excellent delivery time.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">P2MYXC SNPP2MYXC/64G Original RAM Module 64GB DDR4 3200MHz</div>
+                            <div class="product-price-scrolling">$130-140</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling">M</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">M***t</div>
+                            <div class="reviewer-country-scrolling">🇪🇬 Egypt</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Jun 27, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Exceptionally fast shipping, outstanding customer service, and hassle-free online warranty processing! A seamless shopping experience from start to finish.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">1.92tb SAS 2.5in SSD - Compatible with R740 R640 R540 R440</div>
+                            <div class="product-price-scrolling">$375-385</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #f39c12, #d68910);">S</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">S***A</div>
+                            <div class="reviewer-country-scrolling">🇬🇧 UK</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Nov 12, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Fantastic service! Product arrived well-packaged and works perfectly. Great communication throughout.
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">HBA Card 12Gbps SAS Controller PCIe 3.0</div>
+                            <div class="product-price-scrolling">$165-180</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card-scrolling">
+                    <div class="review-header-scrolling">
+                        <div class="reviewer-avatar-scrolling" style="background: linear-gradient(135deg, #e67e22, #d35400);">L</div>
+                        <div class="reviewer-info-scrolling">
+                            <div class="reviewer-name-scrolling">L***W</div>
+                            <div class="reviewer-country-scrolling">🇦🇺 Australia</div>
+                            <div class="verified-badge-scrolling">✓ Verified purchase</div>
+                        </div>
+                        <div class="review-date-scrolling">Jul 8, 2025</div>
+                    </div>
+                    <div class="star-rating-scrolling">★★★★★</div>
+                    <div class="review-content-scrolling">
+                        Very professional seller. Quick response to inquiries and fast international shipping. Product quality is excellent!
+                    </div>
+                    <div class="product-info-scrolling">
+                        <div class="product-image-scrolling"></div>
+                        <div class="product-details-scrolling">
+                            <div class="product-name-scrolling">750W Power Supply 80 Plus Platinum Certified</div>
+                            <div class="product-price-scrolling">$120-135</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--
+使用说明：
+1. 复制以上全部代码（包括 <style> 和 <div> 部分）
+2. 在阿里国际站后台，进入产品详情编辑页面
+3. 切换到"源代码"或"HTML"编辑模式
+4. 粘贴代码
+5. 保存即可
+
+功能特点：
+✅ 第一行从左到右自动滚动
+✅ 第二行从右到左自动滚动
+✅ 鼠标悬停时暂停并放大（1.15倍）
+✅ 商务大气蓝色主题（与之前的保持一致）
+✅ 无缝循环滚动
+✅ 响应式设计
+
+修改内容：
+- 修改标题：找到 <h1>Customer Reviews</h1> 直接修改
+- 修改评论内容：找到对应的评论卡片，修改文字内容
+- 修改滚动速度：调整 animation-duration: 60s; 数值越小越快
+- 修改放大倍数：调整 transform: scale(1.15); 数值越大放大越多
+- 添加更多评论：复制评论卡片代码块，修改内容即可
+-->
