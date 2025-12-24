@@ -181,12 +181,87 @@
 </div>
 </div>
 
-<!-- 4. Customer Reviews（保持原样）-->
+<!-- 4. Customer Reviews -->
+<style>
+@keyframes scrollLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+@keyframes scrollRight {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+.review-row {
+    display: flex;
+    width: max-content;
+}
+.review-row img {
+    height: 120px;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    background: white;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.review-row img:hover {
+    transform: scale(1.15);
+    z-index: 10;
+    position: relative;
+}
+.scroll-container {
+    overflow: hidden;
+    width: 100%;
+}
+.scroll-wrapper-left {
+    animation: scrollLeft 20s linear infinite;
+}
+.scroll-wrapper-right {
+    animation: scrollRight 20s linear infinite;
+}
+.scroll-container:hover .scroll-wrapper-left,
+.scroll-container:hover .scroll-wrapper-right {
+    animation-play-state: paused;
+}
+</style>
 <div style="margin-bottom: 50px;">
 <div style="background-color: #005a9c; color: white; padding: 12px 20px; font-size: 22px; font-weight: bold; border-radius: 4px; margin-bottom: 20px;">4. Customer Reviews</div>
-<div style="background-color: #f2f6fa; padding: 20px; border-radius: 4px;">
-<div style="margin-bottom: 15px;"><img src=" https://sc04.alicdn.com/kf/H7309dd9a2f5f4d9ebbff197ca1096a14Z/201487309/H7309dd9a2f5f4d9ebbff197ca1096a14Z.png " style="height: 120px; margin-right: 15px; border: 1px solid #ccc; background: white;"> <img src="https://via.placeholder.com/250x120?text=5+Star+Review+B" style="height: 120px; margin-right: 15px; border: 1px solid #ccc; background: white;"> <img src="https://via.placeholder.com/250x120?text=5+Star+Review+C" style="height: 120px; margin-right: 15px; border: 1px solid #ccc; background: white;"></div>
-<div><img src=" https://sc04.alicdn.com/kf/Haff69d10696f405bbba840d197cb380bO/201487309/Haff69d10696f405bbba840d197cb380bO.png " style="height: 120px; margin-right: 15px; border: 1px solid #ccc; background: white;"> <img src="https://via.placeholder.com/250x120?text=5+Star+Review+E" style="height: 120px; margin-right: 15px; border: 1px solid #ccc; background: white;"> <img src="https://via.placeholder.com/250x120?text=5+Star+Review+F" style="height: 120px; margin-right: 15px; border: 1px solid #ccc; background: white;"></div>
+<div style="background-color: #f2f6fa; padding: 20px; border-radius: 4px; overflow: hidden;">
+<!-- 上行：从左往右滚动 -->
+<div class="scroll-container" style="margin-bottom: 15px;">
+    <div class="review-row scroll-wrapper-left">
+        <img src="https://sc04.alicdn.com/kf/H7309dd9a2f5f4d9ebbff197ca1096a14Z/201487309/H7309dd9a2f5f4d9ebbff197ca1096a14Z.png" alt="Review 1">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+B" alt="Review 2">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+C" alt="Review 3">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+D" alt="Review 4">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+E" alt="Review 5">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+F" alt="Review 6">
+        <!-- 复制一份实现无缝滚动 -->
+        <img src="https://sc04.alicdn.com/kf/H7309dd9a2f5f4d9ebbff197ca1096a14Z/201487309/H7309dd9a2f5f4d9ebbff197ca1096a14Z.png" alt="Review 1">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+B" alt="Review 2">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+C" alt="Review 3">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+D" alt="Review 4">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+E" alt="Review 5">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+F" alt="Review 6">
+    </div>
+</div>
+<!-- 下行：从右往左滚动 -->
+<div class="scroll-container">
+    <div class="review-row scroll-wrapper-right">
+        <img src="https://sc04.alicdn.com/kf/Haff69d10696f405bbba840d197cb380bO/201487309/Haff69d10696f405bbba840d197cb380bO.png" alt="Review 7">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+H" alt="Review 8">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+I" alt="Review 9">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+J" alt="Review 10">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+K" alt="Review 11">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+L" alt="Review 12">
+        <!-- 复制一份实现无缝滚动 -->
+        <img src="https://sc04.alicdn.com/kf/Haff69d10696f405bbba840d197cb380bO/201487309/Haff69d10696f405bbba840d197cb380bO.png" alt="Review 7">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+H" alt="Review 8">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+I" alt="Review 9">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+J" alt="Review 10">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+K" alt="Review 11">
+        <img src="https://via.placeholder.com/250x120?text=5+Star+Review+L" alt="Review 12">
+    </div>
+</div>
 </div>
 </div>
 
