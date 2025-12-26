@@ -1,0 +1,11 @@
+{
+  "currentLessonIndex": {
+    "server_products": 0,
+    "foreign_trade": 0,
+    "alibaba_operation": 0
+  },
+  "completedLessons": [],
+  "lastPushTime": null,
+  "totalLessons": 0,
+  "completedCount": 0
+}

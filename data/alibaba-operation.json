@@ -1,0 +1,565 @@
+{
+  "category": "阿里国际站运营",
+  "modules": {
+    "natural_traffic": {
+      "name": "自然流量提升",
+      "name_en": "Natural Traffic Enhancement",
+      "lessons": [
+        {
+          "id": "traffic_001",
+          "title": "理解阿里国际站流量结构",
+          "content": "了解平台流量的来源和分布，制定有效的获客策略。",
+          "key_points": [
+            "搜索流量：买家通过关键词搜索找到产品（最主要来源）",
+            "推荐流量：平台算法推荐（相似产品、猜你喜欢）",
+            "活动流量：平台大促活动带来的流量",
+            "直接访问：老客户或收藏访问",
+            "站外流量：Google、社交媒体等外部来源"
+          ],
+          "action_items": [
+            "登录数据管家查看店铺流量结构",
+            "分析搜索流量占比，识别主要流量关键词",
+            "对比同行流量情况，找出差距"
+          ]
+        },
+        {
+          "id": "traffic_002",
+          "title": "提升曝光量的关键因素",
+          "content": "了解影响产品曝光的核心因素。",
+          "key_factors": [
+            {
+              "factor": "关键词匹配度",
+              "description": "产品标题和属性与买家搜索词的匹配程度",
+              "weight": "30%"
+            },
+            {
+              "factor": "产品信息质量",
+              "description": "标题、图片、详情页的完整度和质量",
+              "weight": "25%"
+            },
+            {
+              "factor": "店铺权重",
+              "description": "店铺等级、信用、活跃度",
+              "weight": "20%"
+            },
+            {
+              "factor": "产品交易数据",
+              "description": "询盘、点击、转化、好评",
+              "weight": "15%"
+            },
+            {
+              "factor": "产品新鲜度",
+              "description": "上架时间、更新频率",
+              "weight": "10%"
+            }
+          ]
+        },
+        {
+          "id": "traffic_003",
+          "title": "提升曝光的实操方法",
+          "content": "具体操作提升产品曝光量。",
+          "methods": [
+            {
+              "method": "优化产品标题",
+              "steps": [
+                "使用数据管家找出行业热搜词",
+                "标题公式：核心词 + 属性词 + 长尾词",
+                "示例：Server Memory DDR4 32GB 2666MHz ECC RDIMM for Dell R740",
+                "标题长度控制在128字符以内"
+              ]
+            },
+            {
+              "method": "完善产品属性",
+              "steps": [
+                "填写所有必填和选填属性",
+                "使用买家搜索的属性词",
+                "属性与标题保持一致"
+              ]
+            },
+            {
+              "method": "定期更新产品",
+              "steps": [
+                "每周更新产品价格或描述",
+                "重新编辑激活沉默产品",
+                "删除无效产品，保持店铺活跃"
+              ]
+            },
+            {
+              "method": "多发产品覆盖关键词",
+              "steps": [
+                "同一产品多角度发布（按应用场景、按规格型号）",
+                "覆盖更多长尾关键词",
+                "注意不要完全重复，要有差异化"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "search_ranking": {
+      "name": "自然搜索排名优化",
+      "name_en": "Search Ranking Optimization",
+      "lessons": [
+        {
+          "id": "rank_001",
+          "title": "阿里国际站搜索排名机制",
+          "content": "理解平台搜索排名的底层逻辑。",
+          "ranking_factors": [
+            {
+              "category": "相关性因素",
+              "factors": ["关键词匹配", "类目相关性", "属性完整度"]
+            },
+            {
+              "category": "质量因素",
+              "factors": ["产品信息完整度", "图片质量", "详情页质量"]
+            },
+            {
+              "category": "数据因素",
+              "factors": ["点击率(CTR)", "询盘转化率", "成交数据"]
+            },
+            {
+              "category": "店铺因素",
+              "factors": ["店铺等级", "纠纷率", "响应速度"]
+            }
+          ]
+        },
+        {
+          "id": "rank_002",
+          "title": "关键词挖掘与布局",
+          "content": "找出高价值关键词并合理布局。",
+          "keyword_sources": [
+            "数据管家 - 行业搜索词",
+            "阿里指数 - 热门搜索词",
+            "下拉推荐词 - 买家实际搜索",
+            "竞品分析 - 同行使用的词",
+            "Google Trends - 行业趋势词"
+          ],
+          "keyword_layout": {
+            "title": "核心关键词 + 产品属性 + 品牌/型号",
+            "keywords_field": "5个核心关键词",
+            "product_description": "自然融入关键词，密度2-5%",
+            "attributes": "与关键词匹配的属性值"
+          },
+          "practice": {
+            "task": "为服务器内存产品挖掘关键词",
+            "example_keywords": [
+              "server memory (核心词)",
+              "DDR4 server RAM (类型词)",
+              "32GB ECC memory (规格词)",
+              "Dell server memory (品牌应用词)",
+              "HP DL380 G10 memory (型号应用词)"
+            ]
+          }
+        },
+        {
+          "id": "rank_003",
+          "title": "提升点击率(CTR)策略",
+          "content": "提升搜索结果中的点击率，影响排名。",
+          "ctr_factors": [
+            {
+              "factor": "主图质量",
+              "tips": [
+                "白底高清产品图",
+                "展示产品细节和特点",
+                "与竞品主图形成差异",
+                "可添加简洁的卖点文字"
+              ]
+            },
+            {
+              "factor": "标题吸引力",
+              "tips": [
+                "包含买家搜索的关键词",
+                "突出产品核心卖点",
+                "使用数字和规格吸引注意"
+              ]
+            },
+            {
+              "factor": "价格竞争力",
+              "tips": [
+                "设置合理的价格区间",
+                "有竞争力的起订价",
+                "显示批发价格优势"
+              ]
+            },
+            {
+              "factor": "信任标识",
+              "tips": [
+                "展示Trade Assurance标识",
+                "展示认证和资质",
+                "累积好评和交易数据"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "product_optimization": {
+      "name": "产品优化",
+      "name_en": "Product Optimization",
+      "lessons": [
+        {
+          "id": "opt_001",
+          "title": "产品信息完整度优化",
+          "content": "完整的产品信息是获得排名的基础。",
+          "checklist": [
+            {
+              "item": "产品标题",
+              "requirement": "128字符以内，包含核心关键词、属性词",
+              "score_weight": "20%"
+            },
+            {
+              "item": "主图",
+              "requirement": "800x800以上，白底，清晰专业",
+              "score_weight": "15%"
+            },
+            {
+              "item": "副图",
+              "requirement": "至少6张，展示不同角度和细节",
+              "score_weight": "10%"
+            },
+            {
+              "item": "视频",
+              "requirement": "产品展示或使用视频，提升转化",
+              "score_weight": "10%"
+            },
+            {
+              "item": "产品属性",
+              "requirement": "填写所有必填和选填属性",
+              "score_weight": "15%"
+            },
+            {
+              "item": "产品详情",
+              "requirement": "图文并茂，结构清晰，关键信息突出",
+              "score_weight": "20%"
+            },
+            {
+              "item": "包装发货",
+              "requirement": "完整的包装和发货信息",
+              "score_weight": "5%"
+            },
+            {
+              "item": "公司信息",
+              "requirement": "关联完整的公司信息",
+              "score_weight": "5%"
+            }
+          ]
+        },
+        {
+          "id": "opt_002",
+          "title": "主图优化技巧",
+          "content": "主图是影响点击率的第一要素。",
+          "main_image_tips": [
+            "使用纯白或浅灰背景",
+            "产品占画面60-70%",
+            "展示产品最佳角度",
+            "确保图片清晰、光线均匀",
+            "可添加简洁的卖点标签（不超过画面20%）"
+          ],
+          "additional_images": [
+            "产品正面、侧面、背面",
+            "产品细节和接口特写",
+            "产品包装和配件",
+            "尺寸对比图",
+            "应用场景图",
+            "资质认证图"
+          ],
+          "server_product_tips": [
+            "服务器内存：展示金手指、标签信息",
+            "硬盘：展示接口、容量标签",
+            "网卡：展示端口、芯片型号",
+            "电源：展示功率标签、接口"
+          ]
+        },
+        {
+          "id": "opt_003",
+          "title": "产品详情页优化",
+          "content": "好的详情页能大幅提升询盘转化率。",
+          "detail_page_structure": [
+            {
+              "section": "产品概述",
+              "content": "产品名称、型号、核心参数一览表"
+            },
+            {
+              "section": "产品特点",
+              "content": "3-5个核心卖点，图文结合展示"
+            },
+            {
+              "section": "详细规格",
+              "content": "完整的技术参数表格"
+            },
+            {
+              "section": "应用场景",
+              "content": "适用的服务器型号、使用场景"
+            },
+            {
+              "section": "兼容性",
+              "content": "兼容的服务器品牌和型号列表"
+            },
+            {
+              "section": "质量保证",
+              "content": "测试流程、质保政策、认证资质"
+            },
+            {
+              "section": "包装发货",
+              "content": "包装方式、发货方式、交期说明"
+            },
+            {
+              "section": "公司介绍",
+              "content": "公司优势、工厂/仓库图片"
+            },
+            {
+              "section": "联系方式",
+              "content": "促进买家联系的行动号召"
+            }
+          ]
+        }
+      ]
+    },
+    "product_quality_upgrade": {
+      "name": "产品等级提升",
+      "name_en": "Product Quality Upgrade",
+      "lessons": [
+        {
+          "id": "upgrade_001",
+          "title": "产品等级体系介绍",
+          "content": "了解阿里国际站的产品质量等级体系。",
+          "quality_levels": [
+            {
+              "level": "普通品",
+              "description": "基础产品，信息完整度一般",
+              "traffic_weight": "基础流量"
+            },
+            {
+              "level": "潜力优品",
+              "description": "信息质量较好，有优化潜力",
+              "traffic_weight": "较高流量"
+            },
+            {
+              "level": "优品",
+              "description": "信息完整、质量高、数据表现好",
+              "traffic_weight": "高流量权重"
+            },
+            {
+              "level": "爆品",
+              "description": "行业TOP产品，流量和转化表现优秀",
+              "traffic_weight": "最高流量权重"
+            }
+          ]
+        },
+        {
+          "id": "upgrade_002",
+          "title": "普通品升级潜力优品",
+          "content": "将普通产品升级为潜力优品的方法。",
+          "upgrade_checklist": [
+            {
+              "item": "完善标题",
+              "action": "添加关键词，优化结构，控制长度"
+            },
+            {
+              "item": "优化主图",
+              "action": "更换为高清白底图，突出产品"
+            },
+            {
+              "item": "补充副图",
+              "action": "至少6张不同角度的图片"
+            },
+            {
+              "item": "填写属性",
+              "action": "填满所有必填和80%以上选填属性"
+            },
+            {
+              "item": "丰富详情",
+              "action": "添加图文详情，包含规格表"
+            },
+            {
+              "item": "添加视频",
+              "action": "上传产品展示视频"
+            }
+          ],
+          "practice_task": "选择店铺内一个普通品产品，按照以上清单进行优化，争取升级为潜力优品"
+        },
+        {
+          "id": "upgrade_003",
+          "title": "潜力优品升级优品",
+          "content": "将潜力优品提升为优品的策略。",
+          "key_requirements": [
+            "产品信息完整度95%以上",
+            "主图和详情页高质量",
+            "有一定的点击和询盘数据",
+            "价格在合理竞争区间"
+          ],
+          "optimization_focus": [
+            {
+              "area": "数据提升",
+              "actions": [
+                "提升点击率：优化主图和标题",
+                "提升询盘率：优化详情页和价格",
+                "适当推广：使用直通车获取初始数据"
+              ]
+            },
+            {
+              "area": "内容升级",
+              "actions": [
+                "添加产品视频（时长建议30-60秒）",
+                "完善所有产品属性",
+                "详情页添加更多应用案例"
+              ]
+            },
+            {
+              "area": "关键词优化",
+              "actions": [
+                "分析搜索词报告，找出高转化词",
+                "优化标题和关键词字段",
+                "调整产品匹配更精准的类目"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "upgrade_004",
+          "title": "优品升级爆品",
+          "content": "将优品打造成行业爆品的进阶策略。",
+          "explosive_factors": [
+            {
+              "factor": "流量积累",
+              "strategy": "通过P4P推广、活动报名获取大量曝光"
+            },
+            {
+              "factor": "转化率优化",
+              "strategy": "A/B测试主图、优化价格策略、快速响应"
+            },
+            {
+              "factor": "好评积累",
+              "strategy": "提供优质服务，主动邀请好评"
+            },
+            {
+              "factor": "持续优化",
+              "strategy": "根据数据持续优化，保持竞争力"
+            }
+          ],
+          "advanced_tips": [
+            "研究行业爆品的共同特点",
+            "关注市场趋势，抢占蓝海产品",
+            "建立产品矩阵，以爆品带动店铺流量",
+            "利用RFQ主动报价获取询盘"
+          ]
+        }
+      ]
+    },
+    "practical_analysis": {
+      "name": "实战分析模板",
+      "name_en": "Practical Analysis Template",
+      "lessons": [
+        {
+          "id": "analysis_001",
+          "title": "店铺数据分析模板",
+          "content": "系统分析店铺数据，找出优化方向。",
+          "analysis_template": {
+            "traffic_analysis": {
+              "metrics": ["曝光量", "点击量", "点击率(CTR)"],
+              "questions": [
+                "流量来源分布是否合理？",
+                "搜索流量占比是否足够？",
+                "点击率是否达到行业平均？",
+                "流量趋势是上升还是下降？"
+              ]
+            },
+            "inquiry_analysis": {
+              "metrics": ["询盘数", "询盘转化率", "询盘质量"],
+              "questions": [
+                "询盘数是否稳定增长？",
+                "哪些产品询盘最多？",
+                "询盘转化率是否达标？",
+                "询盘来源国家分布？"
+              ]
+            },
+            "product_analysis": {
+              "metrics": ["产品数量", "优品数量", "产品活跃度"],
+              "questions": [
+                "产品数量是否足够？",
+                "优品占比是多少？",
+                "有多少沉默产品需要激活？",
+                "产品覆盖的关键词是否全面？"
+              ]
+            }
+          }
+        },
+        {
+          "id": "analysis_002",
+          "title": "竞品分析模板",
+          "content": "分析同行优秀店铺，学习成功经验。",
+          "competitor_analysis": {
+            "basic_info": [
+              "店铺等级和年限",
+              "主营产品和数量",
+              "交易数据和好评率"
+            ],
+            "product_analysis": [
+              "爆品特点分析（标题、主图、价格）",
+              "详情页结构和内容",
+              "关键词布局策略"
+            ],
+            "operation_analysis": [
+              "更新频率",
+              "活动参与情况",
+              "推广投入情况"
+            ],
+            "learning_points": [
+              "竞品的优势是什么？",
+              "我们可以学习什么？",
+              "我们的差异化优势在哪？"
+            ]
+          }
+        },
+        {
+          "id": "analysis_003",
+          "title": "优化行动计划模板",
+          "content": "根据分析结果制定可执行的优化计划。",
+          "action_plan_template": {
+            "daily_tasks": [
+              "回复所有询盘（24小时内）",
+              "更新2-3个产品",
+              "分析昨日数据"
+            ],
+            "weekly_tasks": [
+              "上架5-10个新产品",
+              "优化3-5个潜力产品",
+              "分析一周数据趋势",
+              "研究1-2个竞品"
+            ],
+            "monthly_tasks": [
+              "全面数据复盘",
+              "调整产品策略",
+              "规划下月重点",
+              "评估推广ROI"
+            ]
+          }
+        }
+      ]
+    },
+    "custom_analysis": {
+      "name": "定制分析",
+      "name_en": "Custom Analysis",
+      "description": "根据您发送的国际站实际数据，提供针对性的分析和建议。",
+      "data_types": [
+        {
+          "type": "数据管家截图",
+          "analysis": "分析流量趋势、转化率、行业对比"
+        },
+        {
+          "type": "产品截图",
+          "analysis": "分析产品信息质量、优化建议"
+        },
+        {
+          "type": "询盘截图",
+          "analysis": "分析询盘质量、回复建议"
+        },
+        {
+          "type": "关键词报告",
+          "analysis": "分析关键词效果、优化策略"
+        }
+      ],
+      "prompt_template": "请发送您的国际站数据截图或描述，我将为您提供：\n1. 现状分析\n2. 问题诊断\n3. 优化建议\n4. 具体行动步骤"
+    }
+  }
+}

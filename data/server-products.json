@@ -1,0 +1,604 @@
+{
+  "category": "服务器产品知识",
+  "products": {
+    "server_memory": {
+      "name": "Server Memory (服务器内存)",
+      "name_en": "Server Memory",
+      "subcategories": ["DDR3", "DDR4", "DDR5"],
+      "lessons": [
+        {
+          "id": "mem_001",
+          "title": "服务器内存基础知识",
+          "title_en": "Server Memory Basics",
+          "content": "服务器内存(Server Memory/RAM)是服务器的关键组件，用于临时存储正在运行的程序和数据。",
+          "key_points": [
+            "ECC (Error Correcting Code) 内存：服务器专用，可检测和纠正内存错误",
+            "Registered/Buffered Memory：减少内存控制器负载，支持更大容量",
+            "UDIMM vs RDIMM vs LRDIMM的区别",
+            "内存频率：DDR3(800-1866MHz), DDR4(2133-3200MHz), DDR5(4800-6400MHz+)"
+          ],
+          "english_terms": {
+            "内存": "Memory/RAM",
+            "服务器内存": "Server Memory",
+            "纠错码": "ECC (Error Correcting Code)",
+            "寄存式内存": "Registered Memory (RDIMM)",
+            "非缓冲内存": "Unbuffered Memory (UDIMM)",
+            "减载内存": "Load-Reduced DIMM (LRDIMM)",
+            "内存频率": "Memory Frequency/Speed",
+            "内存容量": "Memory Capacity"
+          }
+        },
+        {
+          "id": "mem_002",
+          "title": "DDR3服务器内存详解",
+          "title_en": "DDR3 Server Memory Details",
+          "content": "DDR3是第三代双倍数据率内存，主要用于较老的服务器系统。",
+          "key_points": [
+            "电压：1.5V (标准) / 1.35V (低电压版本 DDR3L)",
+            "频率范围：800MHz - 1866MHz",
+            "针脚数：240-pin DIMM",
+            "常见容量：2GB, 4GB, 8GB, 16GB, 32GB",
+            "适用服务器：Dell R710/R720, HP DL380 G6/G7/G8等"
+          ],
+          "english_terms": {
+            "低电压版": "Low Voltage (DDR3L)",
+            "针脚": "Pin",
+            "容量": "Capacity",
+            "兼容性": "Compatibility"
+          }
+        },
+        {
+          "id": "mem_003",
+          "title": "DDR4服务器内存详解",
+          "title_en": "DDR4 Server Memory Details",
+          "content": "DDR4是目前主流的服务器内存类型，相比DDR3有更高的频率和更低的功耗。",
+          "key_points": [
+            "电压：1.2V (更低功耗)",
+            "频率范围：2133MHz - 3200MHz",
+            "针脚数：288-pin DIMM",
+            "常见容量：8GB, 16GB, 32GB, 64GB, 128GB",
+            "适用服务器：Dell R740/R640, HP DL380 Gen9/Gen10等",
+            "支持更大的单条容量和更高的总内存容量"
+          ],
+          "english_terms": {
+            "功耗": "Power Consumption",
+            "带宽": "Bandwidth",
+            "延迟": "Latency",
+            "时序": "Timing"
+          }
+        },
+        {
+          "id": "mem_004",
+          "title": "DDR5服务器内存详解",
+          "title_en": "DDR5 Server Memory Details",
+          "content": "DDR5是最新一代服务器内存，提供更高的带宽和更大的容量支持。",
+          "key_points": [
+            "电压：1.1V (最低功耗)",
+            "频率范围：4800MHz - 6400MHz+",
+            "针脚数：288-pin DIMM (与DDR4不兼容)",
+            "内置ECC：芯片级ECC纠错",
+            "双通道架构：每个DIMM有两个独立的32位通道",
+            "适用服务器：Dell R760/R660, HP DL380 Gen11等最新型号"
+          ],
+          "english_terms": {
+            "芯片级ECC": "On-die ECC",
+            "双通道": "Dual Channel",
+            "子通道": "Sub-channel"
+          }
+        },
+        {
+          "id": "mem_005",
+          "title": "如何选择服务器内存",
+          "title_en": "How to Choose Server Memory",
+          "content": "选择服务器内存需要考虑多个因素，确保兼容性和性能最优。",
+          "key_points": [
+            "确认服务器支持的内存类型(DDR3/DDR4/DDR5)",
+            "确认支持的最大频率和容量",
+            "确认是否需要ECC内存",
+            "确认RDIMM/LRDIMM/UDIMM类型",
+            "检查服务器主板的内存插槽数量",
+            "考虑内存通道数，平衡配置获得最佳性能",
+            "选择知名品牌：Samsung, SK Hynix, Micron, HPE, Dell"
+          ],
+          "english_terms": {
+            "兼容性列表": "Compatibility List/QVL",
+            "内存通道": "Memory Channel",
+            "品牌": "Brand",
+            "原厂": "OEM/Original Equipment Manufacturer"
+          }
+        }
+      ]
+    },
+    "server_processor": {
+      "name": "Server Processor (服务器处理器)",
+      "name_en": "Server Processor",
+      "subcategories": ["CPU", "Heatsink and Fan"],
+      "lessons": [
+        {
+          "id": "cpu_001",
+          "title": "服务器CPU基础知识",
+          "title_en": "Server CPU Basics",
+          "content": "服务器CPU是专为高负载、长时间运行设计的处理器，具有更多核心和更大缓存。",
+          "key_points": [
+            "主要品牌：Intel Xeon, AMD EPYC",
+            "核心数：从4核到64核+不等",
+            "支持多路配置：双路(2P)、四路(4P)、八路(8P)",
+            "大容量缓存：L3缓存可达数十MB",
+            "支持ECC内存和高级RAS特性"
+          ],
+          "english_terms": {
+            "处理器": "Processor/CPU",
+            "核心": "Core",
+            "线程": "Thread",
+            "缓存": "Cache",
+            "多路": "Multi-socket",
+            "双路": "Dual-socket/2P",
+            "四路": "Quad-socket/4P"
+          }
+        },
+        {
+          "id": "cpu_002",
+          "title": "Intel Xeon处理器系列",
+          "title_en": "Intel Xeon Processor Series",
+          "content": "Intel Xeon是Intel的服务器处理器产品线，广泛应用于企业服务器。",
+          "key_points": [
+            "Xeon E系列：入门级，单路服务器",
+            "Xeon W系列：工作站级别",
+            "Xeon Scalable系列：Bronze/Silver/Gold/Platinum",
+            "代数识别：第1-5代Scalable处理器",
+            "常见型号命名：如Xeon Gold 6248R (6=Gold级, 2=第2代, 48=SKU编号, R=Refresh)"
+          ],
+          "english_terms": {
+            "可扩展": "Scalable",
+            "铂金级": "Platinum",
+            "金级": "Gold",
+            "银级": "Silver",
+            "铜级": "Bronze"
+          }
+        },
+        {
+          "id": "cpu_003",
+          "title": "AMD EPYC处理器系列",
+          "title_en": "AMD EPYC Processor Series",
+          "content": "AMD EPYC是AMD的服务器处理器，以高核心数和性价比著称。",
+          "key_points": [
+            "EPYC 7001系列(Naples)：第一代",
+            "EPYC 7002系列(Rome)：第二代，最高64核",
+            "EPYC 7003系列(Milan)：第三代，Zen 3架构",
+            "EPYC 9004系列(Genoa)：第四代，Zen 4架构",
+            "单路即可支持高达128个PCIe 4.0通道"
+          ],
+          "english_terms": {
+            "核心数": "Core Count",
+            "架构": "Architecture",
+            "通道": "Lane"
+          }
+        },
+        {
+          "id": "cpu_004",
+          "title": "散热器和风扇(Heatsink and Fan)",
+          "title_en": "Heatsink and Fan",
+          "content": "服务器CPU散热系统是保证服务器稳定运行的关键组件。",
+          "key_points": [
+            "被动散热器(Heatsink)：纯铜或铝制，依靠机箱风流散热",
+            "主动散热器(Active Heatsink)：带风扇的散热器",
+            "TDP等级：需要匹配CPU的热设计功耗",
+            "1U/2U散热器：不同机箱高度需要不同高度的散热器",
+            "常见品牌：原厂(Dell/HP/Lenovo)、Supermicro、Noctua"
+          ],
+          "english_terms": {
+            "散热器": "Heatsink",
+            "风扇": "Fan",
+            "热设计功耗": "TDP (Thermal Design Power)",
+            "被动散热": "Passive Cooling",
+            "主动散热": "Active Cooling",
+            "机箱": "Chassis"
+          }
+        }
+      ]
+    },
+    "server_hard_drive": {
+      "name": "Server Hard Drive (服务器硬盘)",
+      "name_en": "Server Hard Drive",
+      "subcategories": {
+        "HDD": {
+          "name": "机械硬盘",
+          "types": ["2.5in SFF HDD", "3.5in LFF HDD", "MSA HDD", "3PAR HDD", "EMC HDD", "NetApp HDD"]
+        },
+        "SSD": {
+          "name": "固态硬盘"
+        },
+        "Caddy_Tray_Casing": {
+          "name": "硬盘托架/托盘/外壳"
+        }
+      },
+      "lessons": [
+        {
+          "id": "hdd_001",
+          "title": "服务器硬盘基础知识",
+          "title_en": "Server Hard Drive Basics",
+          "content": "服务器硬盘是专为24/7连续运行设计的存储设备，具有更高的可靠性和性能。",
+          "key_points": [
+            "HDD(机械硬盘)：大容量、性价比高",
+            "SSD(固态硬盘)：高速度、低延迟",
+            "接口类型：SAS、SATA、NVMe",
+            "转速：7.2K RPM(容量型)、10K RPM(性能型)、15K RPM(高性能型)",
+            "MTBF(平均无故障时间)：通常200万小时以上"
+          ],
+          "english_terms": {
+            "机械硬盘": "HDD (Hard Disk Drive)",
+            "固态硬盘": "SSD (Solid State Drive)",
+            "转速": "RPM (Revolutions Per Minute)",
+            "平均无故障时间": "MTBF (Mean Time Between Failures)",
+            "接口": "Interface"
+          }
+        },
+        {
+          "id": "hdd_002",
+          "title": "2.5英寸SFF硬盘",
+          "title_en": "2.5-inch SFF HDD",
+          "content": "SFF(Small Form Factor)小尺寸硬盘，适用于高密度服务器环境。",
+          "key_points": [
+            "尺寸：2.5英寸，厚度通常为7mm或15mm",
+            "常见容量：300GB - 2.4TB",
+            "转速：10K RPM或15K RPM为主",
+            "优势：更高密度、更低功耗、更好的散热",
+            "适用：刀片服务器、高密度存储"
+          ],
+          "english_terms": {
+            "小尺寸": "SFF (Small Form Factor)",
+            "厚度": "Height/Thickness",
+            "高密度": "High Density"
+          }
+        },
+        {
+          "id": "hdd_003",
+          "title": "3.5英寸LFF硬盘",
+          "title_en": "3.5-inch LFF HDD",
+          "content": "LFF(Large Form Factor)大尺寸硬盘，提供更大容量选择。",
+          "key_points": [
+            "尺寸：3.5英寸",
+            "常见容量：1TB - 20TB+",
+            "转速：7.2K RPM为主(容量型)",
+            "优势：更大容量、更好的性价比",
+            "适用：存储服务器、NAS、备份系统"
+          ],
+          "english_terms": {
+            "大尺寸": "LFF (Large Form Factor)",
+            "容量型": "Capacity Drive",
+            "性能型": "Performance Drive"
+          }
+        },
+        {
+          "id": "hdd_004",
+          "title": "MSA硬盘 (HP MSA存储)",
+          "title_en": "MSA HDD (HP MSA Storage)",
+          "content": "HP MSA(Modular Smart Array)存储阵列专用硬盘。",
+          "key_points": [
+            "适用于HP MSA 1050/2050/2060等存储阵列",
+            "需要原厂或兼容固件",
+            "支持SAS接口",
+            "提供双端口连接，确保高可用性",
+            "常见型号标识：带MSA标签或HPE Part Number"
+          ],
+          "english_terms": {
+            "模块化智能阵列": "MSA (Modular Smart Array)",
+            "存储阵列": "Storage Array",
+            "双端口": "Dual Port",
+            "高可用性": "High Availability"
+          }
+        },
+        {
+          "id": "hdd_005",
+          "title": "3PAR硬盘 (HPE 3PAR存储)",
+          "title_en": "3PAR HDD (HPE 3PAR Storage)",
+          "content": "HPE 3PAR是企业级存储系统，使用专用硬盘。",
+          "key_points": [
+            "适用于HPE 3PAR 7000/8000/9000系列",
+            "专用硬盘封装和固件",
+            "支持自动分层存储(Adaptive Optimization)",
+            "硬盘必须通过3PAR认证",
+            "价格通常高于普通企业级硬盘"
+          ],
+          "english_terms": {
+            "企业级存储": "Enterprise Storage",
+            "自动分层": "Adaptive Optimization/Auto-tiering",
+            "认证": "Certified"
+          }
+        },
+        {
+          "id": "hdd_006",
+          "title": "EMC硬盘",
+          "title_en": "EMC HDD",
+          "content": "Dell EMC存储系统专用硬盘，用于VNX、Unity、PowerStore等存储阵列。",
+          "key_points": [
+            "适用于EMC VNX/VNXe、Unity、PowerStore系列",
+            "使用EMC专用固件和封装",
+            "严格的兼容性要求",
+            "支持FAST VP(全自动存储分层)",
+            "Part Number格式：通常以005-xxxxx开头"
+          ],
+          "english_terms": {
+            "存储系统": "Storage System",
+            "全自动存储分层": "FAST VP (Fully Automated Storage Tiering for Virtual Pools)"
+          }
+        },
+        {
+          "id": "hdd_007",
+          "title": "NetApp硬盘",
+          "title_en": "NetApp HDD",
+          "content": "NetApp存储系统专用硬盘，用于FAS、AFF等系列。",
+          "key_points": [
+            "适用于NetApp FAS/AFF系列存储",
+            "使用NetApp专用固件",
+            "支持RAID-DP和RAID-TEC",
+            "硬盘需要与磁盘架(Disk Shelf)匹配",
+            "Part Number格式：X-字母数字组合"
+          ],
+          "english_terms": {
+            "磁盘架": "Disk Shelf",
+            "双奇偶校验": "RAID-DP (Double Parity)",
+            "三重奇偶校验": "RAID-TEC (Triple Erasure Coding)"
+          }
+        },
+        {
+          "id": "ssd_001",
+          "title": "服务器SSD固态硬盘",
+          "title_en": "Server SSD",
+          "content": "服务器SSD提供高性能、低延迟的存储解决方案。",
+          "key_points": [
+            "接口类型：SATA SSD、SAS SSD、NVMe SSD",
+            "外形规格：2.5寸、M.2、U.2、AIC(Add-in Card)",
+            "耐久度等级：Read Intensive(RI)、Mixed Use(MU)、Write Intensive(WI)",
+            "DWPD(每日全盘写入次数)：0.3-10+ DWPD",
+            "主要品牌：Intel、Samsung、Micron、Western Digital、Kioxia"
+          ],
+          "english_terms": {
+            "读取密集型": "Read Intensive (RI)",
+            "混合使用": "Mixed Use (MU)",
+            "写入密集型": "Write Intensive (WI)",
+            "每日全盘写入次数": "DWPD (Drive Writes Per Day)",
+            "耐久度": "Endurance"
+          }
+        },
+        {
+          "id": "caddy_001",
+          "title": "硬盘托架/托盘/外壳",
+          "title_en": "Caddy/Tray/Casing",
+          "content": "硬盘托架是将硬盘安装到服务器的重要配件。",
+          "key_points": [
+            "品牌特定：Dell、HP、Lenovo等都有专用托架",
+            "尺寸规格：2.5寸托架、3.5寸托架、2.5转3.5适配器",
+            "接口类型：SAS/SATA托架、NVMe托架",
+            "代数兼容：不同代服务器的托架可能不通用",
+            "识别方法：通过Part Number或外观特征识别"
+          ],
+          "english_terms": {
+            "托架": "Caddy/Tray",
+            "外壳": "Casing/Carrier",
+            "适配器": "Adapter/Converter",
+            "热插拔": "Hot-swap/Hot-plug"
+          }
+        }
+      ]
+    },
+    "server_power_supply": {
+      "name": "Server Power Supply (服务器电源)",
+      "name_en": "Server Power Supply",
+      "lessons": [
+        {
+          "id": "psu_001",
+          "title": "服务器电源基础知识",
+          "title_en": "Server Power Supply Basics",
+          "content": "服务器电源(PSU)是为服务器提供稳定电力的关键组件。",
+          "key_points": [
+            "冗余设计：1+1、2+1、2+2冗余配置",
+            "功率规格：从500W到2400W+不等",
+            "效率等级：80 Plus认证(Bronze/Silver/Gold/Platinum/Titanium)",
+            "热插拔支持：支持不停机更换",
+            "电压输入：110V/220V自适应或仅220V"
+          ],
+          "english_terms": {
+            "电源": "PSU (Power Supply Unit)",
+            "冗余": "Redundant",
+            "热插拔": "Hot-swap",
+            "功率": "Wattage/Power",
+            "效率": "Efficiency"
+          }
+        },
+        {
+          "id": "psu_002",
+          "title": "服务器电源选型指南",
+          "title_en": "Server PSU Selection Guide",
+          "content": "选择正确的服务器电源需要考虑多个因素。",
+          "key_points": [
+            "计算总功耗：CPU + 内存 + 硬盘 + 扩展卡 + 风扇",
+            "预留余量：建议总功率的60-80%负载运行",
+            "确认物理兼容性：不同品牌/型号的电源外形不同",
+            "确认电气兼容性：接口和针脚定义",
+            "考虑效率等级：高效率=低发热+低电费"
+          ],
+          "english_terms": {
+            "功耗": "Power Consumption",
+            "负载": "Load",
+            "针脚": "Pin/Pinout",
+            "认证": "Certification"
+          }
+        }
+      ]
+    },
+    "server_card": {
+      "name": "Server Card (服务器卡)",
+      "name_en": "Server Card",
+      "subcategories": {
+        "RAID_Card": "RAID卡",
+        "HBA_Card": {
+          "name": "HBA卡",
+          "types": ["Network Card", "FC Card"]
+        }
+      },
+      "lessons": [
+        {
+          "id": "raid_001",
+          "title": "RAID卡基础知识",
+          "title_en": "RAID Card Basics",
+          "content": "RAID卡用于管理多个硬盘的数据分布和冗余。",
+          "key_points": [
+            "RAID级别：RAID 0/1/5/6/10/50/60",
+            "缓存：512MB-8GB缓存，提升性能",
+            "BBU/FBWC：电池或闪存备份单元，保护缓存数据",
+            "主要品牌：LSI/Broadcom、HPE Smart Array、Dell PERC",
+            "接口：PCIe x8，SAS连接器(SFF-8087/SFF-8643等)"
+          ],
+          "english_terms": {
+            "RAID卡": "RAID Card/RAID Controller",
+            "缓存": "Cache",
+            "电池备份单元": "BBU (Battery Backup Unit)",
+            "闪存备份": "FBWC (Flash Backed Write Cache)"
+          }
+        },
+        {
+          "id": "raid_002",
+          "title": "RAID级别详解",
+          "title_en": "RAID Levels Explained",
+          "content": "不同RAID级别提供不同的性能和数据保护特性。",
+          "key_points": [
+            "RAID 0：条带化，高性能，无冗余",
+            "RAID 1：镜像，100%冗余，50%可用容量",
+            "RAID 5：分布式奇偶校验，允许1块盘故障",
+            "RAID 6：双奇偶校验，允许2块盘故障",
+            "RAID 10：镜像+条带化，高性能+高冗余",
+            "RAID 50/60：RAID 5/6的条带化，大容量高性能"
+          ],
+          "english_terms": {
+            "条带化": "Striping",
+            "镜像": "Mirroring",
+            "奇偶校验": "Parity",
+            "冗余": "Redundancy",
+            "可用容量": "Usable Capacity"
+          }
+        },
+        {
+          "id": "hba_001",
+          "title": "HBA卡基础知识",
+          "title_en": "HBA Card Basics",
+          "content": "HBA(Host Bus Adapter)是服务器与存储或网络连接的接口卡。",
+          "key_points": [
+            "SAS HBA：连接SAS/SATA硬盘，IT模式直通",
+            "FC HBA：光纤通道，连接SAN存储",
+            "网络HBA/NIC：高性能网络连接",
+            "主要品牌：QLogic、Emulex、Broadcom、Intel、Mellanox"
+          ],
+          "english_terms": {
+            "主机总线适配器": "HBA (Host Bus Adapter)",
+            "光纤通道": "FC (Fibre Channel)",
+            "存储区域网络": "SAN (Storage Area Network)",
+            "直通模式": "IT Mode/Pass-through"
+          }
+        },
+        {
+          "id": "nic_001",
+          "title": "网络卡(Network Card)",
+          "title_en": "Network Card/NIC",
+          "content": "服务器网络卡提供高速网络连接能力。",
+          "key_points": [
+            "速率：1GbE、10GbE、25GbE、40GbE、100GbE",
+            "端口数：单口、双口、四口",
+            "接口类型：RJ45(电口)、SFP+/SFP28/QSFP(光口)",
+            "特性：TCP Offload、SR-IOV、RDMA",
+            "主要品牌：Intel、Broadcom、Mellanox/NVIDIA"
+          ],
+          "english_terms": {
+            "网络接口卡": "NIC (Network Interface Card)",
+            "千兆以太网": "GbE (Gigabit Ethernet)",
+            "万兆以太网": "10GbE",
+            "电口": "RJ45/Copper",
+            "光口": "SFP+/Optical"
+          }
+        },
+        {
+          "id": "fc_001",
+          "title": "FC卡(光纤通道卡)",
+          "title_en": "FC Card (Fibre Channel Card)",
+          "content": "FC卡用于连接光纤通道SAN存储网络。",
+          "key_points": [
+            "速率：8Gbps、16Gbps、32Gbps FC",
+            "端口数：单口、双口",
+            "连接器类型：LC光纤连接器",
+            "常见品牌：QLogic、Emulex(Broadcom)",
+            "需要配合FC交换机和存储阵列使用"
+          ],
+          "english_terms": {
+            "光纤通道": "FC (Fibre Channel)",
+            "存储区域网络": "SAN (Storage Area Network)",
+            "光纤交换机": "FC Switch",
+            "端口": "Port"
+          }
+        }
+      ]
+    },
+    "server_motherboard": {
+      "name": "Server Motherboard (服务器主板)",
+      "name_en": "Server Motherboard",
+      "lessons": [
+        {
+          "id": "mb_001",
+          "title": "服务器主板基础知识",
+          "title_en": "Server Motherboard Basics",
+          "content": "服务器主板是连接所有服务器组件的核心电路板。",
+          "key_points": [
+            "CPU插槽：单路、双路、四路配置",
+            "芯片组：Intel C620系列、AMD EPYC系列芯片组",
+            "内存插槽：8-32个DIMM插槽",
+            "PCIe扩展槽：x8、x16插槽数量",
+            "板载功能：BMC/IPMI、双千兆网口、SATA/SAS控制器"
+          ],
+          "english_terms": {
+            "主板": "Motherboard/System Board",
+            "插槽": "Socket/Slot",
+            "芯片组": "Chipset",
+            "板载": "Onboard"
+          }
+        },
+        {
+          "id": "mb_002",
+          "title": "服务器主板规格",
+          "title_en": "Server Motherboard Form Factors",
+          "content": "服务器主板有多种规格尺寸。",
+          "key_points": [
+            "ATX：标准尺寸，塔式服务器常用",
+            "E-ATX：加长ATX，更多扩展",
+            "SSI EEB：服务器标准规格",
+            "Proprietary：品牌专用尺寸(Dell/HP/Lenovo)",
+            "选择时注意机箱兼容性"
+          ],
+          "english_terms": {
+            "规格": "Form Factor",
+            "专有": "Proprietary",
+            "兼容性": "Compatibility"
+          }
+        },
+        {
+          "id": "mb_003",
+          "title": "BMC/IPMI远程管理",
+          "title_en": "BMC/IPMI Remote Management",
+          "content": "服务器主板集成的远程管理功能。",
+          "key_points": [
+            "BMC(基板管理控制器)：独立于主系统的管理芯片",
+            "IPMI：智能平台管理接口标准",
+            "功能：远程开关机、KVM控制、传感器监控",
+            "品牌实现：Dell iDRAC、HP iLO、Lenovo XCC",
+            "独立网口和IP地址"
+          ],
+          "english_terms": {
+            "基板管理控制器": "BMC (Baseboard Management Controller)",
+            "智能平台管理接口": "IPMI",
+            "远程控制台": "KVM (Keyboard Video Mouse)",
+            "集成戴尔远程访问控制器": "iDRAC",
+            "集成熄灯": "iLO (Integrated Lights-Out)"
+          }
+        }
+      ]
+    }
+  }
+}

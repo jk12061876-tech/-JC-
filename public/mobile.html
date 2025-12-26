@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="JC学习">
+  <title>JC学习推送 - 服务器产品 & 外贸 & 阿里国际站</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --primary: #4F46E5;
+      --primary-light: #818CF8;
+      --success: #10B981;
+      --warning: #F59E0B;
+      --bg: #F3F4F6;
+      --card: #FFFFFF;
+      --text: #1F2937;
+      --text-light: #6B7280;
+      --border: #E5E7EB;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 100px;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      color: white;
+      padding: 20px;
+      padding-top: max(20px, env(safe-area-inset-top));
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .header p {
+      font-size: 13px;
+      opacity: 0.9;
+      margin-top: 4px;
+    }
+
+    /* Stats */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 15px;
+      margin-top: -30px;
+    }
+
+    .stat-card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 15px 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .stat-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 2px;
+    }
+
+    /* Action Buttons */
+    .action-btns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 0 15px;
+      margin-bottom: 15px;
+    }
+
+    .action-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 15px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .action-btn:active {
+      transform: scale(0.96);
+      opacity: 0.9;
+    }
+
+    .action-btn.secondary {
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    /* Current Lesson */
+    .current-lesson {
+      background: var(--card);
+      margin: 0 15px 15px;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .lesson-tag {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+
+    .lesson-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+
+    .lesson-content {
+      color: var(--text-light);
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .key-points {
+      background: var(--bg);
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    .key-points h4 {
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    .key-points ul {
+      padding-left: 18px;
+    }
+
+    .key-points li {
+      font-size: 13px;
+      color: var(--text-light);
+      margin-bottom: 6px;
+    }
+
+    .english-terms {
+      background: #EEF2FF;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    .english-terms h4 {
+      font-size: 14px;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .term-grid {
+      display: grid;
+      gap: 6px;
+    }
+
+    .term-item {
+      font-size: 13px;
+    }
+
+    .term-cn { color: var(--text-light); }
+    .term-en { color: var(--text); font-weight: 500; }
+
+    .practice-box {
+      background: #FEF3C7;
+      border-left: 4px solid var(--warning);
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    .practice-box h4 {
+      font-size: 14px;
+      color: #92400E;
+      margin-bottom: 10px;
+    }
+
+    .practice-box pre {
+      background: white;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      margin-bottom: 10px;
+    }
+
+    .template-box {
+      background: #ECFDF5;
+      border-left: 4px solid var(--success);
+      border-radius: 12px;
+      padding: 15px;
+    }
+
+    .template-box h4 {
+      font-size: 14px;
+      color: #065F46;
+      margin-bottom: 10px;
+    }
+
+    .template-box pre {
+      background: white;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .complete-btn {
+      width: 100%;
+      background: var(--success);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    .complete-btn:active {
+      opacity: 0.9;
+    }
+
+    .complete-btn.completed {
+      background: var(--bg);
+      color: var(--success);
+    }
+
+    /* Category Tabs */
+    .tabs {
+      display: flex;
+      gap: 8px;
+      padding: 0 15px;
+      margin-bottom: 15px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .tabs::-webkit-scrollbar { display: none; }
+
+    .tab-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 8px 16px;
+      font-size: 13px;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .tab-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    /* Lesson List */
+    .lesson-list {
+      padding: 0 15px;
+    }
+
+    .category-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 20px 0 10px;
+      color: var(--text);
+    }
+
+    .lesson-item {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .lesson-item:active {
+      transform: scale(0.98);
+    }
+
+    .lesson-item.completed {
+      border-left: 4px solid var(--success);
+    }
+
+    .lesson-item-info h4 {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .lesson-item-info p {
+      font-size: 12px;
+      color: var(--text-light);
+    }
+
+    .lesson-item-status {
+      font-size: 20px;
+    }
+
+    /* Settings Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 200;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .modal.show { display: flex; }
+
+    .modal-content {
+      background: var(--card);
+      width: 100%;
+      max-height: 80vh;
+      border-radius: 20px 20px 0 0;
+      overflow-y: auto;
+      animation: slideUp 0.3s ease;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(100%); }
+      to { transform: translateY(0); }
+    }
+
+    .modal-header {
+      padding: 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      background: var(--card);
+    }
+
+    .modal-header h2 {
+      font-size: 18px;
+    }
+
+    .modal-close {
+      background: var(--bg);
+      border: none;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .modal-body {
+      padding: 20px;
+    }
+
+    .setting-section {
+      margin-bottom: 25px;
+    }
+
+    .setting-section h3 {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .setting-section p {
+      font-size: 13px;
+      color: var(--text-light);
+      margin-bottom: 12px;
+    }
+
+    .time-inputs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .time-input {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .time-input input {
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .time-remove {
+      background: none;
+      border: none;
+      color: #EF4444;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .add-time-btn {
+      background: var(--bg);
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+    }
+
+    .checkbox-label input {
+      width: 22px;
+      height: 22px;
+      accent-color: var(--primary);
+    }
+
+    .save-btn {
+      width: 100%;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      top: max(80px, calc(env(safe-area-inset-top) + 60px));
+      left: 15px;
+      right: 15px;
+      background: var(--card);
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      display: none;
+      z-index: 300;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .toast.show { display: block; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .toast-content {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .toast-icon { font-size: 28px; }
+    .toast-text strong { display: block; font-size: 15px; }
+    .toast-text p { font-size: 13px; color: var(--text-light); }
+
+    /* Bottom Navigation */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--card);
+      border-top: 1px solid var(--border);
+      display: flex;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    .nav-btn {
+      flex: 1;
+      background: none;
+      border: none;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      color: var(--text-light);
+      transition: color 0.2s;
+    }
+
+    .nav-btn.active {
+      color: var(--primary);
+    }
+
+    .nav-btn span:first-child {
+      font-size: 24px;
+    }
+
+    .nav-btn span:last-child {
+      font-size: 11px;
+    }
+
+    /* Pages */
+    .page { display: none; }
+    .page.active { display: block; }
+
+    /* Reminder Setup */
+    .reminder-guide {
+      background: var(--card);
+      margin: 15px;
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .reminder-guide h3 {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .reminder-step {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 15px;
+    }
+
+    .step-num {
+      width: 28px;
+      height: 28px;
+      background: var(--primary);
+      color: white;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+
+    .step-text {
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .step-text strong {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>JC 学习推送系统</h1>
+    <p>服务器产品 · 外贸练习 · 阿里国际站</p>
+  </header>
+
+  <!-- Home Page -->
+  <div class="page active" id="homePage">
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-value" id="totalCount">0</div>
+        <div class="stat-label">总课程</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="completedCount">0</div>
+        <div class="stat-label">已学习</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="progressPercent">0%</div>
+        <div class="stat-label">进度</div>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-btns">
+      <button class="action-btn" onclick="getRandomLesson()">
+        <span>🎲</span> 随机学习
+      </button>
+      <button class="action-btn secondary" onclick="showSettings()">
+        <span>⚙️</span> 提醒设置
+      </button>
+    </div>
+
+    <!-- Current Lesson -->
+    <div class="current-lesson" id="currentLesson">
+      <p style="text-align:center;color:var(--text-light);padding:40px 0;">
+        点击「随机学习」开始今天的学习
+      </p>
+    </div>
+  </div>
+
+  <!-- Lessons Page -->
+  <div class="page" id="lessonsPage">
+    <div class="tabs" id="categoryTabs">
+      <button class="tab-btn active" data-cat="all">全部</button>
+      <button class="tab-btn" data-cat="server_products">服务器产品</button>
+      <button class="tab-btn" data-cat="foreign_trade">外贸练习</button>
+      <button class="tab-btn" data-cat="alibaba_operation">阿里国际站</button>
+    </div>
+    <div class="lesson-list" id="lessonList"></div>
+  </div>
+
+  <!-- Settings Page -->
+  <div class="page" id="settingsPage">
+    <div class="reminder-guide">
+      <h3>📱 如何设置每日提醒</h3>
+      <div class="reminder-step">
+        <div class="step-num">1</div>
+        <div class="step-text">打开 iPhone 的 <strong>「提醒事项」</strong> App</div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">2</div>
+        <div class="step-text">点击右下角 <strong>「+ 新提醒事项」</strong></div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">3</div>
+        <div class="step-text">输入：<strong>「学习时间到！打开JC学习」</strong></div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">4</div>
+        <div class="step-text">点击 <strong>「日期」</strong>，选择提醒时间（如每天 9:00）</div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">5</div>
+        <div class="step-text">点击 <strong>「重复」</strong>，选择 <strong>「每天」</strong></div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">6</div>
+        <div class="step-text">点击右上角 <strong>「完成」</strong></div>
+      </div>
+      <p style="margin-top:15px;padding:12px;background:var(--bg);border-radius:8px;font-size:13px;color:var(--text-light);">
+        💡 建议设置 3 个提醒：早上 9:00、下午 2:00、晚上 7:00
+      </p>
+    </div>
+
+    <div class="reminder-guide">
+      <h3>⭐ 添加到主屏幕</h3>
+      <div class="reminder-step">
+        <div class="step-num">1</div>
+        <div class="step-text">在 Safari 浏览器中打开本页面</div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">2</div>
+        <div class="step-text">点击底部 <strong>「分享」</strong> 按钮（方框+箭头图标）</div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">3</div>
+        <div class="step-text">向下滑动，点击 <strong>「添加到主屏幕」</strong></div>
+      </div>
+      <div class="reminder-step">
+        <div class="step-num">4</div>
+        <div class="step-text">点击右上角 <strong>「添加」</strong></div>
+      </div>
+      <p style="margin-top:15px;padding:12px;background:#ECFDF5;border-radius:8px;font-size:13px;color:#065F46;">
+        ✅ 添加后，从主屏幕打开就像使用 App 一样方便！
+      </p>
+    </div>
+
+    <div class="reminder-guide">
+      <h3>📊 学习进度</h3>
+      <p style="font-size:14px;color:var(--text-light);margin-bottom:15px;">你的学习数据保存在本地</p>
+      <button onclick="resetProgress()" style="width:100%;padding:12px;background:#FEE2E2;color:#DC2626;border:none;border-radius:8px;font-size:14px;">
+        重置学习进度
+      </button>
+    </div>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" data-page="homePage">
+      <span>🏠</span>
+      <span>首页</span>
+    </button>
+    <button class="nav-btn" data-page="lessonsPage">
+      <span>📚</span>
+      <span>课程</span>
+    </button>
+    <button class="nav-btn" data-page="settingsPage">
+      <span>⚙️</span>
+      <span>设置</span>
+    </button>
+  </nav>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">
+    <div class="toast-content">
+      <span class="toast-icon">✅</span>
+      <div class="toast-text">
+        <strong id="toastTitle">完成</strong>
+        <p id="toastMsg">操作成功</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ==================== 学习内容数据 ====================
+    const LESSONS = [
+      // ===== 服务器内存 =====
+      {
+        id: "mem_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Memory",
+        title: "服务器内存基础知识",
+        content: "服务器内存(Server Memory/RAM)是服务器的关键组件，用于临时存储正在运行的程序和数据。",
+        keyPoints: [
+          "ECC (Error Correcting Code) 内存：服务器专用，可检测和纠正内存错误",
+          "Registered/Buffered Memory：减少内存控制器负载，支持更大容量",
+          "UDIMM vs RDIMM vs LRDIMM的区别",
+          "内存频率：DDR3(800-1866MHz), DDR4(2133-3200MHz), DDR5(4800-6400MHz+)"
+        ],
+        englishTerms: {
+          "内存": "Memory/RAM",
+          "服务器内存": "Server Memory",
+          "纠错码": "ECC (Error Correcting Code)",
+          "寄存式内存": "Registered Memory (RDIMM)",
+          "非缓冲内存": "Unbuffered Memory (UDIMM)"
+        }
+      },
+      {
+        id: "mem_002",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Memory",
+        title: "DDR3服务器内存详解",
+        content: "DDR3是第三代双倍数据率内存，主要用于较老的服务器系统。",
+        keyPoints: [
+          "电压：1.5V (标准) / 1.35V (低电压版本 DDR3L)",
+          "频率范围：800MHz - 1866MHz",
+          "针脚数：240-pin DIMM",
+          "常见容量：2GB, 4GB, 8GB, 16GB, 32GB",
+          "适用服务器：Dell R710/R720, HP DL380 G6/G7/G8等"
+        ],
+        englishTerms: {
+          "低电压版": "Low Voltage (DDR3L)",
+          "针脚": "Pin",
+          "容量": "Capacity",
+          "兼容性": "Compatibility"
+        }
+      },
+      {
+        id: "mem_003",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Memory",
+        title: "DDR4服务器内存详解",
+        content: "DDR4是目前主流的服务器内存类型，相比DDR3有更高的频率和更低的功耗。",
+        keyPoints: [
+          "电压：1.2V (更低功耗)",
+          "频率范围：2133MHz - 3200MHz",
+          "针脚数：288-pin DIMM",
+          "常见容量：8GB, 16GB, 32GB, 64GB, 128GB",
+          "适用服务器：Dell R740/R640, HP DL380 Gen9/Gen10等"
+        ],
+        englishTerms: {
+          "功耗": "Power Consumption",
+          "带宽": "Bandwidth",
+          "延迟": "Latency"
+        }
+      },
+      {
+        id: "mem_004",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Memory",
+        title: "DDR5服务器内存详解",
+        content: "DDR5是最新一代服务器内存，提供更高的带宽和更大的容量支持。",
+        keyPoints: [
+          "电压：1.1V (最低功耗)",
+          "频率范围：4800MHz - 6400MHz+",
+          "内置ECC：芯片级ECC纠错",
+          "双通道架构：每个DIMM有两个独立的32位通道",
+          "适用服务器：Dell R760/R660, HP DL380 Gen11等"
+        ],
+        englishTerms: {
+          "芯片级ECC": "On-die ECC",
+          "双通道": "Dual Channel"
+        }
+      },
+      {
+        id: "mem_005",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Memory",
+        title: "如何选择服务器内存",
+        content: "选择服务器内存需要考虑多个因素，确保兼容性和性能最优。",
+        keyPoints: [
+          "确认服务器支持的内存类型(DDR3/DDR4/DDR5)",
+          "确认支持的最大频率和容量",
+          "确认是否需要ECC内存",
+          "确认RDIMM/LRDIMM/UDIMM类型",
+          "选择知名品牌：Samsung, SK Hynix, Micron"
+        ],
+        englishTerms: {
+          "兼容性列表": "Compatibility List/QVL",
+          "内存通道": "Memory Channel",
+          "原厂": "OEM"
+        }
+      },
+      // ===== 服务器硬盘 =====
+      {
+        id: "hdd_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Hard Drive",
+        title: "服务器硬盘基础知识",
+        content: "服务器硬盘是专为24/7连续运行设计的存储设备，具有更高的可靠性和性能。",
+        keyPoints: [
+          "HDD(机械硬盘)：大容量、性价比高",
+          "SSD(固态硬盘)：高速度、低延迟",
+          "接口类型：SAS、SATA、NVMe",
+          "转速：7.2K/10K/15K RPM",
+          "MTBF(平均无故障时间)：200万小时以上"
+        ],
+        englishTerms: {
+          "机械硬盘": "HDD (Hard Disk Drive)",
+          "固态硬盘": "SSD (Solid State Drive)",
+          "转速": "RPM (Revolutions Per Minute)"
+        }
+      },
+      {
+        id: "hdd_002",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Hard Drive",
+        title: "2.5英寸SFF硬盘",
+        content: "SFF(Small Form Factor)小尺寸硬盘，适用于高密度服务器环境。",
+        keyPoints: [
+          "尺寸：2.5英寸，厚度7mm或15mm",
+          "常见容量：300GB - 2.4TB",
+          "转速：10K RPM或15K RPM",
+          "优势：更高密度、更低功耗",
+          "适用：刀片服务器、高密度存储"
+        ],
+        englishTerms: {
+          "小尺寸": "SFF (Small Form Factor)",
+          "高密度": "High Density"
+        }
+      },
+      {
+        id: "hdd_003",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Hard Drive",
+        title: "3.5英寸LFF硬盘",
+        content: "LFF(Large Form Factor)大尺寸硬盘，提供更大容量选择。",
+        keyPoints: [
+          "尺寸：3.5英寸",
+          "常见容量：1TB - 20TB+",
+          "转速：7.2K RPM(容量型)",
+          "优势：更大容量、性价比高",
+          "适用：存储服务器、NAS、备份"
+        ],
+        englishTerms: {
+          "大尺寸": "LFF (Large Form Factor)",
+          "容量型": "Capacity Drive"
+        }
+      },
+      {
+        id: "hdd_004",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Hard Drive",
+        title: "MSA/3PAR/EMC/NetApp专用硬盘",
+        content: "企业级存储阵列需要使用专用硬盘，确保兼容性和性能。",
+        keyPoints: [
+          "MSA HDD: HP MSA存储阵列专用",
+          "3PAR HDD: HPE 3PAR企业存储专用",
+          "EMC HDD: Dell EMC VNX/Unity专用",
+          "NetApp HDD: NetApp FAS/AFF专用",
+          "特点：专用固件、严格兼容性要求"
+        ],
+        englishTerms: {
+          "存储阵列": "Storage Array",
+          "专用固件": "Custom Firmware",
+          "认证": "Certified"
+        }
+      },
+      {
+        id: "ssd_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Hard Drive",
+        title: "服务器SSD固态硬盘",
+        content: "服务器SSD提供高性能、低延迟的存储解决方案。",
+        keyPoints: [
+          "接口：SATA SSD、SAS SSD、NVMe SSD",
+          "外形：2.5寸、M.2、U.2",
+          "耐久度：Read Intensive(RI)、Mixed Use(MU)、Write Intensive(WI)",
+          "DWPD(每日全盘写入次数)：0.3-10+",
+          "品牌：Intel、Samsung、Micron、Kioxia"
+        ],
+        englishTerms: {
+          "读取密集型": "Read Intensive (RI)",
+          "混合使用": "Mixed Use (MU)",
+          "写入密集型": "Write Intensive (WI)"
+        }
+      },
+      {
+        id: "caddy_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Hard Drive",
+        title: "硬盘托架Caddy/Tray",
+        content: "硬盘托架是将硬盘安装到服务器的重要配件。",
+        keyPoints: [
+          "品牌特定：Dell、HP、Lenovo专用托架",
+          "尺寸：2.5寸托架、3.5寸托架",
+          "接口：SAS/SATA托架、NVMe托架",
+          "代数兼容：不同代服务器托架可能不通用",
+          "热插拔：支持不停机更换硬盘"
+        ],
+        englishTerms: {
+          "托架": "Caddy/Tray",
+          "热插拔": "Hot-swap"
+        }
+      },
+      // ===== 服务器CPU =====
+      {
+        id: "cpu_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Processor",
+        title: "服务器CPU基础知识",
+        content: "服务器CPU是专为高负载、长时间运行设计的处理器。",
+        keyPoints: [
+          "主要品牌：Intel Xeon, AMD EPYC",
+          "核心数：从4核到64核+",
+          "多路配置：双路(2P)、四路(4P)",
+          "大容量缓存：L3可达数十MB",
+          "支持ECC内存"
+        ],
+        englishTerms: {
+          "处理器": "Processor/CPU",
+          "核心": "Core",
+          "线程": "Thread",
+          "多路": "Multi-socket"
+        }
+      },
+      {
+        id: "cpu_002",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Processor",
+        title: "Intel Xeon处理器系列",
+        content: "Intel Xeon是Intel的服务器处理器产品线。",
+        keyPoints: [
+          "Xeon E系列：入门级，单路服务器",
+          "Xeon Scalable：Bronze/Silver/Gold/Platinum",
+          "代数识别：第1-5代Scalable处理器",
+          "命名示例：Xeon Gold 6248R"
+        ],
+        englishTerms: {
+          "可扩展": "Scalable",
+          "铂金级": "Platinum",
+          "金级": "Gold"
+        }
+      },
+      {
+        id: "cpu_003",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Processor",
+        title: "散热器Heatsink and Fan",
+        content: "服务器CPU散热系统是保证稳定运行的关键。",
+        keyPoints: [
+          "被动散热器：纯铜或铝制，依靠机箱风流",
+          "主动散热器：带风扇的散热器",
+          "TDP等级：需匹配CPU热设计功耗",
+          "1U/2U散热器：不同高度机箱需要不同散热器"
+        ],
+        englishTerms: {
+          "散热器": "Heatsink",
+          "风扇": "Fan",
+          "热设计功耗": "TDP"
+        }
+      },
+      // ===== 服务器卡 =====
+      {
+        id: "raid_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Card",
+        title: "RAID卡基础知识",
+        content: "RAID卡用于管理多个硬盘的数据分布和冗余。",
+        keyPoints: [
+          "RAID级别：RAID 0/1/5/6/10",
+          "缓存：512MB-8GB，提升性能",
+          "BBU/FBWC：电池/闪存备份",
+          "品牌：LSI、HPE Smart Array、Dell PERC"
+        ],
+        englishTerms: {
+          "RAID卡": "RAID Controller",
+          "缓存": "Cache",
+          "电池备份": "BBU"
+        }
+      },
+      {
+        id: "raid_002",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Card",
+        title: "RAID级别详解",
+        content: "不同RAID级别提供不同的性能和数据保护。",
+        keyPoints: [
+          "RAID 0：条带化，高性能，无冗余",
+          "RAID 1：镜像，100%冗余",
+          "RAID 5：分布式奇偶校验，允许1盘故障",
+          "RAID 6：双奇偶校验，允许2盘故障",
+          "RAID 10：镜像+条带化"
+        ],
+        englishTerms: {
+          "条带化": "Striping",
+          "镜像": "Mirroring",
+          "奇偶校验": "Parity"
+        }
+      },
+      {
+        id: "hba_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Card",
+        title: "网络卡Network Card",
+        content: "服务器网络卡提供高速网络连接能力。",
+        keyPoints: [
+          "速率：1GbE、10GbE、25GbE、100GbE",
+          "端口数：单口、双口、四口",
+          "接口：RJ45(电口)、SFP+(光口)",
+          "品牌：Intel、Broadcom、Mellanox"
+        ],
+        englishTerms: {
+          "网络卡": "NIC (Network Interface Card)",
+          "千兆": "GbE",
+          "万兆": "10GbE"
+        }
+      },
+      {
+        id: "fc_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Card",
+        title: "FC卡光纤通道卡",
+        content: "FC卡用于连接光纤通道SAN存储网络。",
+        keyPoints: [
+          "速率：8Gbps、16Gbps、32Gbps FC",
+          "端口：单口、双口",
+          "连接器：LC光纤连接器",
+          "品牌：QLogic、Emulex"
+        ],
+        englishTerms: {
+          "光纤通道": "FC (Fibre Channel)",
+          "存储区域网络": "SAN"
+        }
+      },
+      // ===== 服务器电源和主板 =====
+      {
+        id: "psu_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Power Supply",
+        title: "服务器电源基础知识",
+        content: "服务器电源(PSU)为服务器提供稳定电力。",
+        keyPoints: [
+          "冗余设计：1+1、2+1冗余配置",
+          "功率：500W到2400W+",
+          "效率等级：80 Plus Bronze/Gold/Platinum",
+          "热插拔：支持不停机更换"
+        ],
+        englishTerms: {
+          "电源": "PSU (Power Supply Unit)",
+          "冗余": "Redundant",
+          "效率": "Efficiency"
+        }
+      },
+      {
+        id: "mb_001",
+        category: "server_products",
+        categoryName: "服务器产品知识",
+        subcategory: "Server Motherboard",
+        title: "服务器主板基础知识",
+        content: "服务器主板是连接所有组件的核心电路板。",
+        keyPoints: [
+          "CPU插槽：单路、双路配置",
+          "内存插槽：8-32个DIMM插槽",
+          "PCIe扩展槽：x8、x16",
+          "BMC/IPMI远程管理功能"
+        ],
+        englishTerms: {
+          "主板": "Motherboard",
+          "插槽": "Socket/Slot",
+          "远程管理": "BMC/IPMI"
+        }
+      },
+      // ===== 外贸练习 =====
+      {
+        id: "inq_001",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "询盘练习",
+        title: "如何分析询盘质量",
+        content: "学会识别高质量询盘，提高回复效率和转化率。",
+        keyPoints: [
+          "查看买家档案：注册时间、采购历史",
+          "分析询盘内容：是否具体、有明确数量",
+          "识别垃圾询盘：模板化内容",
+          "优先级排序：高质量询盘优先回复"
+        ],
+        practice: {
+          scenario: "收到询盘:\n'Hi, I need 100pcs Dell R740 Server Memory DDR4 32GB. Please send price and delivery time. We are IT distributor in Germany.'\n\n这是什么质量的询盘？",
+          answer: "高质量询盘 - 具体产品、明确数量、有公司背景，应优先回复"
+        }
+      },
+      {
+        id: "inq_002",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "询盘练习",
+        title: "询盘回复黄金时间",
+        content: "快速响应询盘是提高转化率的关键。",
+        keyPoints: [
+          "黄金24小时：询盘后24小时内回复",
+          "考虑时差：根据买家时区调整回复时间",
+          "工作时间回复：买家上班时收到更易得到回应",
+          "设置自动回复：确保买家知道已收到"
+        ]
+      },
+      {
+        id: "msg_001",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "信息回复",
+        title: "常见买家问题及回复",
+        content: "掌握常见问题的专业回复方式。",
+        keyPoints: [
+          "What's your MOQ? - 说明最小起订量，可接受试单",
+          "How long is the warranty? - 新品3年/翻新1年/二手90天",
+          "What's the lead time? - 库存1-2天，非库存3-5天",
+          "Can you provide OEM? - 可提供定制标签和包装"
+        ]
+      },
+      {
+        id: "msg_002",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "信息回复",
+        title: "处理议价请求",
+        content: "专业处理客户的议价请求。",
+        keyPoints: [
+          "不要立即降价，先了解客户预算和数量",
+          "强调价值：质量、服务、保障",
+          "提供阶梯报价：数量越多价格越优",
+          "提供替代方案：新/翻新/二手不同等级"
+        ],
+        practice: {
+          scenario: "客户说：'Your price is too high. I got better offer from another supplier.'",
+          answer: "回复要点：询问数量、强调价值(测试+质保+支持)、请对方分享竞品报价以便匹配"
+        }
+      },
+      {
+        id: "email_001",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "邮件撰写",
+        title: "开发信撰写技巧",
+        content: "撰写有效的开发信，提高回复率。",
+        keyPoints: [
+          "主题行：简洁、有吸引力、包含关键词",
+          "开头：个性化称呼，说明如何找到对方",
+          "正文：简明扼要介绍公司和产品优势",
+          "行动号召：明确的下一步行动"
+        ],
+        template: "Subject: Server Memory & SSD Supplier - Competitive Prices\n\nDear [Name],\n\nI noticed your company specializes in [their business].\n\nWe are a leading supplier of:\n- Server Memory (DDR3/DDR4/DDR5)\n- Enterprise SSDs & HDDs\n- RAID Controllers & HBA Cards\n\nWhy work with us:\n✓ 10+ years experience\n✓ 50,000+ SKUs in stock\n✓ 1-3 year warranty\n\nWould you be interested in our price list?\n\nBest regards"
+      },
+      {
+        id: "email_002",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "邮件撰写",
+        title: "报价邮件撰写",
+        content: "撰写清晰专业的报价邮件。",
+        keyPoints: [
+          "报价单号便于追踪",
+          "明确有效期创造紧迫感",
+          "价格表格化，清晰易读",
+          "包含所有条款避免歧义"
+        ],
+        template: "Subject: Quotation #001 - Server Memory\n\nDear [Name],\n\nPlease find our quotation:\n\nProduct: DDR4 32GB 2666MHz RDIMM\nQty: 100pcs\nUnit Price: $XX\nTotal: $XXXX\n\nTerms:\n- Valid: 7 days\n- Payment: T/T, PayPal\n- Lead Time: 2 days\n- Warranty: 1 year\n\nPlease confirm to proceed.\n\nBest regards"
+      },
+      {
+        id: "conv_001",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "订单转化",
+        title: "提高询盘转化率",
+        content: "将询盘转化为订单的关键技巧。",
+        keyPoints: [
+          "快速响应：24小时内回复",
+          "专业报价：完整、清晰、有竞争力",
+          "建立信任：提供公司资质、客户案例",
+          "解决顾虑：主动提及质保、退换货",
+          "创造紧迫感：限时优惠、库存提醒"
+        ]
+      },
+      {
+        id: "pay_001",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "付款催款",
+        title: "付款方式介绍",
+        content: "了解外贸常用付款方式。",
+        keyPoints: [
+          "T/T(电汇)：最常用，安全正规",
+          "PayPal：快速方便，手续费约4%",
+          "Western Union：快速到账，有金额限制",
+          "L/C(信用证)：安全性最高，适合大额"
+        ]
+      },
+      {
+        id: "pay_002",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "付款催款",
+        title: "催款邮件技巧",
+        content: "礼貌而有效地催收款项。",
+        keyPoints: [
+          "到期前3天：友好提醒",
+          "逾期3天：礼貌跟进，询问状态",
+          "逾期7天：强调紧迫性",
+          "保持专业友好的语气"
+        ],
+        template: "Subject: Payment Reminder - Invoice #XXX\n\nDear [Name],\n\nThis is a friendly reminder that payment for Invoice #XXX ($XXX) is due on [Date].\n\nOur payment details:\n[Bank Info / PayPal]\n\nIf already paid, please send confirmation.\n\nThank you!\n\nBest regards"
+      },
+      {
+        id: "after_001",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "售后服务",
+        title: "发货通知模板",
+        content: "专业的发货通知让客户放心。",
+        template: "Subject: Shipment Notification - Order #XXX\n\nDear [Name],\n\nYour order has been shipped!\n\nCarrier: DHL\nTracking: XXXXXXXXXX\nEstimated Delivery: [Date]\n\nContents:\n- [Product List]\n\nTrack at: www.dhl.com\n\nThank you!\n\nBest regards"
+      },
+      {
+        id: "after_002",
+        category: "foreign_trade",
+        categoryName: "外贸练习",
+        subcategory: "售后服务",
+        title: "处理质量投诉",
+        content: "专业处理客户的质量投诉。",
+        keyPoints: [
+          "立即响应，表示重视",
+          "收集信息：问题描述、照片/视频",
+          "内部核实：检查同批次产品",
+          "提供方案：换货、退款、折扣",
+          "跟进确保问题解决"
+        ],
+        template: "Subject: Re: Quality Issue - Order #XXX\n\nDear [Name],\n\nI'm sorry about the issue. We take this seriously.\n\nPlease provide:\n1. Photos of defective products\n2. Part numbers affected\n3. Issue description\n\nWe'll investigate and provide solution within 24 hours.\n\nBest regards"
+      },
+      // ===== 阿里国际站运营 =====
+      {
+        id: "traffic_001",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "自然流量提升",
+        title: "理解流量结构",
+        content: "了解平台流量的来源和分布。",
+        keyPoints: [
+          "搜索流量：买家通过关键词搜索（最主要）",
+          "推荐流量：平台算法推荐",
+          "活动流量：大促活动带来",
+          "直接访问：老客户或收藏访问"
+        ]
+      },
+      {
+        id: "traffic_002",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "自然流量提升",
+        title: "提升曝光量的方法",
+        content: "具体操作提升产品曝光量。",
+        keyPoints: [
+          "优化标题：核心词 + 属性词 + 长尾词",
+          "完善属性：填写所有必填和选填属性",
+          "定期更新：每周更新产品价格或描述",
+          "多发产品：覆盖更多长尾关键词"
+        ],
+        practice: {
+          scenario: "为服务器内存写一个优化标题",
+          answer: "Server Memory DDR4 32GB 2666MHz ECC RDIMM for Dell R740 PowerEdge"
+        }
+      },
+      {
+        id: "rank_001",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "搜索排名优化",
+        title: "搜索排名机制",
+        content: "理解平台搜索排名的底层逻辑。",
+        keyPoints: [
+          "相关性：关键词匹配、类目相关性",
+          "质量因素：信息完整度、图片质量",
+          "数据因素：点击率、询盘转化率",
+          "店铺因素：等级、纠纷率、响应速度"
+        ]
+      },
+      {
+        id: "rank_002",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "搜索排名优化",
+        title: "关键词挖掘与布局",
+        content: "找出高价值关键词并合理布局。",
+        keyPoints: [
+          "数据管家 - 行业搜索词",
+          "下拉推荐词 - 买家实际搜索",
+          "竞品分析 - 同行使用的词",
+          "布局：标题、关键词字段、详情页"
+        ]
+      },
+      {
+        id: "opt_001",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "产品优化",
+        title: "产品信息完整度",
+        content: "完整的产品信息是获得排名的基础。",
+        keyPoints: [
+          "标题：128字符内，包含核心关键词",
+          "主图：800x800以上，白底清晰",
+          "副图：至少6张，不同角度",
+          "视频：产品展示视频",
+          "属性：填写所有必填和选填"
+        ]
+      },
+      {
+        id: "opt_002",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "产品优化",
+        title: "主图优化技巧",
+        content: "主图是影响点击率的第一要素。",
+        keyPoints: [
+          "纯白或浅灰背景",
+          "产品占画面60-70%",
+          "展示产品最佳角度",
+          "可添加简洁卖点标签",
+          "服务器内存：展示金手指、标签"
+        ]
+      },
+      {
+        id: "upgrade_001",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "产品等级提升",
+        title: "产品等级体系",
+        content: "了解阿里国际站的产品质量等级。",
+        keyPoints: [
+          "普通品：基础产品，信息完整度一般",
+          "潜力优品：信息较好，有优化潜力",
+          "优品：信息完整、质量高、数据好",
+          "爆品：行业TOP，流量和转化优秀"
+        ]
+      },
+      {
+        id: "upgrade_002",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "产品等级提升",
+        title: "普通品→潜力优品",
+        content: "将普通产品升级为潜力优品。",
+        keyPoints: [
+          "完善标题：添加关键词，优化结构",
+          "优化主图：更换高清白底图",
+          "补充副图：至少6张不同角度",
+          "填写属性：填满80%以上选填",
+          "丰富详情：添加图文和规格表"
+        ]
+      },
+      {
+        id: "upgrade_003",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "产品等级提升",
+        title: "潜力优品→优品",
+        content: "将潜力优品提升为优品。",
+        keyPoints: [
+          "产品信息完整度95%以上",
+          "添加产品视频(30-60秒)",
+          "提升点击率：优化主图和标题",
+          "提升询盘率：优化详情页和价格",
+          "适当推广获取初始数据"
+        ]
+      },
+      {
+        id: "upgrade_004",
+        category: "alibaba_operation",
+        categoryName: "阿里国际站运营",
+        subcategory: "产品等级提升",
+        title: "优品→爆品",
+        content: "将优品打造成行业爆品。",
+        keyPoints: [
+          "通过P4P推广获取大量曝光",
+          "A/B测试主图，优化价格策略",
+          "提供优质服务，积累好评",
+          "持续优化，保持竞争力",
+          "建立产品矩阵，以爆品带动流量"
+        ]
+      }
+    ];
+
+    // ==================== 状态管理 ====================
+    let state = {
+      completedLessons: [],
+      currentLesson: null
+    };
+
+    // 加载保存的状态
+    function loadState() {
+      try {
+        const saved = localStorage.getItem('jc_learning_state');
+        if (saved) {
+          state = JSON.parse(saved);
+        }
+      } catch (e) {}
+      updateStats();
+    }
+
+    // 保存状态
+    function saveState() {
+      try {
+        localStorage.setItem('jc_learning_state', JSON.stringify(state));
+      } catch (e) {}
+    }
+
+    // 更新统计
+    function updateStats() {
+      document.getElementById('totalCount').textContent = LESSONS.length;
+      document.getElementById('completedCount').textContent = state.completedLessons.length;
+      const percent = Math.round((state.completedLessons.length / LESSONS.length) * 100);
+      document.getElementById('progressPercent').textContent = percent + '%';
+    }
+
+    // ==================== 课程显示 ====================
+    function getRandomLesson() {
+      const lesson = LESSONS[Math.floor(Math.random() * LESSONS.length)];
+      state.currentLesson = lesson;
+      renderCurrentLesson(lesson);
+    }
+
+    function renderCurrentLesson(lesson) {
+      const container = document.getElementById('currentLesson');
+      const isCompleted = state.completedLessons.includes(lesson.id);
+
+      let html = `
+        <div class="lesson-tag">${lesson.categoryName} · ${lesson.subcategory}</div>
+        <h3 class="lesson-title">${lesson.title}</h3>
+        <p class="lesson-content">${lesson.content}</p>
+      `;
+
+      if (lesson.keyPoints) {
+        html += `
+          <div class="key-points">
+            <h4>📌 关键要点</h4>
+            <ul>${lesson.keyPoints.map(p => `<li>${p}</li>`).join('')}</ul>
+          </div>
+        `;
+      }
+
+      if (lesson.englishTerms) {
+        html += `
+          <div class="english-terms">
+            <h4>🔤 英文术语</h4>
+            <div class="term-grid">
+              ${Object.entries(lesson.englishTerms).map(([cn, en]) =>
+                `<div class="term-item"><span class="term-cn">${cn}:</span> <span class="term-en">${en}</span></div>`
+              ).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      if (lesson.practice) {
+        html += `
+          <div class="practice-box">
+            <h4>💡 练习场景</h4>
+            <pre>${lesson.practice.scenario}</pre>
+            <p><strong>参考答案：</strong>${lesson.practice.answer}</p>
+          </div>
+        `;
+      }
+
+      if (lesson.template) {
+        html += `
+          <div class="template-box">
+            <h4>📝 模板参考</h4>
+            <pre>${lesson.template}</pre>
+          </div>
+        `;
+      }
+
+      html += `
+        <button class="complete-btn ${isCompleted ? 'completed' : ''}" onclick="toggleComplete('${lesson.id}')">
+          ${isCompleted ? '✅ 已完成' : '标记为已学习'}
+        </button>
+      `;
+
+      container.innerHTML = html;
+    }
+
+    function toggleComplete(lessonId) {
+      const idx = state.completedLessons.indexOf(lessonId);
+      if (idx === -1) {
+        state.completedLessons.push(lessonId);
+        showToast('完成学习', '继续加油！');
+      } else {
+        state.completedLessons.splice(idx, 1);
+      }
+      saveState();
+      updateStats();
+      if (state.currentLesson) {
+        renderCurrentLesson(state.currentLesson);
+      }
+      renderLessonList();
+    }
+
+    // ==================== 课程列表 ====================
+    function renderLessonList(category = 'all') {
+      const container = document.getElementById('lessonList');
+      let lessons = category === 'all' ? LESSONS : LESSONS.filter(l => l.category === category);
+
+      // 按子类别分组
+      const groups = {};
+      lessons.forEach(l => {
+        const key = l.subcategory;
+        if (!groups[key]) groups[key] = [];
+        groups[key].push(l);
+      });
+
+      let html = '';
+      Object.entries(groups).forEach(([subcat, items]) => {
+        html += `<h3 class="category-title">${subcat}</h3>`;
+        items.forEach(lesson => {
+          const isCompleted = state.completedLessons.includes(lesson.id);
+          html += `
+            <div class="lesson-item ${isCompleted ? 'completed' : ''}" onclick="openLesson('${lesson.id}')">
+              <div class="lesson-item-info">
+                <h4>${lesson.title}</h4>
+                <p>${lesson.categoryName}</p>
+              </div>
+              <span class="lesson-item-status">${isCompleted ? '✅' : '📖'}</span>
+            </div>
+          `;
+        });
+      });
+
+      container.innerHTML = html;
+    }
+
+    function openLesson(lessonId) {
+      const lesson = LESSONS.find(l => l.id === lessonId);
+      if (lesson) {
+        state.currentLesson = lesson;
+        renderCurrentLesson(lesson);
+        switchPage('homePage');
+      }
+    }
+
+    // ==================== 导航 ====================
+    function switchPage(pageId) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+      document.querySelectorAll('.nav-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.page === pageId);
+      });
+    }
+
+    // ==================== 工具函数 ====================
+    function showToast(title, msg) {
+      document.getElementById('toastTitle').textContent = title;
+      document.getElementById('toastMsg').textContent = msg;
+      document.getElementById('toast').classList.add('show');
+      setTimeout(() => document.getElementById('toast').classList.remove('show'), 3000);
+    }
+
+    function showSettings() {
+      switchPage('settingsPage');
+    }
+
+    function resetProgress() {
+      if (confirm('确定要重置所有学习进度吗？')) {
+        state.completedLessons = [];
+        saveState();
+        updateStats();
+        renderLessonList();
+        showToast('已重置', '学习进度已清空');
+      }
+    }
+
+    // ==================== 初始化 ====================
+    document.addEventListener('DOMContentLoaded', () => {
+      loadState();
+      renderLessonList();
+
+      // 底部导航
+      document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.addEventListener('click', () => switchPage(btn.dataset.page));
+      });
+
+      // 分类标签
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderLessonList(btn.dataset.cat);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
