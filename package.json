@@ -1,0 +1,21 @@
+{
+  "name": "learning-push-notification",
+  "version": "1.0.0",
+  "description": "定时学习推送系统 - 服务器产品知识、外贸练习、阿里国际站运营",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "node-notifier": "^10.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "author": "JC",
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "pushTimes": ["09:00", "14:00", "19:00"],
+  "enabledCategories": ["server_products", "foreign_trade", "alibaba_operation"],
+  "notificationEnabled": true,
+  "browserNotification": true,
+  "soundEnabled": true
+}

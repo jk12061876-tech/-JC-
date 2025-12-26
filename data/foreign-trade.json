@@ -1,0 +1,383 @@
+{
+  "category": "外贸练习",
+  "modules": {
+    "inquiry_practice": {
+      "name": "询盘练习",
+      "name_en": "Inquiry Practice",
+      "lessons": [
+        {
+          "id": "inq_001",
+          "title": "如何分析询盘质量",
+          "content": "学会识别高质量询盘，提高回复效率和转化率。",
+          "key_points": [
+            "查看买家档案：注册时间、采购历史、公司信息完整度",
+            "分析询盘内容：是否具体、是否有明确数量和规格",
+            "识别垃圾询盘：模板化内容、不相关产品询盘",
+            "优先级排序：高质量询盘优先回复"
+          ],
+          "practice_scenario": {
+            "scenario": "你收到以下询盘，请分析其质量并给出回复优先级：\n\n询盘1: 'Hi, I need 100pcs Dell R740 Server Memory DDR4 32GB 2666MHz RDIMM. Please send me the price and delivery time. We are a IT distributor in Germany.'\n\n询盘2: 'Dear Sir, Please send me your catalog and price list. Thanks.'\n\n询盘3: 'I want to buy server parts, what do you have?'",
+            "analysis_points": [
+              "询盘1：高质量 - 具体产品、明确数量、有公司背景",
+              "询盘2：中等质量 - 可能是批发商，但需求不具体",
+              "询盘3：低质量 - 需求模糊，可能是比价"
+            ]
+          }
+        },
+        {
+          "id": "inq_002",
+          "title": "询盘回复黄金时间",
+          "content": "快速响应询盘是提高转化率的关键。",
+          "key_points": [
+            "黄金24小时：询盘后24小时内回复，转化率最高",
+            "考虑时差：根据买家所在时区调整回复时间",
+            "工作时间回复：买家上班时间收到邮件更容易得到回应",
+            "设置自动回复：确保买家知道询盘已收到"
+          ],
+          "practice_scenario": {
+            "scenario": "美国加州客户在北京时间凌晨2点发来询盘，询问HPE 3PAR硬盘价格。你应该：\nA) 立即回复\nB) 等到早上8点回复\nC) 等到下午4点（加州早上）回复\nD) 先发自动回复，下午4点详细回复",
+            "best_answer": "D - 先发自动回复确认收到，然后在加州工作时间（北京下午4点）发送详细报价，确保客户在上班时能看到"
+          }
+        },
+        {
+          "id": "inq_003",
+          "title": "询盘回复模板 - 服务器内存",
+          "content": "针对服务器内存询盘的专业回复模板。",
+          "template": {
+            "subject": "Re: Quotation for Server Memory DDR4 [Your Company Name]",
+            "body": "Dear [Customer Name],\n\nThank you for your inquiry about server memory. We are pleased to provide you with the following quotation:\n\n**Product Details:**\n- Part Number: [PN]\n- Description: [Brand] DDR4 [Capacity] [Speed] [Type]\n- Condition: [New/Refurbished/Used]\n- Quantity Available: [Qty] pcs\n- Unit Price: USD [Price]\n- Lead Time: [X] business days\n- Warranty: [X] years\n\n**Why Choose Us:**\n- 100% compatibility guaranteed\n- Professional testing before shipment\n- Flexible MOQ for trial orders\n- Fast worldwide shipping via DHL/FedEx\n\nPlease feel free to contact me if you have any questions.\n\nBest regards,\n[Your Name]"
+          },
+          "key_points": [
+            "主题行要包含关键词和公司名",
+            "开头感谢询盘",
+            "产品信息要完整准确",
+            "突出竞争优势",
+            "结尾邀请进一步沟通"
+          ]
+        }
+      ]
+    },
+    "message_reply": {
+      "name": "信息回复",
+      "name_en": "Message Reply",
+      "lessons": [
+        {
+          "id": "msg_001",
+          "title": "常见买家问题及回复",
+          "content": "掌握常见问题的专业回复方式。",
+          "qa_pairs": [
+            {
+              "question": "What's your MOQ?",
+              "answer_cn": "我们的最小起订量取决于产品类型。对于服务器内存，MOQ是10片；对于硬盘，MOQ是5块。我们也接受试单，数量可以商量。",
+              "answer_en": "Our MOQ depends on the product type. For server memory, MOQ is 10pcs; for hard drives, MOQ is 5pcs. We also accept trial orders with flexible quantities."
+            },
+            {
+              "question": "Can you provide OEM service?",
+              "answer_cn": "是的，我们提供OEM服务。我们可以根据您的要求提供定制标签和包装。请提供您的具体需求，我们将为您报价。",
+              "answer_en": "Yes, we provide OEM service. We can offer customized labels and packaging according to your requirements. Please share your specific needs and we'll provide a quotation."
+            },
+            {
+              "question": "How long is the warranty?",
+              "answer_cn": "我们提供不同的质保期：全新产品3年质保，翻新产品1年质保，二手产品90天质保。所有产品都经过严格测试。",
+              "answer_en": "We offer different warranty periods: 3 years for new products, 1 year for refurbished products, and 90 days for used products. All products are thoroughly tested before shipment."
+            },
+            {
+              "question": "What's the lead time?",
+              "answer_cn": "库存产品通常1-2个工作日发货。非库存产品需要3-5个工作日备货。国际快递（DHL/FedEx）大约3-5天到达。",
+              "answer_en": "In-stock items usually ship within 1-2 business days. Non-stock items require 3-5 business days for preparation. International express (DHL/FedEx) takes approximately 3-5 days for delivery."
+            },
+            {
+              "question": "Do you have XX part number in stock?",
+              "answer_cn": "请提供具体的Part Number，我将立即为您查询库存和价格。我们有大量服务器配件库存，涵盖Dell、HP、IBM、Lenovo等主流品牌。",
+              "answer_en": "Please provide the specific part number and I'll check our inventory and pricing immediately. We maintain a large stock of server components covering Dell, HP, IBM, Lenovo and other major brands."
+            }
+          ]
+        },
+        {
+          "id": "msg_002",
+          "title": "处理议价请求",
+          "content": "专业处理客户的议价请求，保持利润同时维护关系。",
+          "key_points": [
+            "不要立即降价，先了解客户预算和数量",
+            "强调价值而非价格：质量、服务、保障",
+            "提供阶梯报价：数量越多价格越优",
+            "提供替代方案：不同等级产品（新/翻新/二手）"
+          ],
+          "practice_scenario": {
+            "scenario": "客户说：'Your price is too high. I got a better offer from another supplier.'",
+            "response_template": "Thank you for your feedback. May I know what quantity you're looking at? For larger orders, we can definitely offer better pricing. Also, our price includes:\n- 100% tested and guaranteed products\n- [X] year warranty with easy RMA process\n- Free technical support\n- Fast worldwide shipping\n\nIf you share the competitor's offer, I'll try my best to match or provide additional value."
+          }
+        },
+        {
+          "id": "msg_003",
+          "title": "处理产品技术问题",
+          "content": "专业回答技术性问题，建立专家形象。",
+          "common_questions": [
+            {
+              "question": "Is this memory compatible with Dell R740?",
+              "how_to_answer": "查询Dell R740的内存兼容性列表，确认支持的内存类型、频率、容量，然后给出专业回复"
+            },
+            {
+              "question": "What's the difference between RDIMM and LRDIMM?",
+              "how_to_answer": "解释技术差异：RDIMM有寄存器减少负载，LRDIMM进一步减少负载支持更大容量，并说明各自的应用场景"
+            },
+            {
+              "question": "Can I mix different speed memory?",
+              "how_to_answer": "解释混用规则：可以混用但会降频到最低速度运行，建议使用相同规格以获得最佳性能"
+            }
+          ]
+        }
+      ]
+    },
+    "email_writing": {
+      "name": "邮件撰写",
+      "name_en": "Email Writing",
+      "lessons": [
+        {
+          "id": "email_001",
+          "title": "开发信撰写技巧",
+          "content": "撰写有效的开发信，提高回复率。",
+          "key_points": [
+            "主题行：简洁、有吸引力、包含关键词",
+            "开头：个性化称呼，说明如何找到对方",
+            "正文：简明扼要介绍公司和产品优势",
+            "行动号召：明确的下一步行动",
+            "签名：完整的联系方式"
+          ],
+          "template": {
+            "subject": "Server Memory & SSD Supplier - Competitive Prices [Company Name]",
+            "body": "Dear [Name/Purchasing Manager],\n\nI noticed your company [Company Name] specializes in [their business] and thought our server components might be of interest.\n\nWe are [Your Company], a leading supplier of:\n- Server Memory (DDR3/DDR4/DDR5)\n- Enterprise SSDs & HDDs\n- RAID Controllers & HBA Cards\n- Server Power Supplies\n\n**Why work with us:**\n✓ 10+ years in server parts industry\n✓ 50,000+ SKUs in stock\n✓ Competitive pricing with volume discounts\n✓ 1-3 year warranty on all products\n✓ Fast global shipping\n\nWould you be interested in receiving our latest price list?\n\nBest regards,\n[Your Name]\n[Contact Info]"
+          }
+        },
+        {
+          "id": "email_002",
+          "title": "报价邮件撰写",
+          "content": "撰写清晰专业的报价邮件。",
+          "template": {
+            "subject": "Quotation #[Number] - [Product Category] | [Company Name]",
+            "body": "Dear [Customer Name],\n\nThank you for your inquiry. Please find our quotation below:\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n**QUOTATION**\nQuote #: [Number]\nDate: [Date]\nValid Until: [Date + 7 days]\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n| Item | Part Number | Description | Qty | Unit Price | Total |\n|------|-------------|-------------|-----|------------|-------|\n| 1 | XXX | XXX | XX | $XX | $XXX |\n| 2 | XXX | XXX | XX | $XX | $XXX |\n\n**Subtotal:** $XXX\n**Shipping:** $XX (DHL Express)\n**Total:** $XXX\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n**Terms:**\n- Payment: T/T, PayPal, Western Union\n- Lead Time: 1-2 business days\n- Warranty: [X] year(s)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nPlease confirm if you'd like to proceed with the order.\n\nBest regards,\n[Your Name]"
+          },
+          "key_points": [
+            "报价单号便于追踪",
+            "明确有效期创造紧迫感",
+            "价格表格化，清晰易读",
+            "包含所有条款避免歧义",
+            "结尾有明确的行动号召"
+          ]
+        },
+        {
+          "id": "email_003",
+          "title": "跟进邮件撰写",
+          "content": "适当跟进，不打扰客户又保持联系。",
+          "templates": [
+            {
+              "timing": "报价后3天",
+              "subject": "Following up: Quotation for [Product]",
+              "body": "Dear [Name],\n\nI wanted to follow up on the quotation I sent on [Date] for [Product].\n\nHave you had a chance to review it? Please let me know if you have any questions or need any adjustments.\n\nI'm happy to:\n- Provide additional product information\n- Adjust quantities or specifications\n- Discuss pricing for different options\n\nLooking forward to your feedback.\n\nBest regards,\n[Your Name]"
+            },
+            {
+              "timing": "报价后7天",
+              "subject": "Quick check-in: [Product] inquiry",
+              "body": "Dear [Name],\n\nJust a quick check-in regarding your inquiry for [Product].\n\nI understand you may be evaluating different options. If there's anything I can help with - whether it's pricing, technical specifications, or alternative products - please don't hesitate to reach out.\n\nOur quotation is still valid until [Date].\n\nBest regards,\n[Your Name]"
+            }
+          ],
+          "key_points": [
+            "跟进间隔：3天、7天、14天",
+            "每次跟进提供新价值",
+            "不要连续跟进造成打扰",
+            "保持专业友好的语气"
+          ]
+        }
+      ]
+    },
+    "order_conversion": {
+      "name": "订单转化",
+      "name_en": "Order Conversion",
+      "lessons": [
+        {
+          "id": "conv_001",
+          "title": "提高询盘转化率技巧",
+          "content": "将询盘转化为订单的关键技巧。",
+          "key_points": [
+            "快速响应：24小时内回复",
+            "专业报价：完整、清晰、有竞争力",
+            "建立信任：提供公司资质、客户案例",
+            "解决顾虑：主动提及质保、退换货政策",
+            "创造紧迫感：限时优惠、库存提醒"
+          ],
+          "conversion_tips": [
+            "在报价中提供多个选项（不同数量/等级/价格）",
+            "提供首单优惠或样品优惠",
+            "主动提供参考客户或评价",
+            "使用限时报价增加紧迫感"
+          ]
+        },
+        {
+          "id": "conv_002",
+          "title": "处理客户顾虑",
+          "content": "识别并解决客户下单前的顾虑。",
+          "common_concerns": [
+            {
+              "concern": "产品质量担忧",
+              "solution": "提供测试报告、质保承诺、客户评价、视频验货"
+            },
+            {
+              "concern": "交期担忧",
+              "solution": "提供库存证明、发货时间承诺、物流追踪服务"
+            },
+            {
+              "concern": "付款风险",
+              "solution": "提供多种付款方式、接受信用证、提供信保服务"
+            },
+            {
+              "concern": "售后服务",
+              "solution": "明确质保期、退换货政策、技术支持承诺"
+            }
+          ]
+        },
+        {
+          "id": "conv_003",
+          "title": "订单确认流程",
+          "content": "确保订单信息准确无误的确认流程。",
+          "checklist": [
+            "确认产品型号和Part Number",
+            "确认数量和单价",
+            "确认产品状态（新/翻新/二手）",
+            "确认发货地址和收件人",
+            "确认付款方式和金额",
+            "确认发货方式和预计到达时间",
+            "获取客户书面确认（邮件/PI签字）"
+          ],
+          "template": {
+            "subject": "Order Confirmation - [Order Number]",
+            "body": "Dear [Customer Name],\n\nThank you for your order! Please review and confirm the details below:\n\n**Order Number:** [Number]\n**Order Date:** [Date]\n\n**Products:**\n[Product List with PN, Qty, Price]\n\n**Shipping:**\nAddress: [Full Address]\nMethod: [DHL/FedEx]\nEstimated Delivery: [Date]\n\n**Payment:**\nTotal: $XXX\nMethod: [T/T/PayPal]\nBank Details: [If applicable]\n\n**Please reply to confirm this order or let me know if any changes are needed.**\n\nBest regards,\n[Your Name]"
+          }
+        }
+      ]
+    },
+    "payment_collection": {
+      "name": "付款催款",
+      "name_en": "Payment Collection",
+      "lessons": [
+        {
+          "id": "pay_001",
+          "title": "付款方式介绍",
+          "content": "了解外贸常用付款方式及其特点。",
+          "payment_methods": [
+            {
+              "method": "T/T (电汇)",
+              "description": "银行电汇，最常用的B2B付款方式",
+              "pros": "安全、正规、有银行记录",
+              "cons": "有手续费、到账需要1-3天"
+            },
+            {
+              "method": "PayPal",
+              "description": "在线支付平台",
+              "pros": "快速、方便、买家保护",
+              "cons": "手续费较高(约4%)、有争议风险"
+            },
+            {
+              "method": "Western Union",
+              "description": "国际汇款服务",
+              "pros": "快速到账、无需银行账户",
+              "cons": "手续费高、金额限制"
+            },
+            {
+              "method": "L/C (信用证)",
+              "description": "银行担保的付款方式",
+              "pros": "安全性最高、适合大额交易",
+              "cons": "流程复杂、费用高"
+            }
+          ]
+        },
+        {
+          "id": "pay_002",
+          "title": "催款邮件技巧",
+          "content": "礼貌而有效地催收款项。",
+          "templates": [
+            {
+              "timing": "付款到期前3天",
+              "subject": "Payment Reminder - Invoice #[Number]",
+              "body": "Dear [Customer Name],\n\nThis is a friendly reminder that payment for Invoice #[Number] in the amount of $[Amount] is due on [Date].\n\nFor your convenience, our payment details are:\n[Bank Details / PayPal]\n\nIf you have already made the payment, please disregard this message and kindly send us the payment confirmation.\n\nThank you for your business!\n\nBest regards,\n[Your Name]"
+            },
+            {
+              "timing": "付款逾期3天",
+              "subject": "Payment Overdue - Invoice #[Number]",
+              "body": "Dear [Customer Name],\n\nI hope this email finds you well. I'm writing regarding Invoice #[Number] for $[Amount], which was due on [Date].\n\nAs we haven't received the payment yet, could you please let us know the status? If there are any issues or concerns, I'd be happy to discuss.\n\nOnce payment is received, we can proceed with preparing your order for shipment.\n\nLooking forward to hearing from you.\n\nBest regards,\n[Your Name]"
+            },
+            {
+              "timing": "付款逾期7天",
+              "subject": "Urgent: Payment Required - Invoice #[Number]",
+              "body": "Dear [Customer Name],\n\nI'm following up regarding the outstanding payment for Invoice #[Number] ($[Amount]), which is now [X] days overdue.\n\nTo maintain your order and our business relationship, we kindly request immediate payment. Please contact me if you need to discuss payment arrangements.\n\nWe value your business and hope to resolve this matter promptly.\n\nBest regards,\n[Your Name]"
+            }
+          ]
+        }
+      ]
+    },
+    "after_sales": {
+      "name": "售后服务",
+      "name_en": "After-Sales Service",
+      "lessons": [
+        {
+          "id": "after_001",
+          "title": "发货通知",
+          "content": "专业的发货通知让客户放心。",
+          "template": {
+            "subject": "Shipment Notification - Order #[Number]",
+            "body": "Dear [Customer Name],\n\nGreat news! Your order has been shipped.\n\n**Shipment Details:**\n- Order Number: [Number]\n- Carrier: [DHL/FedEx/UPS]\n- Tracking Number: [Number]\n- Tracking Link: [URL]\n- Estimated Delivery: [Date]\n\n**Package Contents:**\n[Product List]\n\nYou can track your shipment using the tracking number above. Please ensure someone is available to receive the package.\n\nIf you have any questions, please don't hesitate to contact me.\n\nThank you for your business!\n\nBest regards,\n[Your Name]"
+          }
+        },
+        {
+          "id": "after_002",
+          "title": "处理质量投诉",
+          "content": "专业处理客户的质量投诉。",
+          "process": [
+            "1. 立即响应，表示重视",
+            "2. 收集详细信息：问题描述、照片/视频、批次号",
+            "3. 内部核实：检查库存同批次产品",
+            "4. 提供解决方案：换货、退款、折扣补偿",
+            "5. 跟进确保问题解决",
+            "6. 记录问题，改进流程"
+          ],
+          "template": {
+            "subject": "Re: Quality Issue - Order #[Number]",
+            "body": "Dear [Customer Name],\n\nI'm sorry to hear about the issue with your order. We take quality concerns very seriously.\n\nTo help resolve this matter quickly, could you please provide:\n1. Photos/videos of the defective product(s)\n2. Part numbers of the affected items\n3. Description of the specific issue\n\nOnce I receive this information, I will work with our quality team to investigate and provide a solution within 24 hours.\n\nWe value your business and will ensure this is resolved to your satisfaction.\n\nBest regards,\n[Your Name]"
+          }
+        },
+        {
+          "id": "after_003",
+          "title": "RMA退换货流程",
+          "content": "规范的RMA流程提升客户体验。",
+          "rma_process": [
+            "1. 客户提交RMA申请（问题描述、照片证据）",
+            "2. 审核申请，确认是否在质保期内",
+            "3. 批准后发送RMA编号和退货地址",
+            "4. 收到退货后检测确认问题",
+            "5. 安排换货或退款",
+            "6. 通知客户处理结果"
+          ],
+          "template": {
+            "subject": "RMA Approved - RMA #[Number]",
+            "body": "Dear [Customer Name],\n\nYour RMA request has been approved.\n\n**RMA Number:** [Number]\n**Products for Return:** [List]\n**Resolution:** [Replacement/Refund]\n\n**Return Instructions:**\n1. Pack the items securely in their original packaging if possible\n2. Include the RMA number on the outside of the package\n3. Ship to: [Return Address]\n\n**Important:**\n- Please ship within 14 days\n- Keep the tracking number for your records\n- We will process your [replacement/refund] within 3 business days of receiving the return\n\nPlease let me know if you have any questions.\n\nBest regards,\n[Your Name]"
+          }
+        },
+        {
+          "id": "after_004",
+          "title": "客户关系维护",
+          "content": "维护老客户关系，促进复购。",
+          "strategies": [
+            "定期问候：节假日祝福、生日祝福",
+            "新品推荐：根据购买历史推荐相关产品",
+            "优惠活动：老客户专属折扣",
+            "主动跟进：发货后询问使用情况",
+            "建立联系：添加即时通讯工具保持联系"
+          ],
+          "template": {
+            "subject": "Special Offer for Our Valued Customer",
+            "body": "Dear [Customer Name],\n\nThank you for being a valued customer of [Company Name]!\n\nAs a token of our appreciation, we'd like to offer you an exclusive [X]% discount on your next order.\n\n**Discount Code:** [CODE]\n**Valid Until:** [Date]\n\nWe've also just received new stock of:\n- [Product 1] - Now available\n- [Product 2] - Limited quantity\n\nLet me know if you'd like me to reserve any items for you.\n\nBest regards,\n[Your Name]"
+          }
+        }
+      ]
+    }
+  }
+}
