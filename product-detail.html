@@ -5,122 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Details - P64709-B21 128GB DDR5 Memory</title>
     <style>
-        /* 整个询盘banner区域 - 可点击 */
+        /* 询盘banner - 整个区域可点击 */
         .message-now-banner {
             display: block;
             text-decoration: none;
             margin: 50px 0;
-            padding: 50px 40px;
-            background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 50%, #90CAF9 100%);
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0, 90, 156, 0.2);
-            border: 3px solid #64B5F6;
+            padding: 60px 40px;
+            background: #BBDEFB;
+            border-radius: 8px;
             cursor: pointer;
-            transition: all 0.4s ease;
+            transition: all 0.3s ease;
             text-align: center;
-            position: relative;
-            overflow: hidden;
         }
 
         .message-now-banner:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 30px rgba(0, 90, 156, 0.35);
-            background: linear-gradient(135deg, #BBDEFB 0%, #90CAF9 50%, #64B5F6 100%);
-            border-color: #42A5F5;
+            background: #90CAF9;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 90, 156, 0.25);
         }
 
-        .message-now-banner::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
-            animation: pulse 3s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.5; }
-            50% { transform: scale(1.1); opacity: 0.8; }
-        }
-
-        /* 图标区域 */
-        .message-icon {
-            display: inline-block;
-            font-size: 48px;
-            margin-bottom: 15px;
-            animation: bounce 2s ease-in-out infinite;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        /* 主标题 */
-        .message-title {
-            color: #005a9c;
-            font-size: 28px;
-            font-weight: bold;
-            margin: 15px 0;
-            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
-        }
-
-        /* 副标题 */
-        .message-subtitle {
-            color: #0277BD;
-            font-size: 18px;
-            margin: 10px 0 20px 0;
-            font-weight: 600;
-        }
-
-        /* 按钮样式 */
-        .message-cta-button {
-            display: inline-block;
-            background: linear-gradient(135deg, #005a9c 0%, #0277BD 100%);
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-            padding: 20px 80px;
-            border-radius: 50px;
-            box-shadow: 0 6px 20px rgba(0, 90, 156, 0.4);
-            margin: 15px 0;
-            border: 3px solid white;
-            position: relative;
-            z-index: 10;
-        }
-
-        .message-now-banner:hover .message-cta-button {
-            background: linear-gradient(135deg, #0277BD 0%, #01579B 100%);
-            transform: scale(1.05);
-            box-shadow: 0 8px 25px rgba(0, 90, 156, 0.5);
-        }
-
-        /* 底部提示文字 */
-        .message-features {
-            color: #424242;
-            font-size: 15px;
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 25px;
-        }
-
-        .message-features span {
-            display: inline-flex;
-            align-items: center;
-            font-weight: 600;
-        }
-
-        .message-features span::before {
-            content: "✓";
-            color: #4CAF50;
+        /* banner内的文字 */
+        .message-banner-text {
+            color: #333;
             font-size: 20px;
-            font-weight: bold;
-            margin-right: 8px;
+            font-weight: normal;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        /* Message now按钮 */
+        .message-btn {
+            display: inline-block;
+            background: white;
+            color: #333;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 16px 60px;
+            border: 2px solid #333;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .message-now-banner:hover .message-btn {
+            background: #005a9c;
+            color: white;
+            border-color: #005a9c;
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -146,15 +76,11 @@
 
 <!-- 第一个询盘banner - Product Details部分之后 -->
 <a href="https://message.alibaba.com/" class="message-now-banner" target="_blank">
-    <div class="message-icon">✉️</div>
-    <div class="message-title">Interested in this product?</div>
-    <div class="message-subtitle">Get your instant quote now! Professional team ready to assist you!</div>
-    <div class="message-cta-button">💬 MESSAGE NOW</div>
-    <div class="message-features">
-        <span>24 Hours Quick Response</span>
-        <span>Professional Service Team</span>
-        <span>Free Technical Support</span>
+    <div class="message-banner-text">
+        Hi! Our product is certified by professionals.<br>
+        Feel free to ask for more details!
     </div>
+    <div class="message-btn">Message now</div>
 </a>
 
 <div style="margin-bottom: 20px;"><sup><img src="//sc04.alicdn.com/kf/H4e65dcb5675747c6b771a7e9493ad77cY/201487309/H4e65dcb5675747c6b771a7e9493ad77cY.jpg" alt="DDR5 5600 (1)" style="display: block; margin-left: auto; margin-right: auto;" ori-width="896" ori-height="894" /></sup></div>
@@ -243,15 +169,11 @@
 
 <!-- 第二个询盘banner - 产品详情表格和Company Profile之间 -->
 <a href="https://message.alibaba.com/" class="message-now-banner" target="_blank">
-    <div class="message-icon">🎯</div>
-    <div class="message-title">Have Questions About Specifications or Pricing?</div>
-    <div class="message-subtitle">Contact us for detailed product information and best wholesale prices!</div>
-    <div class="message-cta-button">💬 MESSAGE NOW</div>
-    <div class="message-features">
-        <span>Large Stock Available</span>
-        <span>Competitive Wholesale Prices</span>
-        <span>Worldwide Fast Shipping</span>
+    <div class="message-banner-text">
+        Have questions about specifications or pricing?<br>
+        Contact us for detailed product information and best wholesale prices!
     </div>
+    <div class="message-btn">Message now</div>
 </a>
 
 <div style="margin-bottom: 50px;">
@@ -399,15 +321,11 @@
 
 <!-- 第三个询盘banner - Related Products和FAQ之间 -->
 <a href="https://message.alibaba.com/" class="message-now-banner" target="_blank">
-    <div class="message-icon">🔥</div>
-    <div class="message-title">Need More Products or Bulk Order Quotation?</div>
-    <div class="message-subtitle">Special discounts for bulk orders! Let's discuss your requirements!</div>
-    <div class="message-cta-button">💬 MESSAGE NOW</div>
-    <div class="message-features">
-        <span>13+ Years Experience</span>
-        <span>5000+ Satisfied Customers</span>
-        <span>Best Wholesale Prices</span>
+    <div class="message-banner-text">
+        Need more products or bulk order quotation?<br>
+        Special discounts for bulk orders! Let's discuss your requirements!
     </div>
+    <div class="message-btn">Message now</div>
 </a>
 
 <div style="margin-bottom: 50px;">
