@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 产品目录生成脚本
-创建精美的Word产品目录模板
+创建精美的Word产品目录模板 - 优化版
 """
 
 from docx import Document
-from docx.shared import Inches, Pt, Cm, RGBColor
+from docx.shared import Inches, Pt, Cm, RGBColor, Emu
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_CELL_VERTICAL_ALIGNMENT
 from docx.enum.style import WD_STYLE_TYPE
@@ -13,124 +13,164 @@ from docx.oxml.ns import qn, nsdecls
 from docx.oxml import parse_xml
 import os
 
+# Baby蓝色 RGB: 137, 207, 240 -> Hex: 89CFE0
+BABY_BLUE = "89CFE0"
+BABY_BLUE_LIGHT = "D6EEF8"
+BABY_BLUE_DARK = "5DADE2"
+DARK_BLUE = "003366"
+WHITE = "FFFFFF"
+
 def set_cell_shading(cell, color):
     """设置单元格背景颜色"""
     shading_elm = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{color}"/>')
     cell._tc.get_or_add_tcPr().append(shading_elm)
 
-def set_cell_border(cell, **kwargs):
+def set_cell_border(cell, color="CCCCCC", size="4"):
     """设置单元格边框"""
     tc = cell._tc
     tcPr = tc.get_or_add_tcPr()
     tcBorders = parse_xml(
         f'<w:tcBorders {nsdecls("w")}>'
-        f'<w:top w:val="single" w:sz="4" w:color="CCCCCC"/>'
-        f'<w:left w:val="single" w:sz="4" w:color="CCCCCC"/>'
-        f'<w:bottom w:val="single" w:sz="4" w:color="CCCCCC"/>'
-        f'<w:right w:val="single" w:sz="4" w:color="CCCCCC"/>'
+        f'<w:top w:val="single" w:sz="{size}" w:color="{color}"/>'
+        f'<w:left w:val="single" w:sz="{size}" w:color="{color}"/>'
+        f'<w:bottom w:val="single" w:sz="{size}" w:color="{color}"/>'
+        f'<w:right w:val="single" w:sz="{size}" w:color="{color}"/>'
+        f'</w:tcBorders>'
+    )
+    tcPr.append(tcBorders)
+
+def set_cell_diagonal_border(cell, color="89CFE0"):
+    """设置单元格对角线边框（创建菱格效果）"""
+    tc = cell._tc
+    tcPr = tc.get_or_add_tcPr()
+    tcBorders = parse_xml(
+        f'<w:tcBorders {nsdecls("w")}>'
+        f'<w:tl2br w:val="single" w:sz="6" w:color="{color}"/>'
+        f'<w:tr2bl w:val="single" w:sz="6" w:color="{color}"/>'
         f'</w:tcBorders>'
     )
     tcPr.append(tcBorders)
 
 def create_cover_page(doc):
-    """创建封面页"""
-    # 添加空行来居中内容
-    for _ in range(6):
-        doc.add_paragraph()
+    """创建封面页 - 白底baby蓝菱格设计"""
 
-    # 公司Logo占位
-    logo_para = doc.add_paragraph()
-    logo_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = logo_para.add_run("[ 公司LOGO ]")
-    run.font.size = Pt(24)
-    run.font.color.rgb = RGBColor(128, 128, 128)
-    run.font.name = 'Microsoft YaHei'
-    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+    # 创建菱格背景表格 (8行x6列的小格子，每个格子有对角线)
+    diamond_table = doc.add_table(rows=8, cols=6)
+    diamond_table.alignment = WD_TABLE_ALIGNMENT.CENTER
 
-    doc.add_paragraph()
-
-    # 公司名称
-    company_para = doc.add_paragraph()
-    company_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = company_para.add_run("您的公司名称")
-    run.font.size = Pt(36)
-    run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 51, 102)
-    run.font.name = 'Microsoft YaHei'
-    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+    # 设置每个单元格的对角线边框形成菱格
+    for row in diamond_table.rows:
+        row.height = Cm(1.8)
+        for cell in row.cells:
+            set_cell_shading(cell, WHITE)
+            set_cell_diagonal_border(cell, BABY_BLUE)
 
     doc.add_paragraph()
 
-    # 产品目录标题
-    title_para = doc.add_paragraph()
-    title_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = title_para.add_run("产 品 目 录")
-    run.font.size = Pt(48)
-    run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 153)
-    run.font.name = 'Microsoft YaHei'
-    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+    # 主内容区域 - 白色背景卡片
+    content_table = doc.add_table(rows=1, cols=1)
+    content_table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    content_cell = content_table.cell(0, 0)
+    set_cell_shading(content_cell, WHITE)
+    set_cell_border(content_cell, BABY_BLUE, "12")
 
-    # 英文标题
-    eng_title = doc.add_paragraph()
-    eng_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = eng_title.add_run("PRODUCT CATALOG")
-    run.font.size = Pt(20)
-    run.font.color.rgb = RGBColor(102, 102, 102)
-    run.font.name = 'Arial'
-
-    doc.add_paragraph()
-    doc.add_paragraph()
-
-    # 年份
-    year_para = doc.add_paragraph()
-    year_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = year_para.add_run("2024-2025")
-    run.font.size = Pt(18)
-    run.font.color.rgb = RGBColor(128, 128, 128)
+    # 在单元格内添加内容
+    para = content_cell.paragraphs[0]
+    para.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     # 添加空行
-    for _ in range(4):
-        doc.add_paragraph()
+    para.add_run("\n\n")
+
+    # 公司Logo占位
+    logo_run = para.add_run("[ 公司LOGO ]\n\n")
+    logo_run.font.size = Pt(18)
+    logo_run.font.color.rgb = RGBColor(137, 207, 240)
+    logo_run.font.name = 'Microsoft YaHei'
+    logo_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+    # 公司名称
+    company_run = para.add_run("您的公司名称\n")
+    company_run.font.size = Pt(32)
+    company_run.font.bold = True
+    company_run.font.color.rgb = RGBColor(0, 51, 102)
+    company_run.font.name = 'Microsoft YaHei'
+    company_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+    # 分隔线效果
+    line_run = para.add_run("━" * 20 + "\n\n")
+    line_run.font.size = Pt(12)
+    line_run.font.color.rgb = RGBColor(137, 207, 240)
+
+    # 产品目录标题
+    title_run = para.add_run("产 品 目 录\n")
+    title_run.font.size = Pt(42)
+    title_run.font.bold = True
+    title_run.font.color.rgb = RGBColor(93, 173, 226)
+    title_run.font.name = 'Microsoft YaHei'
+    title_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+    # 英文标题
+    eng_run = para.add_run("PRODUCT CATALOG\n\n")
+    eng_run.font.size = Pt(16)
+    eng_run.font.color.rgb = RGBColor(128, 128, 128)
+    eng_run.font.name = 'Arial'
+
+    # 年份
+    year_run = para.add_run("2024 - 2025\n\n\n")
+    year_run.font.size = Pt(14)
+    year_run.font.color.rgb = RGBColor(137, 207, 240)
 
     # 联系信息
-    contact_para = doc.add_paragraph()
-    contact_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = contact_para.add_run("电话：XXX-XXXX-XXXX | 邮箱：example@company.com")
-    run.font.size = Pt(12)
-    run.font.color.rgb = RGBColor(102, 102, 102)
-    run.font.name = 'Microsoft YaHei'
-    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+    contact_run = para.add_run("电话：XXX-XXXX-XXXX | 邮箱：example@company.com\n")
+    contact_run.font.size = Pt(10)
+    contact_run.font.color.rgb = RGBColor(102, 102, 102)
+    contact_run.font.name = 'Microsoft YaHei'
+    contact_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
-    address_para = doc.add_paragraph()
-    address_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = address_para.add_run("地址：您的公司地址")
-    run.font.size = Pt(12)
-    run.font.color.rgb = RGBColor(102, 102, 102)
-    run.font.name = 'Microsoft YaHei'
-    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+    address_run = para.add_run("地址：您的公司地址\n\n")
+    address_run.font.size = Pt(10)
+    address_run.font.color.rgb = RGBColor(102, 102, 102)
+    address_run.font.name = 'Microsoft YaHei'
+    address_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+    # 底部菱格装饰
+    doc.add_paragraph()
+    bottom_table = doc.add_table(rows=3, cols=6)
+    bottom_table.alignment = WD_TABLE_ALIGNMENT.CENTER
+
+    for row in bottom_table.rows:
+        row.height = Cm(1.2)
+        for cell in row.cells:
+            set_cell_shading(cell, WHITE)
+            set_cell_diagonal_border(cell, BABY_BLUE)
 
     # 分页
     doc.add_page_break()
 
 def create_company_intro_page(doc):
     """创建公司介绍页"""
-    # 标题
-    title = doc.add_paragraph()
-    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = title.add_run("关于我们")
-    run.font.size = Pt(28)
-    run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 51, 102)
-    run.font.name = 'Microsoft YaHei'
-    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+    # 标题装饰条
+    header_table = doc.add_table(rows=1, cols=3)
+    header_table.alignment = WD_TABLE_ALIGNMENT.CENTER
 
-    # 英文副标题
-    subtitle = doc.add_paragraph()
-    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = subtitle.add_run("ABOUT US")
-    run.font.size = Pt(14)
-    run.font.color.rgb = RGBColor(102, 102, 102)
+    cell0 = header_table.cell(0, 0)
+    set_cell_shading(cell0, BABY_BLUE)
+    cell0.paragraphs[0].add_run("  ")
+
+    cell1 = header_table.cell(0, 1)
+    set_cell_shading(cell1, WHITE)
+    para1 = cell1.paragraphs[0]
+    para1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run1 = para1.add_run("关于我们 ABOUT US")
+    run1.font.size = Pt(24)
+    run1.font.bold = True
+    run1.font.color.rgb = RGBColor(0, 51, 102)
+    run1.font.name = 'Microsoft YaHei'
+    run1._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+    cell2 = header_table.cell(0, 2)
+    set_cell_shading(cell2, BABY_BLUE)
+    cell2.paragraphs[0].add_run("  ")
 
     doc.add_paragraph()
 
@@ -138,7 +178,8 @@ def create_company_intro_page(doc):
     intro_table = doc.add_table(rows=1, cols=1)
     intro_table.alignment = WD_TABLE_ALIGNMENT.CENTER
     cell = intro_table.cell(0, 0)
-    set_cell_shading(cell, "F5F5F5")
+    set_cell_shading(cell, BABY_BLUE_LIGHT)
+    set_cell_border(cell, BABY_BLUE, "8")
 
     cell_para = cell.paragraphs[0]
     run = cell_para.add_run("""
@@ -163,12 +204,15 @@ def create_company_intro_page(doc):
 
     # 我们的优势
     adv_title = doc.add_paragraph()
-    run = adv_title.add_run("我们的优势")
+    adv_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = adv_title.add_run("◆ 我们的优势 ◆")
     run.font.size = Pt(18)
     run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 153)
+    run.font.color.rgb = RGBColor(0, 51, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+    doc.add_paragraph()
 
     # 优势表格 2x2
     adv_table = doc.add_table(rows=2, cols=2)
@@ -185,13 +229,14 @@ def create_company_intro_page(doc):
         row = i // 2
         col = i % 2
         cell = adv_table.cell(row, col)
-        set_cell_shading(cell, "E8F4F8")
+        set_cell_shading(cell, BABY_BLUE_LIGHT)
+        set_cell_border(cell, BABY_BLUE, "6")
         para = cell.paragraphs[0]
 
         title_run = para.add_run(title + "\n")
         title_run.font.size = Pt(14)
         title_run.font.bold = True
-        title_run.font.color.rgb = RGBColor(0, 102, 153)
+        title_run.font.color.rgb = RGBColor(0, 51, 102)
         title_run.font.name = 'Microsoft YaHei'
         title_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -207,7 +252,7 @@ def create_packaging_page(doc):
     # 标题
     title = doc.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = title.add_run("包装展示")
+    run = title.add_run("◆ 包装展示 ◆")
     run.font.size = Pt(28)
     run.font.bold = True
     run.font.color.rgb = RGBColor(0, 51, 102)
@@ -218,46 +263,43 @@ def create_packaging_page(doc):
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = subtitle.add_run("PACKAGING DISPLAY")
     run.font.size = Pt(14)
-    run.font.color.rgb = RGBColor(102, 102, 102)
+    run.font.color.rgb = RGBColor(137, 207, 240)
 
     doc.add_paragraph()
 
     # 包装图片展示 - 2行3列布局
-    pack_table = doc.add_table(rows=4, cols=3)
-    pack_table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    for row_num in range(2):
+        row_table = doc.add_table(rows=2, cols=3)
+        row_table.alignment = WD_TABLE_ALIGNMENT.CENTER
 
-    pack_items = [
-        "产品包装展示1", "产品包装展示2", "产品包装展示3",
-        "[插入包装图片]", "[插入包装图片]", "[插入包装图片]",
-        "产品包装展示4", "产品包装展示5", "产品包装展示6",
-        "[插入包装图片]", "[插入包装图片]", "[插入包装图片]"
-    ]
-
-    for i, item in enumerate(pack_items):
-        row = i // 3
-        col = i % 3
-        cell = pack_table.cell(row, col)
-        cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
-
-        para = cell.paragraphs[0]
-        para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-
-        if "插入" in item:
-            set_cell_shading(cell, "F0F0F0")
-            run = para.add_run(item)
+        # 图片行
+        for col in range(3):
+            cell = row_table.cell(0, col)
+            set_cell_shading(cell, BABY_BLUE_LIGHT)
+            set_cell_border(cell, BABY_BLUE, "6")
+            cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
+            para = cell.paragraphs[0]
+            para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            run = para.add_run(f"\n\n[ 包装图片 {row_num * 3 + col + 1} ]\n\n")
             run.font.size = Pt(12)
-            run.font.color.rgb = RGBColor(128, 128, 128)
-        else:
-            run = para.add_run(item)
+            run.font.color.rgb = RGBColor(93, 173, 226)
+            run.font.name = 'Microsoft YaHei'
+            run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+        # 标题行
+        for col in range(3):
+            cell = row_table.cell(1, col)
+            set_cell_shading(cell, WHITE)
+            para = cell.paragraphs[0]
+            para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            run = para.add_run(f"包装展示 {row_num * 3 + col + 1}")
             run.font.size = Pt(11)
             run.font.bold = True
-            run.font.color.rgb = RGBColor(0, 102, 153)
+            run.font.color.rgb = RGBColor(0, 51, 102)
+            run.font.name = 'Microsoft YaHei'
+            run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
-        run.font.name = 'Microsoft YaHei'
-        run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
-
-    doc.add_paragraph()
-    doc.add_paragraph()
+        doc.add_paragraph()
 
     # 说明文字
     note = doc.add_paragraph()
@@ -275,7 +317,7 @@ def create_catalog_page(doc):
     """创建产品目录索引页"""
     title = doc.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = title.add_run("产品目录")
+    run = title.add_run("◆ 产品目录 ◆")
     run.font.size = Pt(28)
     run.font.bold = True
     run.font.color.rgb = RGBColor(0, 51, 102)
@@ -286,7 +328,7 @@ def create_catalog_page(doc):
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = subtitle.add_run("CONTENTS")
     run.font.size = Pt(14)
-    run.font.color.rgb = RGBColor(102, 102, 102)
+    run.font.color.rgb = RGBColor(137, 207, 240)
 
     doc.add_paragraph()
     doc.add_paragraph()
@@ -307,7 +349,7 @@ def create_catalog_page(doc):
 
         # 序号
         cell0 = item_table.cell(0, 0)
-        set_cell_shading(cell0, "003366")
+        set_cell_shading(cell0, BABY_BLUE)
         para0 = cell0.paragraphs[0]
         para0.alignment = WD_ALIGN_PARAGRAPH.CENTER
         run0 = para0.add_run(num)
@@ -317,8 +359,9 @@ def create_catalog_page(doc):
 
         # 标题
         cell1 = item_table.cell(0, 1)
+        set_cell_shading(cell1, BABY_BLUE_LIGHT)
         para1 = cell1.paragraphs[0]
-        run1 = para1.add_run(title_text)
+        run1 = para1.add_run("  " + title_text)
         run1.font.size = Pt(16)
         run1.font.bold = True
         run1.font.color.rgb = RGBColor(0, 51, 102)
@@ -327,8 +370,10 @@ def create_catalog_page(doc):
 
         # 描述
         cell2 = item_table.cell(0, 2)
+        set_cell_shading(cell2, WHITE)
+        set_cell_border(cell2, BABY_BLUE, "4")
         para2 = cell2.paragraphs[0]
-        run2 = para2.add_run(desc)
+        run2 = para2.add_run("  " + desc)
         run2.font.size = Pt(12)
         run2.font.color.rgb = RGBColor(102, 102, 102)
         run2.font.name = 'Microsoft YaHei'
@@ -338,19 +383,20 @@ def create_catalog_page(doc):
 
     doc.add_page_break()
 
-def create_product_section_header(doc, title, subtitle, color="003366"):
+def create_product_section_header(doc, title, subtitle, color=BABY_BLUE):
     """创建产品分类标题"""
     # 标题背景
     header_table = doc.add_table(rows=1, cols=1)
     header_table.alignment = WD_TABLE_ALIGNMENT.CENTER
     cell = header_table.cell(0, 0)
     set_cell_shading(cell, color)
+    set_cell_border(cell, color, "0")
 
     para = cell.paragraphs[0]
     para.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-    run = para.add_run(title)
-    run.font.size = Pt(24)
+    run = para.add_run("  " + title + "  ")
+    run.font.size = Pt(22)
     run.font.bold = True
     run.font.color.rgb = RGBColor(255, 255, 255)
     run.font.name = 'Microsoft YaHei'
@@ -360,55 +406,8 @@ def create_product_section_header(doc, title, subtitle, color="003366"):
     sub = doc.add_paragraph()
     sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = sub.add_run(subtitle)
-    run.font.size = Pt(14)
+    run.font.size = Pt(12)
     run.font.color.rgb = RGBColor(102, 102, 102)
-
-    doc.add_paragraph()
-
-def create_product_card(doc, product_data):
-    """创建单个产品卡片"""
-    # 产品卡片表格
-    card_table = doc.add_table(rows=1, cols=2)
-    card_table.alignment = WD_TABLE_ALIGNMENT.CENTER
-
-    # 左侧 - 产品图片
-    img_cell = card_table.cell(0, 0)
-    set_cell_shading(img_cell, "F8F8F8")
-    img_cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
-
-    img_para = img_cell.paragraphs[0]
-    img_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = img_para.add_run("\n\n[ 产品图片 ]\n\n")
-    run.font.size = Pt(14)
-    run.font.color.rgb = RGBColor(128, 128, 128)
-    run.font.name = 'Microsoft YaHei'
-    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
-
-    # 右侧 - 产品信息
-    info_cell = card_table.cell(0, 1)
-    info_para = info_cell.paragraphs[0]
-
-    # 产品名称
-    name_run = info_para.add_run(product_data['name'] + "\n")
-    name_run.font.size = Pt(14)
-    name_run.font.bold = True
-    name_run.font.color.rgb = RGBColor(0, 51, 102)
-    name_run.font.name = 'Microsoft YaHei'
-    name_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
-
-    # 产品型号
-    model_run = info_para.add_run("型号: " + product_data['model'] + "\n\n")
-    model_run.font.size = Pt(11)
-    model_run.font.color.rgb = RGBColor(0, 102, 153)
-    model_run.font.name = 'Microsoft YaHei'
-    model_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
-
-    # 产品参数
-    for key, value in product_data.get('specs', {}).items():
-        spec_run = info_para.add_run(f"• {key}: {value}\n")
-        spec_run.font.size = Pt(10)
-        spec_run.font.name = 'Microsoft YaHei'
-        spec_run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
     doc.add_paragraph()
 
@@ -422,7 +421,7 @@ def create_product_table(doc, products, columns):
     header_row = table.rows[0]
     for i, col_name in enumerate(columns):
         cell = header_row.cells[i]
-        set_cell_shading(cell, "003366")
+        set_cell_shading(cell, BABY_BLUE)
         para = cell.paragraphs[0]
         para.alignment = WD_ALIGN_PARAGRAPH.CENTER
         run = para.add_run(col_name)
@@ -435,12 +434,12 @@ def create_product_table(doc, products, columns):
     # 添加产品数据
     for idx, product in enumerate(products):
         row = table.add_row()
-        bg_color = "FFFFFF" if idx % 2 == 0 else "F5F5F5"
+        bg_color = WHITE if idx % 2 == 0 else BABY_BLUE_LIGHT
 
         for i, value in enumerate(product):
             cell = row.cells[i]
             set_cell_shading(cell, bg_color)
-            set_cell_border(cell)
+            set_cell_border(cell, BABY_BLUE, "4")
             para = cell.paragraphs[0]
             run = para.add_run(str(value))
             run.font.size = Pt(9)
@@ -456,8 +455,8 @@ def main():
     # 设置页面边距
     sections = doc.sections
     for section in sections:
-        section.top_margin = Cm(2)
-        section.bottom_margin = Cm(2)
+        section.top_margin = Cm(1.5)
+        section.bottom_margin = Cm(1.5)
         section.left_margin = Cm(2)
         section.right_margin = Cm(2)
 
@@ -479,9 +478,9 @@ def main():
     # HPE G10 系列内存
     g10_title = doc.add_paragraph()
     run = g10_title.add_run("▶ G10 系列内存")
-    run.font.size = Pt(16)
+    run.font.size = Pt(14)
     run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 153)
+    run.font.color.rgb = RGBColor(0, 51, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -501,9 +500,9 @@ def main():
     # HPE G10+ 系列内存
     g10plus_title = doc.add_paragraph()
     run = g10plus_title.add_run("▶ G10+ 系列内存")
-    run.font.size = Pt(16)
+    run.font.size = Pt(14)
     run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 153)
+    run.font.color.rgb = RGBColor(0, 51, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -520,9 +519,9 @@ def main():
     # HPE G11 系列内存 (DDR5)
     g11_title = doc.add_paragraph()
     run = g11_title.add_run("▶ G11 系列内存 (DDR5)")
-    run.font.size = Pt(16)
+    run.font.size = Pt(14)
     run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 153)
+    run.font.color.rgb = RGBColor(0, 51, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -545,7 +544,7 @@ def main():
     doc.add_page_break()
 
     # ==================== Dell 服务器内存 ====================
-    create_product_section_header(doc, "Dell 服务器内存", "Dell Server Memory Series", "0066A1")
+    create_product_section_header(doc, "Dell 服务器内存", "Dell Server Memory Series", "5DADE2")
 
     dell_products = [
         ("AA601616", "SNP8WKDYC/32G 32GB PC4-23400 DDR4-2933MHz", "32GB", "DDR4-2933", "2Rx4"),
@@ -573,7 +572,7 @@ def main():
     doc.add_page_break()
 
     # ==================== Lenovo 服务器内存 ====================
-    create_product_section_header(doc, "Lenovo 服务器内存", "Lenovo ThinkSystem Memory Series", "E2231A")
+    create_product_section_header(doc, "Lenovo 服务器内存", "Lenovo ThinkSystem Memory Series", "3498DB")
 
     lenovo_products = [
         ("4ZC7A08707", "ThinkSystem 01KR353 16GB 1Rx4 PC4-2933Y", "16GB", "DDR4-2933", "1Rx4"),
@@ -607,14 +606,14 @@ def main():
     doc.add_page_break()
 
     # ==================== HPE 企业级硬盘 ====================
-    create_product_section_header(doc, "HPE 企业级硬盘", "HPE Enterprise SAS HDD Series", "006633")
+    create_product_section_header(doc, "HPE 企业级硬盘", "HPE Enterprise SAS HDD Series", "2E86C1")
 
     # 企业级 10K/15K 硬盘
     enterprise_title = doc.add_paragraph()
     run = enterprise_title.add_run("▶ 企业级 10K/15K SAS 硬盘 (2.5寸 SFF)")
-    run.font.size = Pt(16)
+    run.font.size = Pt(14)
     run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 102)
+    run.font.color.rgb = RGBColor(0, 51, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -634,9 +633,9 @@ def main():
     # Midline 7.2K 硬盘
     midline_title = doc.add_paragraph()
     run = midline_title.add_run("▶ Midline 7.2K SAS 硬盘")
-    run.font.size = Pt(16)
+    run.font.size = Pt(14)
     run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 102)
+    run.font.color.rgb = RGBColor(0, 51, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -656,9 +655,9 @@ def main():
     # Mission Critical 硬盘
     mc_title = doc.add_paragraph()
     run = mc_title.add_run("▶ Mission Critical SAS 硬盘")
-    run.font.size = Pt(16)
+    run.font.size = Pt(14)
     run.font.bold = True
-    run.font.color.rgb = RGBColor(0, 102, 102)
+    run.font.color.rgb = RGBColor(0, 51, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -681,12 +680,21 @@ def main():
     doc.add_page_break()
 
     # ==================== 联系我们页面 ====================
-    contact_title = doc.add_paragraph()
-    contact_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    for _ in range(3):
+    # 顶部装饰
+    for _ in range(2):
         doc.add_paragraph()
 
-    run = contact_title.add_run("联系我们")
+    top_decor = doc.add_table(rows=2, cols=6)
+    top_decor.alignment = WD_TABLE_ALIGNMENT.CENTER
+    for row in top_decor.rows:
+        row.height = Cm(1)
+        for cell in row.cells:
+            set_cell_shading(cell, WHITE)
+            set_cell_diagonal_border(cell, BABY_BLUE)
+
+    contact_title = doc.add_paragraph()
+    contact_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = contact_title.add_run("◆ 联系我们 ◆")
     run.font.size = Pt(28)
     run.font.bold = True
     run.font.color.rgb = RGBColor(0, 51, 102)
@@ -697,9 +705,8 @@ def main():
     contact_sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = contact_sub.add_run("CONTACT US")
     run.font.size = Pt(14)
-    run.font.color.rgb = RGBColor(102, 102, 102)
+    run.font.color.rgb = RGBColor(137, 207, 240)
 
-    doc.add_paragraph()
     doc.add_paragraph()
 
     # 联系信息表格
@@ -716,7 +723,8 @@ def main():
 
     for i, (label, value) in enumerate(contact_info):
         cell0 = contact_table.cell(i, 0)
-        set_cell_shading(cell0, "E8F4F8")
+        set_cell_shading(cell0, BABY_BLUE_LIGHT)
+        set_cell_border(cell0, BABY_BLUE, "4")
         para0 = cell0.paragraphs[0]
         run0 = para0.add_run(label)
         run0.font.size = Pt(14)
@@ -726,6 +734,8 @@ def main():
         run0._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
         cell1 = contact_table.cell(i, 1)
+        set_cell_shading(cell1, WHITE)
+        set_cell_border(cell1, BABY_BLUE, "4")
         para1 = cell1.paragraphs[0]
         run1 = para1.add_run(value)
         run1.font.size = Pt(14)
@@ -733,14 +743,18 @@ def main():
         run1._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
     doc.add_paragraph()
-    doc.add_paragraph()
 
     # 二维码占位
-    qr_para = doc.add_paragraph()
+    qr_table = doc.add_table(rows=1, cols=1)
+    qr_table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    qr_cell = qr_table.cell(0, 0)
+    set_cell_shading(qr_cell, BABY_BLUE_LIGHT)
+    set_cell_border(qr_cell, BABY_BLUE, "6")
+    qr_para = qr_cell.paragraphs[0]
     qr_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = qr_para.add_run("[ 微信二维码 ]")
+    run = qr_para.add_run("\n\n[ 微信二维码 ]\n\n")
     run.font.size = Pt(14)
-    run.font.color.rgb = RGBColor(128, 128, 128)
+    run.font.color.rgb = RGBColor(93, 173, 226)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
 
@@ -751,6 +765,16 @@ def main():
     run.font.color.rgb = RGBColor(102, 102, 102)
     run.font.name = 'Microsoft YaHei'
     run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Microsoft YaHei')
+
+    # 底部装饰
+    doc.add_paragraph()
+    bottom_decor = doc.add_table(rows=2, cols=6)
+    bottom_decor.alignment = WD_TABLE_ALIGNMENT.CENTER
+    for row in bottom_decor.rows:
+        row.height = Cm(1)
+        for cell in row.cells:
+            set_cell_shading(cell, WHITE)
+            set_cell_diagonal_border(cell, BABY_BLUE)
 
     # 保存文档
     output_path = "/home/user/-JC-/产品目录_Product_Catalog.docx"
