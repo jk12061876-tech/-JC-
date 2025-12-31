@@ -2,13 +2,14 @@
 """
 Product Catalog Generator
 Burgundy Premium Color Scheme
-With product image placeholders
+A3 Landscape with 9-column product tables
 """
 
 from docx import Document
-from docx.shared import Inches, Pt, Cm, RGBColor
+from docx.shared import Inches, Pt, Cm, Mm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_CELL_VERTICAL_ALIGNMENT
+from docx.enum.section import WD_ORIENT
 from docx.oxml.ns import qn, nsdecls
 from docx.oxml import parse_xml
 
@@ -62,46 +63,46 @@ def create_cover_page(doc):
     para.add_run("\n\n\n\n\n")
 
     logo_run = para.add_run("[ LOGO ]\n\n\n")
-    logo_run.font.size = Pt(18)
+    logo_run.font.size = Pt(24)
     logo_run.font.color.rgb = RGBColor(126, 4, 29)
     logo_run.font.name = 'Arial'
 
     company_run = para.add_run("YOUR COMPANY NAME\n")
-    company_run.font.size = Pt(36)
+    company_run.font.size = Pt(48)
     company_run.font.bold = True
     company_run.font.color.rgb = RGBColor(54, 54, 54)
     company_run.font.name = 'Arial'
 
-    line_run = para.add_run("━━━━━━━━━━━━━━━━━━\n\n")
+    line_run = para.add_run("━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n")
     line_run.font.size = Pt(14)
     line_run.font.color.rgb = RGBColor(126, 4, 29)
 
     title_run = para.add_run("PRODUCT CATALOG\n")
-    title_run.font.size = Pt(48)
+    title_run.font.size = Pt(60)
     title_run.font.bold = True
     title_run.font.color.rgb = RGBColor(126, 4, 29)
     title_run.font.name = 'Arial'
 
     sub_run = para.add_run("Server Components & Solutions\n\n")
-    sub_run.font.size = Pt(18)
+    sub_run.font.size = Pt(24)
     sub_run.font.color.rgb = RGBColor(54, 54, 54)
     sub_run.font.name = 'Arial'
 
     year_run = para.add_run("2024 - 2025\n\n\n\n\n")
-    year_run.font.size = Pt(16)
+    year_run.font.size = Pt(20)
     year_run.font.color.rgb = RGBColor(126, 4, 29)
 
-    bottom_line = para.add_run("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n")
+    bottom_line = para.add_run("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n")
     bottom_line.font.size = Pt(10)
     bottom_line.font.color.rgb = RGBColor(126, 4, 29)
 
     contact_run = para.add_run("Tel: XXX-XXXX-XXXX  |  Email: example@company.com\n")
-    contact_run.font.size = Pt(11)
+    contact_run.font.size = Pt(14)
     contact_run.font.color.rgb = RGBColor(54, 54, 54)
     contact_run.font.name = 'Arial'
 
     address_run = para.add_run("Address: Your Company Address\n\n\n")
-    address_run.font.size = Pt(11)
+    address_run.font.size = Pt(14)
     address_run.font.color.rgb = RGBColor(54, 54, 54)
     address_run.font.name = 'Arial'
 
@@ -112,7 +113,7 @@ def create_company_intro_page(doc):
     title = doc.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = title.add_run("ABOUT US")
-    run.font.size = Pt(28)
+    run.font.size = Pt(36)
     run.font.bold = True
     run.font.color.rgb = RGBColor(126, 4, 29)
     run.font.name = 'Arial'
@@ -138,7 +139,7 @@ def create_company_intro_page(doc):
     • Service philosophy
 
     """)
-    run.font.size = Pt(12)
+    run.font.size = Pt(14)
     run.font.color.rgb = RGBColor(54, 54, 54)
     run.font.name = 'Arial'
 
@@ -147,7 +148,7 @@ def create_company_intro_page(doc):
     adv_title = doc.add_paragraph()
     adv_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = adv_title.add_run("OUR ADVANTAGES")
-    run.font.size = Pt(20)
+    run.font.size = Pt(24)
     run.font.bold = True
     run.font.color.rgb = RGBColor(126, 4, 29)
     run.font.name = 'Arial'
@@ -173,13 +174,13 @@ def create_company_intro_page(doc):
         para = cell.paragraphs[0]
 
         title_run = para.add_run("■ " + title_text + "\n")
-        title_run.font.size = Pt(14)
+        title_run.font.size = Pt(16)
         title_run.font.bold = True
         title_run.font.color.rgb = RGBColor(126, 4, 29)
         title_run.font.name = 'Arial'
 
         desc_run = para.add_run(desc)
-        desc_run.font.size = Pt(11)
+        desc_run.font.size = Pt(12)
         desc_run.font.color.rgb = RGBColor(54, 54, 54)
         desc_run.font.name = 'Arial'
 
@@ -197,7 +198,7 @@ def create_product_section_header(doc, title, subtitle):
     para.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     run = para.add_run("  " + title + "  ")
-    run.font.size = Pt(22)
+    run.font.size = Pt(28)
     run.font.bold = True
     run.font.color.rgb = RGBColor(255, 255, 255)
     run.font.name = 'Arial'
@@ -205,35 +206,36 @@ def create_product_section_header(doc, title, subtitle):
     sub = doc.add_paragraph()
     sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = sub.add_run(subtitle)
-    run.font.size = Pt(12)
+    run.font.size = Pt(14)
     run.font.color.rgb = RGBColor(54, 54, 54)
     run.font.name = 'Arial'
 
     doc.add_paragraph()
 
-def create_product_table_with_images(doc, products, columns):
-    """Create product table with image placeholders"""
-    # Add "Image" column at the beginning
-    full_columns = ["Image"] + columns
+def create_product_table_9col(doc, products):
+    """Create product table with 9 columns for memory products
+    Columns: Image, Option Part Number, Capacity, Rank, Speed, CAS Latency, Technology, Warranty, Notes
+    """
+    columns = ["Image", "Option Part Number", "Capacity", "Rank", "Speed", "CAS Latency", "Technology", "Warranty", "Notes"]
 
-    table = doc.add_table(rows=1, cols=len(full_columns))
+    table = doc.add_table(rows=1, cols=9)
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
 
     # Header row
     header_row = table.rows[0]
-    for i, col_name in enumerate(full_columns):
+    for i, col_name in enumerate(columns):
         cell = header_row.cells[i]
         set_cell_shading(cell, BURGUNDY)
-        set_no_border(cell)
+        set_cell_border(cell, BURGUNDY, "2")
         para = cell.paragraphs[0]
         para.alignment = WD_ALIGN_PARAGRAPH.CENTER
         run = para.add_run(col_name)
-        run.font.size = Pt(9)
+        run.font.size = Pt(8)
         run.font.bold = True
         run.font.color.rgb = RGBColor(255, 255, 255)
         run.font.name = 'Arial'
 
-    # Data rows with image placeholders
+    # Data rows
     for idx, product in enumerate(products):
         row = table.add_row()
         bg_color = WHITE if idx % 2 == 0 else CREAM
@@ -250,14 +252,69 @@ def create_product_table_with_images(doc, products, columns):
         img_run.font.color.rgb = RGBColor(126, 4, 29)
         img_run.font.name = 'Arial'
 
-        # Product data columns
+        # Product data columns (8 columns)
         for i, value in enumerate(product):
-            cell = row.cells[i + 1]  # +1 because first column is image
+            cell = row.cells[i + 1]
             set_cell_shading(cell, bg_color)
             set_cell_border(cell, BURGUNDY, "2")
+            cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
             para = cell.paragraphs[0]
             run = para.add_run(str(value))
-            run.font.size = Pt(8)
+            run.font.size = Pt(7)
+            run.font.color.rgb = RGBColor(54, 54, 54)
+            run.font.name = 'Arial'
+
+    doc.add_paragraph()
+
+def create_hdd_table_9col(doc, products):
+    """Create product table with 9 columns for HDD products
+    Columns: Image, Option Part Number, Capacity, Form Factor, Speed, Interface, Technology, Warranty, Notes
+    """
+    columns = ["Image", "Option Part Number", "Capacity", "Form Factor", "Speed", "Interface", "Technology", "Warranty", "Notes"]
+
+    table = doc.add_table(rows=1, cols=9)
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
+
+    # Header row
+    header_row = table.rows[0]
+    for i, col_name in enumerate(columns):
+        cell = header_row.cells[i]
+        set_cell_shading(cell, BURGUNDY)
+        set_cell_border(cell, BURGUNDY, "2")
+        para = cell.paragraphs[0]
+        para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = para.add_run(col_name)
+        run.font.size = Pt(8)
+        run.font.bold = True
+        run.font.color.rgb = RGBColor(255, 255, 255)
+        run.font.name = 'Arial'
+
+    # Data rows
+    for idx, product in enumerate(products):
+        row = table.add_row()
+        bg_color = WHITE if idx % 2 == 0 else CREAM
+
+        # Image placeholder cell
+        img_cell = row.cells[0]
+        set_cell_shading(img_cell, bg_color)
+        set_cell_border(img_cell, BURGUNDY, "2")
+        img_cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
+        img_para = img_cell.paragraphs[0]
+        img_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        img_run = img_para.add_run("[IMG]")
+        img_run.font.size = Pt(7)
+        img_run.font.color.rgb = RGBColor(126, 4, 29)
+        img_run.font.name = 'Arial'
+
+        # Product data columns
+        for i, value in enumerate(product):
+            cell = row.cells[i + 1]
+            set_cell_shading(cell, bg_color)
+            set_cell_border(cell, BURGUNDY, "2")
+            cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
+            para = cell.paragraphs[0]
+            run = para.add_run(str(value))
+            run.font.size = Pt(7)
             run.font.color.rgb = RGBColor(54, 54, 54)
             run.font.name = 'Arial'
 
@@ -266,12 +323,15 @@ def create_product_table_with_images(doc, products, columns):
 def main():
     doc = Document()
 
-    sections = doc.sections
-    for section in sections:
-        section.top_margin = Cm(1.5)
-        section.bottom_margin = Cm(1.5)
-        section.left_margin = Cm(1.5)
-        section.right_margin = Cm(1.5)
+    # Set A3 Landscape
+    section = doc.sections[0]
+    section.page_width = Mm(420)   # A3 width
+    section.page_height = Mm(297)  # A3 height
+    section.orientation = WD_ORIENT.LANDSCAPE
+    section.top_margin = Cm(1.5)
+    section.bottom_margin = Cm(1.5)
+    section.left_margin = Cm(1.5)
+    section.right_margin = Cm(1.5)
 
     # Cover
     create_cover_page(doc)
@@ -289,17 +349,18 @@ def main():
     run.font.color.rgb = RGBColor(126, 4, 29)
     run.font.name = 'Arial'
 
+    # HPE G10 products: Part No, Capacity, Rank, Speed, CAS Latency, Technology, Warranty, Notes
     hpe_g10_products = [
-        ("P00924-B21", "HPE 32GB (1x32GB) Dual rank x4 DDR4-2933 CAS-21-21-21 registered smart memory kit", "32GB", "DDR4-2933"),
-        ("815100-B21", "HPE 32GB (1x32GB) Dual rank x4 DDR4-2666 CAS-19-19-19 registered smart memory kit", "32GB", "DDR4-2666"),
-        ("P00930-B21", "HPE 64GB (1x64GB) Dual rank x4 DDR4-2933 CAS-21-21-21 registered smart memory kit", "64GB", "DDR4-2933"),
-        ("P00926-B21", "HPE 64GB (1x64GB) quad rank x4 DDR4-2933 CAS-21-21-21 load reduced smart memory kit", "64GB", "DDR4-2933"),
-        ("815101-B21", "HPE 64GB (1x64GB) quad rank x4 DDR4-2666 CAS-19-19-19 load reduced smart memory kit", "64GB", "DDR4-2666"),
-        ("P11040-B21", "HPE 128GB (1x128GB) quad rank x4 DDR4-2933 CAS-24-21-21 load reduced smart memory kit", "128GB", "DDR4-2933"),
-        ("P00928-B21", "HPE 128GB (1x128GB) octal rank x4 DDR4-2933 CAS-24-21-21 load reduced 3DS smart memory kit", "128GB", "DDR4-2933"),
-        ("815102-B21", "HPE 128GB (1x128GB) octal rank x4 DDR4-2666 CAS-22-19-19 3DS load reduced smart memory kit", "128GB", "DDR4-2666"),
+        ("P00924-B21", "32GB", "Dual Rank x4", "DDR4-2933", "CAS-21-21-21", "Registered", "3-Year", ""),
+        ("815100-B21", "32GB", "Dual Rank x4", "DDR4-2666", "CAS-19-19-19", "Registered", "3-Year", ""),
+        ("P00930-B21", "64GB", "Dual Rank x4", "DDR4-2933", "CAS-21-21-21", "Registered", "3-Year", ""),
+        ("P00926-B21", "64GB", "Quad Rank x4", "DDR4-2933", "CAS-21-21-21", "Load Reduced", "3-Year", ""),
+        ("815101-B21", "64GB", "Quad Rank x4", "DDR4-2666", "CAS-19-19-19", "Load Reduced", "3-Year", ""),
+        ("P11040-B21", "128GB", "Quad Rank x4", "DDR4-2933", "CAS-24-21-21", "Load Reduced", "3-Year", ""),
+        ("P00928-B21", "128GB", "Octal Rank x4", "DDR4-2933", "CAS-24-21-21", "3DS Load Reduced", "3-Year", ""),
+        ("815102-B21", "128GB", "Octal Rank x4", "DDR4-2666", "CAS-22-19-19", "3DS Load Reduced", "3-Year", ""),
     ]
-    create_product_table_with_images(doc, hpe_g10_products, ["Part No.", "Description", "Capacity", "Spec"])
+    create_product_table_9col(doc, hpe_g10_products)
 
     g10plus_title = doc.add_paragraph()
     run = g10plus_title.add_run("▶ G10+ Series Memory")
@@ -309,13 +370,13 @@ def main():
     run.font.name = 'Arial'
 
     hpe_g10plus_products = [
-        ("P06033-B21", "HPE 32GB (1x32GB) dual rank x4 DDR4-3200 CAS-22-22-22 registered smart memory kit", "32GB", "DDR4-3200"),
-        ("P06035-B21", "HPE 64GB (1x64GB) dual rank x4 DDR4-3200 CAS-22-22-22 registered smart memory kit", "64GB", "DDR4-3200"),
-        ("P40007-B21", "HPE 32GB (1x32GB) single rank x4 DDR4-3200 CAS-22-22-22 registered smart memory kit", "32GB", "DDR4-3200"),
-        ("P06037-B21", "HPE 128GB (1x128GB) quad rank x4 DDR4-3200 CAS-22-22-22 load reduced smart memory kit", "128GB", "DDR4-3200"),
-        ("P06039-B21", "HPE 256GB (1x256GB) octal rank x4 DDR4-3200 CAS-26-22-22 3DS load reduced smart memory kit", "256GB", "DDR4-3200"),
+        ("P06033-B21", "32GB", "Dual Rank x4", "DDR4-3200", "CAS-22-22-22", "Registered", "3-Year", ""),
+        ("P06035-B21", "64GB", "Dual Rank x4", "DDR4-3200", "CAS-22-22-22", "Registered", "3-Year", ""),
+        ("P40007-B21", "32GB", "Single Rank x4", "DDR4-3200", "CAS-22-22-22", "Registered", "3-Year", ""),
+        ("P06037-B21", "128GB", "Quad Rank x4", "DDR4-3200", "CAS-22-22-22", "Load Reduced", "3-Year", ""),
+        ("P06039-B21", "256GB", "Octal Rank x4", "DDR4-3200", "CAS-26-22-22", "3DS Load Reduced", "3-Year", ""),
     ]
-    create_product_table_with_images(doc, hpe_g10plus_products, ["Part No.", "Description", "Capacity", "Spec"])
+    create_product_table_9col(doc, hpe_g10plus_products)
 
     g11_title = doc.add_paragraph()
     run = g11_title.add_run("▶ G11 Series Memory (DDR5)")
@@ -325,19 +386,19 @@ def main():
     run.font.name = 'Arial'
 
     hpe_g11_products = [
-        ("P64705-B21", "HPE 16GB (1x16GB) Single Rank x8 DDR5-5600 CAS-46-45-45 EC8 Registered Smart Memory Kit", "16GB", "DDR5-5600"),
-        ("P64706-B21", "HPE 32GB (1x32GB) Dual Rank x8 DDR5-5600 CAS-46-45-45 EC8 Registered Smart Memory Kit", "32GB", "DDR5-5600"),
-        ("P64707-B21", "HPE 64GB (1x64GB) Dual Rank x4 DDR5-5600 CAS-46-45-45 EC8 Registered Smart Memory Kit", "64GB", "DDR5-5600"),
-        ("P64708-B21", "HPE 96GB (1x96GB) Dual Rank x4 DDR5-5600 CAS-45-45-45 EC8 Registered Smart Memory Kit", "96GB", "DDR5-5600"),
-        ("P64709-B21", "HPE 128GB (1x128GB) Quad Rank x4 DDR5-5600 CAS-52-45-45 EC8 Registered 3DS Smart Memory Kit", "128GB", "DDR5-5600"),
-        ("P43322-B21", "HPE 16GB (1x16GB) Single Rank x8 DDR5-4800 CAS-40-39-39 EC8 Registered Smart Memory Kit", "16GB", "DDR5-4800"),
-        ("P43328-B21", "HPE 32GB (1x32GB) Dual Rank x8 DDR5-4800 CAS-40-39-39 EC8 Registered Smart Memory Kit", "32GB", "DDR5-4800"),
-        ("P43331-B21", "HPE 64GB (1x64GB) Dual Rank x4 DDR5-4800 CAS-40-39-39 EC8 Registered Smart Memory Kit", "64GB", "DDR5-4800"),
-        ("P66675-B21", "HPE 96GB 2Rx4 PC5-4800B-R Smart Kit", "96GB", "DDR5-4800"),
-        ("P43334-B21", "HPE 128GB (1x128GB) Quad Rank x4 DDR5-4800 CAS-46-39-39 EC8 Registered 3DS Smart Memory Kit", "128GB", "DDR5-4800"),
-        ("P43337-B21", "HPE 256GB (1x256GB) Octal Rank x4 DDR5-4800 CAS-46-39-39 EC8 Registered 3DS Smart Memory Kit", "256GB", "DDR5-4800"),
+        ("P64705-B21", "16GB", "Single Rank x8", "DDR5-5600", "CAS-46-45-45", "EC8 Registered", "3-Year", ""),
+        ("P64706-B21", "32GB", "Dual Rank x8", "DDR5-5600", "CAS-46-45-45", "EC8 Registered", "3-Year", ""),
+        ("P64707-B21", "64GB", "Dual Rank x4", "DDR5-5600", "CAS-46-45-45", "EC8 Registered", "3-Year", ""),
+        ("P64708-B21", "96GB", "Dual Rank x4", "DDR5-5600", "CAS-45-45-45", "EC8 Registered", "3-Year", ""),
+        ("P64709-B21", "128GB", "Quad Rank x4", "DDR5-5600", "CAS-52-45-45", "EC8 Registered 3DS", "3-Year", ""),
+        ("P43322-B21", "16GB", "Single Rank x8", "DDR5-4800", "CAS-40-39-39", "EC8 Registered", "3-Year", ""),
+        ("P43328-B21", "32GB", "Dual Rank x8", "DDR5-4800", "CAS-40-39-39", "EC8 Registered", "3-Year", ""),
+        ("P43331-B21", "64GB", "Dual Rank x4", "DDR5-4800", "CAS-40-39-39", "EC8 Registered", "3-Year", ""),
+        ("P66675-B21", "96GB", "2Rx4", "DDR5-4800", "-", "PC5-4800B-R", "3-Year", ""),
+        ("P43334-B21", "128GB", "Quad Rank x4", "DDR5-4800", "CAS-46-39-39", "EC8 Registered 3DS", "3-Year", ""),
+        ("P43337-B21", "256GB", "Octal Rank x4", "DDR5-4800", "CAS-46-39-39", "EC8 Registered 3DS", "3-Year", ""),
     ]
-    create_product_table_with_images(doc, hpe_g11_products, ["Part No.", "Description", "Capacity", "Spec"])
+    create_product_table_9col(doc, hpe_g11_products)
 
     doc.add_page_break()
 
@@ -345,26 +406,26 @@ def main():
     create_product_section_header(doc, "DELL SERVER MEMORY", "DDR4/DDR5 Series")
 
     dell_products = [
-        ("AA601616", "SNP8WKDYC/32G 32GB PC4-23400 DDR4-2933MHz 2Rx4 R640/R740/R840/R940/T640", "32GB", "DDR4-2933"),
-        ("AA601615", "SNPW403YC/64G 64GB 2Rx4 DDR4 RDIMM 2933 MT/s R640/R740/R840/R940/T640", "64GB", "DDR4-2933"),
-        ("AA579531", "SNP8WKDYC/32G 32GB 2Rx4 2933MHz PC4-23400 R640/R740/R840/R940/T640", "32GB", "DDR4-2933"),
-        ("AA579530", "SNPW403YC/64G 64GB 2Rx4 DDR4 RDIMM 2933 MT/s R640/R740/R840/R940/T640", "64GB", "DDR4-2933"),
-        ("AA783422", "SNP75X1VC/32G 32GB 2Rx4 DDR4 RDIMM 3200 MT/s R6515/R6525/R740/R840/R940/T640/R740XD/R7515/R7525", "32GB", "DDR4-3200"),
-        ("AA783423", "SNPP2MYX/64G 64GB 2RX4 DDR4 RDIMM 3200 MT/s R6515/R6525/R7515/C6525/R7525", "64GB", "DDR4-3200"),
-        ("AA799110", "SNPP2MYX/64G 64GB 2Rx4 DDR4 RDIMM 3200 MT/s R6515/R6525/R7515/C6525/R7525", "64GB", "DDR4-3200"),
-        ("AA810828", "SNPP2MYX/64G 64GB 2Rx4 DDR4 RDIMM 3200 MT/s R640/R740/R840/R940/T640", "64GB", "DDR4-3200"),
-        ("AB445285", "SNP7JXF5C/128G 128GB 4Rx4 DDR4 LRDIMM 3200 MT/s R640/R740/R840/R940/T640", "128GB", "DDR4-3200"),
-        ("AC239377", "SNP1V1N1C/16G 16GB 1Rx8 DDR5 RDIMM 4800 MT/s R660/R760/R6615/R7625", "16GB", "DDR5-4800"),
-        ("AC239378", "SNPW08W9C/32G 32GB 2Rx8 DDR5 RDIMM 4800 MT/s R660/R760/R6615/R7625", "32GB", "DDR5-4800"),
-        ("AC239379", "SNP152K5C/64G 64GB 2Rx4 DDR5 RDIMM 4800 MT/s R660/R760/R860/R960", "64GB", "DDR5-4800"),
-        ("AC830716", "SNPSD48RC/16G 16GB PC5-44800 DDR5-5600MHz 1Rx8 RDIMM", "16GB", "DDR5-5600"),
-        ("AC958788", "SNPXH68MC/16G 16G 1Rx8 DDR5 UDIMM 5600 MT/s", "16GB", "DDR5-5600"),
-        ("AC774043", "SNP8D9M0C/32G 32G 2RX8 PC5 5600B-E DDR5 ECC UDIMM", "32GB", "DDR5-5600"),
-        ("AC830717", "SNPP8XPWC/32G 32GB 2RX8 PC5-44800 DDR5-5600B ECC RDIMM", "32GB", "DDR5-5600"),
-        ("AC830718", "SNP58F3NC/64G 64GB 2Rx4 PC5-44800B-R DDR5-5600 RDIMM", "64GB", "DDR5-5600"),
-        ("AC888060", "SNP5DR48C/16G 16GB DDR5-5600 ECC RDIMM", "16GB", "DDR5-5600"),
+        ("AA601616", "32GB", "2Rx4", "DDR4-2933", "-", "RDIMM", "3-Year", "R640/R740/R840/R940/T640"),
+        ("AA601615", "64GB", "2Rx4", "DDR4-2933", "-", "RDIMM", "3-Year", "R640/R740/R840/R940/T640"),
+        ("AA579531", "32GB", "2Rx4", "DDR4-2933", "-", "PC4-23400", "3-Year", "R640/R740/R840/R940/T640"),
+        ("AA579530", "64GB", "2Rx4", "DDR4-2933", "-", "RDIMM", "3-Year", "R640/R740/R840/R940/T640"),
+        ("AA783422", "32GB", "2Rx4", "DDR4-3200", "-", "RDIMM", "3-Year", "R6515/R6525/R740/R840/R940"),
+        ("AA783423", "64GB", "2Rx4", "DDR4-3200", "-", "RDIMM", "3-Year", "R6515/R6525/R7515/C6525/R7525"),
+        ("AA799110", "64GB", "2Rx4", "DDR4-3200", "-", "RDIMM", "3-Year", "R6515/R6525/R7515/C6525/R7525"),
+        ("AA810828", "64GB", "2Rx4", "DDR4-3200", "-", "RDIMM", "3-Year", "R640/R740/R840/R940/T640"),
+        ("AB445285", "128GB", "4Rx4", "DDR4-3200", "-", "LRDIMM", "3-Year", "R640/R740/R840/R940/T640"),
+        ("AC239377", "16GB", "1Rx8", "DDR5-4800", "-", "RDIMM", "3-Year", "R660/R760/R6615/R7625"),
+        ("AC239378", "32GB", "2Rx8", "DDR5-4800", "-", "RDIMM", "3-Year", "R660/R760/R6615/R7625"),
+        ("AC239379", "64GB", "2Rx4", "DDR5-4800", "-", "RDIMM", "3-Year", "R660/R760/R860/R960"),
+        ("AC830716", "16GB", "1Rx8", "DDR5-5600", "-", "RDIMM", "3-Year", ""),
+        ("AC958788", "16GB", "1Rx8", "DDR5-5600", "-", "UDIMM", "3-Year", ""),
+        ("AC774043", "32GB", "2Rx8", "DDR5-5600", "-", "ECC UDIMM", "3-Year", ""),
+        ("AC830717", "32GB", "2Rx8", "DDR5-5600", "-", "ECC RDIMM", "3-Year", ""),
+        ("AC830718", "64GB", "2Rx4", "DDR5-5600", "-", "RDIMM", "3-Year", ""),
+        ("AC888060", "16GB", "-", "DDR5-5600", "-", "ECC RDIMM", "3-Year", ""),
     ]
-    create_product_table_with_images(doc, dell_products, ["Part No.", "Description", "Capacity", "Spec"])
+    create_product_table_9col(doc, dell_products)
 
     doc.add_page_break()
 
@@ -372,32 +433,32 @@ def main():
     create_product_section_header(doc, "LENOVO SERVER MEMORY", "ThinkSystem Series")
 
     lenovo_products = [
-        ("4ZC7A08707", "ThinkSystem 01KR353 16GB 1Rx4 PC4-2933Y", "16GB", "DDR4-2933"),
-        ("4ZC7A08709", "ThinkSystem 01KR355 32G 2RX4 PC4-2933Y DDR4 REG ECC", "32GB", "DDR4-2933"),
-        ("4ZC7A08710", "ThinkSystem 01KR356 64G 2Rx4 PC4-2933Y RECC", "64GB", "DDR4-2933"),
-        ("4X77A08634", "ThinkSystem 02JK239 32G 2RX8 DDR4 3200 RDIMM", "32GB", "DDR4-3200"),
-        ("4X77A08633", "ThinkSystem 02JK237 32GB 2Rx4 PC4-3200AA", "32GB", "DDR4-3200"),
-        ("4ZC7A15124", "ThinkSystem 02JG340 64G 2RX4 PC4-3200AA-RDIMM", "64GB", "DDR4-3200"),
-        ("4X77A08635", "ThinkSystem 02JK971 64G 2VX4 DDR4 3200", "64GB", "DDR4-3200"),
-        ("4X77A77496", "ThinkSystem 03GX401 32GB PC4-3200AA ECC UDIMM", "32GB", "DDR4-3200"),
-        ("4X77A85511", "ThinkSystem 16GB TruDDR5 4800 MHz(1Rx8)", "16GB", "DDR5-4800"),
-        ("4X77A77483", "ThinkSystem 32GB TruDDR5 4800MHz(1Rx4)", "32GB", "DDR5-4800"),
-        ("4X77A88512", "ThinkSystem 32GB TruDDR5 4800MHz (2Rx8)", "32GB", "DDR5-4800"),
-        ("4X77A77031", "ThinkSystem 32GB TruDDR5 4800MHz(2Rx8)", "32GB", "DDR5-4800"),
-        ("4X77A81440", "ThinkSystem 03KL461 32G TruDDR5 2RX8 4800", "32GB", "DDR5-4800"),
-        ("4X77A81442", "ThinkSystem 03GX338 64G TruDDR5 2RX4 PC5 4800B", "64GB", "DDR5-4800"),
-        ("4X77A77033", "ThinkSystem 64GB TruDDR5 4800MHz(2Rx4)", "64GB", "DDR5-4800"),
-        ("4X77A77034", "ThinkSystem 128GB TruDDR5 4800MHz 4Rx4 3DS RDIMM", "128GB", "DDR5-4800"),
-        ("4X77A77035", "ThinkSystem 256GB TruDDR5 4800MHz(8Rx4)", "256GB", "DDR5-4800"),
-        ("4X77A88049", "ThinkSystem 32GB TruDDR5 5600MHz(1Rx4)", "32GB", "DDR5-5600"),
-        ("4X77A88051", "ThinkSystem 32GB TruDDR5 5600MHz(2Rx8)", "32GB", "DDR5-5600"),
-        ("4X77A90992", "ThinkSystem 64GB TruDDR5 5600MHz 2Rx4", "64GB", "DDR5-5600"),
-        ("4X77A88052", "ThinkSystem 64GB TruDDR5 5600MHz(2Rx4)", "64GB", "DDR5-5600"),
-        ("4X77A93887", "ThinkSystem 128GB TruDDR5 5600MHz (2Rx4)RDIMM", "128GB", "DDR5-5600"),
-        ("4X77A88054", "ThinkSystem 128GB TruDDR5 5600MHz(4Rx4)", "128GB", "DDR5-5600"),
-        ("4X77A88055", "ThinkSystem 256GB TruDDR5 5600 MHz (8Rx4) 3DS RDIMM", "256GB", "DDR5-5600"),
+        ("4ZC7A08707", "16GB", "1Rx4", "DDR4-2933", "-", "PC4-2933Y", "3-Year", "01KR353"),
+        ("4ZC7A08709", "32GB", "2Rx4", "DDR4-2933", "-", "REG ECC", "3-Year", "01KR355"),
+        ("4ZC7A08710", "64GB", "2Rx4", "DDR4-2933", "-", "RECC", "3-Year", "01KR356"),
+        ("4X77A08634", "32GB", "2Rx8", "DDR4-3200", "-", "RDIMM", "3-Year", "02JK239"),
+        ("4X77A08633", "32GB", "2Rx4", "DDR4-3200", "-", "PC4-3200AA", "3-Year", "02JK237"),
+        ("4ZC7A15124", "64GB", "2Rx4", "DDR4-3200", "-", "RDIMM", "3-Year", "02JG340"),
+        ("4X77A08635", "64GB", "2Vx4", "DDR4-3200", "-", "RDIMM", "3-Year", "02JK971"),
+        ("4X77A77496", "32GB", "-", "DDR4-3200", "-", "ECC UDIMM", "3-Year", "03GX401"),
+        ("4X77A85511", "16GB", "1Rx8", "DDR5-4800", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A77483", "32GB", "1Rx4", "DDR5-4800", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A88512", "32GB", "2Rx8", "DDR5-4800", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A77031", "32GB", "2Rx8", "DDR5-4800", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A81440", "32GB", "2Rx8", "DDR5-4800", "-", "TruDDR5", "3-Year", "03KL461"),
+        ("4X77A81442", "64GB", "2Rx4", "DDR5-4800", "-", "TruDDR5", "3-Year", "03GX338"),
+        ("4X77A77033", "64GB", "2Rx4", "DDR5-4800", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A77034", "128GB", "4Rx4", "DDR5-4800", "-", "3DS RDIMM", "3-Year", ""),
+        ("4X77A77035", "256GB", "8Rx4", "DDR5-4800", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A88049", "32GB", "1Rx4", "DDR5-5600", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A88051", "32GB", "2Rx8", "DDR5-5600", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A90992", "64GB", "2Rx4", "DDR5-5600", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A88052", "64GB", "2Rx4", "DDR5-5600", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A93887", "128GB", "2Rx4", "DDR5-5600", "-", "RDIMM", "3-Year", ""),
+        ("4X77A88054", "128GB", "4Rx4", "DDR5-5600", "-", "TruDDR5", "3-Year", ""),
+        ("4X77A88055", "256GB", "8Rx4", "DDR5-5600", "-", "3DS RDIMM", "3-Year", ""),
     ]
-    create_product_table_with_images(doc, lenovo_products, ["Part No.", "Description", "Capacity", "Spec"])
+    create_product_table_9col(doc, lenovo_products)
 
     doc.add_page_break()
 
@@ -412,14 +473,15 @@ def main():
     run.font.color.rgb = RGBColor(126, 4, 29)
     run.font.name = 'Arial'
 
+    # HDD: Part No, Capacity, Form Factor, Speed, Interface, Technology, Warranty, Notes
     hpe_10k_sff = [
-        ("881457-B21", "HPE 2.4TB SAS 12G Enterprise 10K SFF SC 3-year warranty 512e Digitally Signed (DS) firmware HDD", "2.4TB", "10K"),
-        ("872481-B21", "HPE 1.8TB SAS 12G Enterprise 10K SFF SC 3-year warranty 512e DS firmware HDD", "1.8TB", "10K"),
-        ("872479-B21", "HPE 1.2TB SAS 12G Enterprise 10K SFF SC 3-year warranty DS firmware HDD", "1.2TB", "10K"),
-        ("872477-B21", "HPE 600GB SAS 12G Enterprise 10K SFF SC 3-year warranty DS firmware HDD", "600GB", "10K"),
-        ("872475-B21", "HPE 300GB SAS 12G Enterprise 10K SFF SC 3-year warranty DS firmware HDD", "300GB", "10K"),
+        ("881457-B21", "2.4TB", "SFF 2.5\"", "10K", "SAS 12G", "512e DS", "3-Year", "SC"),
+        ("872481-B21", "1.8TB", "SFF 2.5\"", "10K", "SAS 12G", "512e DS", "3-Year", "SC"),
+        ("872479-B21", "1.2TB", "SFF 2.5\"", "10K", "SAS 12G", "DS firmware", "3-Year", "SC"),
+        ("872477-B21", "600GB", "SFF 2.5\"", "10K", "SAS 12G", "DS firmware", "3-Year", "SC"),
+        ("872475-B21", "300GB", "SFF 2.5\"", "10K", "SAS 12G", "DS firmware", "3-Year", "SC"),
     ]
-    create_product_table_with_images(doc, hpe_10k_sff, ["Part No.", "Description", "Capacity", "Speed"])
+    create_hdd_table_9col(doc, hpe_10k_sff)
 
     # Enterprise 15K SFF
     hdd_title2 = doc.add_paragraph()
@@ -430,11 +492,11 @@ def main():
     run.font.name = 'Arial'
 
     hpe_15k_sff = [
-        ("870759-B21", "HPE 900GB SAS 12G Enterprise 15K SFF SC 3-year warranty DS firmware HDD", "900GB", "15K"),
-        ("870757-B21", "HPE 600GB SAS 12G Enterprise 15K SFF SC 3-year warranty DS firmware HDD", "600GB", "15K"),
-        ("870753-B21", "HPE 300GB SAS 12G Enterprise 15K SFF SC 3-year warranty DS firmware HDD", "300GB", "15K"),
+        ("870759-B21", "900GB", "SFF 2.5\"", "15K", "SAS 12G", "DS firmware", "3-Year", "SC"),
+        ("870757-B21", "600GB", "SFF 2.5\"", "15K", "SAS 12G", "DS firmware", "3-Year", "SC"),
+        ("870753-B21", "300GB", "SFF 2.5\"", "15K", "SAS 12G", "DS firmware", "3-Year", "SC"),
     ]
-    create_product_table_with_images(doc, hpe_15k_sff, ["Part No.", "Description", "Capacity", "Speed"])
+    create_hdd_table_9col(doc, hpe_15k_sff)
 
     # Midline 7.2K SFF
     hdd_title3 = doc.add_paragraph()
@@ -445,10 +507,10 @@ def main():
     run.font.name = 'Arial'
 
     hpe_72k_sff = [
-        ("765466-B21", "HPE 2TB SAS 12G Midline 7.2K SFF SC 1-year warranty 512e HDD", "2TB", "7.2K"),
-        ("832514-B21", "HPE 1TB SAS 12G Midline 7.2K SFF SC 1-year warranty DS firmware HDD", "1TB", "7.2K"),
+        ("765466-B21", "2TB", "SFF 2.5\"", "7.2K", "SAS 12G", "512e", "1-Year", "SC"),
+        ("832514-B21", "1TB", "SFF 2.5\"", "7.2K", "SAS 12G", "DS firmware", "1-Year", "SC"),
     ]
-    create_product_table_with_images(doc, hpe_72k_sff, ["Part No.", "Description", "Capacity", "Speed"])
+    create_hdd_table_9col(doc, hpe_72k_sff)
 
     # Midline 7.2K LFF
     hdd_title4 = doc.add_paragraph()
@@ -459,14 +521,14 @@ def main():
     run.font.name = 'Arial'
 
     hpe_72k_lff = [
-        ("P23863-B21", "HPE 16TB SAS 12G Business Critical 7.2K LFF SC 1-year warranty 512e ISE HDD", "16TB", "7.2K"),
-        ("P09153-B21", "HPE 14TB SAS 12G Midline 7.2K LFF SC 1-year warranty Helium 512e DS firmware HDD", "14TB", "7.2K"),
-        ("881779-B21", "HPE 12TB SAS 12G Midline 7.2K LFF SC 1-year warranty Helium 512e DS firmware HDD", "12TB", "7.2K"),
-        ("857644-B21", "HPE 10TB SAS 12G Midline 7.2K LFF SC 1-year warranty Helium 512e DS firmware HDD", "10TB", "7.2K"),
-        ("819201-B21", "HPE 8TB SAS 12G Midline 7.2K LFF SC 1-year warranty 512e DS firmware HDD", "8TB", "7.2K"),
-        ("861754-B21", "HPE 6TB SAS 12G Midline 7.2K LFF SC 1-year warranty 512e HDD", "6TB", "7.2K"),
+        ("P23863-B21", "16TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e ISE", "1-Year", "SC"),
+        ("P09153-B21", "14TB", "LFF 3.5\"", "7.2K", "SAS 12G", "Helium 512e DS", "1-Year", "SC"),
+        ("881779-B21", "12TB", "LFF 3.5\"", "7.2K", "SAS 12G", "Helium 512e DS", "1-Year", "SC"),
+        ("857644-B21", "10TB", "LFF 3.5\"", "7.2K", "SAS 12G", "Helium 512e DS", "1-Year", "SC"),
+        ("819201-B21", "8TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e DS", "1-Year", "SC"),
+        ("861754-B21", "6TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e", "1-Year", "SC"),
     ]
-    create_product_table_with_images(doc, hpe_72k_lff, ["Part No.", "Description", "Capacity", "Speed"])
+    create_hdd_table_9col(doc, hpe_72k_lff)
 
     doc.add_page_break()
 
@@ -479,12 +541,12 @@ def main():
     run.font.name = 'Arial'
 
     hpe_mc_sff = [
-        ("P28352-B21", "HPE 2.4TB SAS 12G mission critical 10K SFF BC 3-year warranty 512e HDD", "2.4TB", "10K"),
-        ("P28586-B21", "HPE 1.2TB SAS 12G mission critical 10K SFF BC 3-year warranty HDD", "1.2TB", "10K"),
-        ("P28028-B21", "HPE 300GB SAS 12G mission critical 15K SFF BC 3-year warranty HDD", "300GB", "15K"),
-        ("P40430-B21", "HPE 300GB SAS 12G mission critical 10K SFF BC 3-year warranty HDD", "300GB", "10K"),
+        ("P28352-B21", "2.4TB", "SFF 2.5\"", "10K", "SAS 12G", "512e BC", "3-Year", "Mission Critical"),
+        ("P28586-B21", "1.2TB", "SFF 2.5\"", "10K", "SAS 12G", "BC", "3-Year", "Mission Critical"),
+        ("P28028-B21", "300GB", "SFF 2.5\"", "15K", "SAS 12G", "BC", "3-Year", "Mission Critical"),
+        ("P40430-B21", "300GB", "SFF 2.5\"", "10K", "SAS 12G", "BC", "3-Year", "Mission Critical"),
     ]
-    create_product_table_with_images(doc, hpe_mc_sff, ["Part No.", "Description", "Capacity", "Speed"])
+    create_hdd_table_9col(doc, hpe_mc_sff)
 
     # Business Critical 7.2K LFF LP
     hdd_title6 = doc.add_paragraph()
@@ -495,15 +557,15 @@ def main():
     run.font.name = 'Arial'
 
     hpe_bc_lff = [
-        ("P37669-B21", "HPE 18TB SAS 12G business critical 7.2K LFF LP 1-year warranty 512e ISE HDD", "18TB", "7.2K"),
-        ("P23608-B21", "HPE 16TB SAS 12G business critical 7.2K LFF LP 1-year warranty 512e ISE HDD", "16TB", "7.2K"),
-        ("P09155-B21", "HPE 14TB SAS 12G MDL 7.2K LFF LP 1-year warranty helium 512e Digitally Signed (DS) firmware HDD", "14TB", "7.2K"),
-        ("881781-B21", "HPE 12TB SAS 12G MDL 7.2K LFF LP 1-year warranty helium 512e DS firmware HDD", "12TB", "7.2K"),
-        ("P09149-B21", "HPE 10TB SAS 12G MDL 7.2K LFF LP 1-year warranty 512e DS firmware HDD", "10TB", "7.2K"),
-        ("834031-B21", "HPE 8TB SAS 12G MDL 7.2K LFF LP 1-year warranty 512e DS firmware HDD", "8TB", "7.2K"),
-        ("861746-B21", "HPE 6TB SAS 12G MDL 7.2K LFF LP 1-year warranty 512e HDD", "6TB", "7.2K"),
+        ("P37669-B21", "18TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e ISE", "1-Year", "LP"),
+        ("P23608-B21", "16TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e ISE", "1-Year", "LP"),
+        ("P09155-B21", "14TB", "LFF 3.5\"", "7.2K", "SAS 12G", "Helium 512e DS", "1-Year", "LP MDL"),
+        ("881781-B21", "12TB", "LFF 3.5\"", "7.2K", "SAS 12G", "Helium 512e DS", "1-Year", "LP MDL"),
+        ("P09149-B21", "10TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e DS", "1-Year", "LP MDL"),
+        ("834031-B21", "8TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e DS", "1-Year", "LP MDL"),
+        ("861746-B21", "6TB", "LFF 3.5\"", "7.2K", "SAS 12G", "512e", "1-Year", "LP MDL"),
     ]
-    create_product_table_with_images(doc, hpe_bc_lff, ["Part No.", "Description", "Capacity", "Speed"])
+    create_hdd_table_9col(doc, hpe_bc_lff)
 
     doc.add_page_break()
 
@@ -520,12 +582,12 @@ def main():
     para.add_run("\n\n\n")
 
     title_run = para.add_run("CONTACT US\n")
-    title_run.font.size = Pt(28)
+    title_run.font.size = Pt(36)
     title_run.font.bold = True
     title_run.font.color.rgb = RGBColor(126, 4, 29)
     title_run.font.name = 'Arial'
 
-    line_run = para.add_run("━━━━━━━━━━━━━━━━━━\n\n\n")
+    line_run = para.add_run("━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n\n")
     line_run.font.color.rgb = RGBColor(126, 4, 29)
 
     doc.add_paragraph()
@@ -548,7 +610,7 @@ def main():
         para0 = cell0.paragraphs[0]
         para0.alignment = WD_ALIGN_PARAGRAPH.CENTER
         run0 = para0.add_run(label)
-        run0.font.size = Pt(12)
+        run0.font.size = Pt(14)
         run0.font.bold = True
         run0.font.color.rgb = RGBColor(255, 255, 255)
         run0.font.name = 'Arial'
@@ -558,7 +620,7 @@ def main():
         set_cell_border(cell1, BURGUNDY, "2")
         para1 = cell1.paragraphs[0]
         run1 = para1.add_run("  " + value)
-        run1.font.size = Pt(12)
+        run1.font.size = Pt(14)
         run1.font.color.rgb = RGBColor(54, 54, 54)
         run1.font.name = 'Arial'
 
@@ -572,7 +634,7 @@ def main():
     qr_para = qr_cell.paragraphs[0]
     qr_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = qr_para.add_run("\n\n[ QR Code ]\n\n")
-    run.font.size = Pt(14)
+    run.font.size = Pt(18)
     run.font.color.rgb = RGBColor(126, 4, 29)
     run.font.name = 'Arial'
 
