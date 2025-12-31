@@ -290,12 +290,14 @@ def main():
     run.font.name = 'Arial'
 
     hpe_g10_products = [
-        ("P00924-B21", "HPE 32GB DDR4-2933", "32GB", "DDR4-2933"),
-        ("815100-B21", "HPE 32GB DDR4-2666", "32GB", "DDR4-2666"),
-        ("P00930-B21", "HPE 64GB DDR4-2933", "64GB", "DDR4-2933"),
-        ("P00926-B21", "HPE 64GB DDR4-2933 LR", "64GB", "DDR4-2933"),
-        ("P11040-B21", "HPE 128GB DDR4-2933", "128GB", "DDR4-2933"),
-        ("P00928-B21", "HPE 128GB DDR4-2933 3DS", "128GB", "DDR4-2933"),
+        ("P00924-B21", "HPE 32GB (1x32GB) Dual rank x4 DDR4-2933 CAS-21-21-21 registered smart memory kit", "32GB", "DDR4-2933"),
+        ("815100-B21", "HPE 32GB (1x32GB) Dual rank x4 DDR4-2666 CAS-19-19-19 registered smart memory kit", "32GB", "DDR4-2666"),
+        ("P00930-B21", "HPE 64GB (1x64GB) Dual rank x4 DDR4-2933 CAS-21-21-21 registered smart memory kit", "64GB", "DDR4-2933"),
+        ("P00926-B21", "HPE 64GB (1x64GB) quad rank x4 DDR4-2933 CAS-21-21-21 load reduced smart memory kit", "64GB", "DDR4-2933"),
+        ("815101-B21", "HPE 64GB (1x64GB) quad rank x4 DDR4-2666 CAS-19-19-19 load reduced smart memory kit", "64GB", "DDR4-2666"),
+        ("P11040-B21", "HPE 128GB (1x128GB) quad rank x4 DDR4-2933 CAS-24-21-21 load reduced smart memory kit", "128GB", "DDR4-2933"),
+        ("P00928-B21", "HPE 128GB (1x128GB) octal rank x4 DDR4-2933 CAS-24-21-21 load reduced 3DS smart memory kit", "128GB", "DDR4-2933"),
+        ("815102-B21", "HPE 128GB (1x128GB) octal rank x4 DDR4-2666 CAS-22-19-19 3DS load reduced smart memory kit", "128GB", "DDR4-2666"),
     ]
     create_product_table_with_images(doc, hpe_g10_products, ["Part No.", "Description", "Capacity", "Spec"])
 
@@ -307,11 +309,11 @@ def main():
     run.font.name = 'Arial'
 
     hpe_g10plus_products = [
-        ("P06033-B21", "HPE 32GB DDR4-3200", "32GB", "DDR4-3200"),
-        ("P06035-B21", "HPE 64GB DDR4-3200", "64GB", "DDR4-3200"),
-        ("P40007-B21", "HPE 32GB DDR4-3200 SR", "32GB", "DDR4-3200"),
-        ("P06037-B21", "HPE 128GB DDR4-3200", "128GB", "DDR4-3200"),
-        ("P06039-B21", "HPE 256GB DDR4-3200", "256GB", "DDR4-3200"),
+        ("P06033-B21", "HPE 32GB (1x32GB) dual rank x4 DDR4-3200 CAS-22-22-22 registered smart memory kit", "32GB", "DDR4-3200"),
+        ("P06035-B21", "HPE 64GB (1x64GB) dual rank x4 DDR4-3200 CAS-22-22-22 registered smart memory kit", "64GB", "DDR4-3200"),
+        ("P40007-B21", "HPE 32GB (1x32GB) single rank x4 DDR4-3200 CAS-22-22-22 registered smart memory kit", "32GB", "DDR4-3200"),
+        ("P06037-B21", "HPE 128GB (1x128GB) quad rank x4 DDR4-3200 CAS-22-22-22 load reduced smart memory kit", "128GB", "DDR4-3200"),
+        ("P06039-B21", "HPE 256GB (1x256GB) octal rank x4 DDR4-3200 CAS-26-22-22 3DS load reduced smart memory kit", "256GB", "DDR4-3200"),
     ]
     create_product_table_with_images(doc, hpe_g10plus_products, ["Part No.", "Description", "Capacity", "Spec"])
 
@@ -323,16 +325,17 @@ def main():
     run.font.name = 'Arial'
 
     hpe_g11_products = [
-        ("P64705-B21", "HPE 16GB DDR5-5600", "16GB", "DDR5-5600"),
-        ("P64706-B21", "HPE 32GB DDR5-5600", "32GB", "DDR5-5600"),
-        ("P64707-B21", "HPE 64GB DDR5-5600", "64GB", "DDR5-5600"),
-        ("P64708-B21", "HPE 96GB DDR5-5600", "96GB", "DDR5-5600"),
-        ("P64709-B21", "HPE 128GB DDR5-5600", "128GB", "DDR5-5600"),
-        ("P43322-B21", "HPE 16GB DDR5-4800", "16GB", "DDR5-4800"),
-        ("P43328-B21", "HPE 32GB DDR5-4800", "32GB", "DDR5-4800"),
-        ("P43331-B21", "HPE 64GB DDR5-4800", "64GB", "DDR5-4800"),
-        ("P43334-B21", "HPE 128GB DDR5-4800", "128GB", "DDR5-4800"),
-        ("P43337-B21", "HPE 256GB DDR5-4800", "256GB", "DDR5-4800"),
+        ("P64705-B21", "HPE 16GB (1x16GB) Single Rank x8 DDR5-5600 CAS-46-45-45 EC8 Registered Smart Memory Kit", "16GB", "DDR5-5600"),
+        ("P64706-B21", "HPE 32GB (1x32GB) Dual Rank x8 DDR5-5600 CAS-46-45-45 EC8 Registered Smart Memory Kit", "32GB", "DDR5-5600"),
+        ("P64707-B21", "HPE 64GB (1x64GB) Dual Rank x4 DDR5-5600 CAS-46-45-45 EC8 Registered Smart Memory Kit", "64GB", "DDR5-5600"),
+        ("P64708-B21", "HPE 96GB (1x96GB) Dual Rank x4 DDR5-5600 CAS-45-45-45 EC8 Registered Smart Memory Kit", "96GB", "DDR5-5600"),
+        ("P64709-B21", "HPE 128GB (1x128GB) Quad Rank x4 DDR5-5600 CAS-52-45-45 EC8 Registered 3DS Smart Memory Kit", "128GB", "DDR5-5600"),
+        ("P43322-B21", "HPE 16GB (1x16GB) Single Rank x8 DDR5-4800 CAS-40-39-39 EC8 Registered Smart Memory Kit", "16GB", "DDR5-4800"),
+        ("P43328-B21", "HPE 32GB (1x32GB) Dual Rank x8 DDR5-4800 CAS-40-39-39 EC8 Registered Smart Memory Kit", "32GB", "DDR5-4800"),
+        ("P43331-B21", "HPE 64GB (1x64GB) Dual Rank x4 DDR5-4800 CAS-40-39-39 EC8 Registered Smart Memory Kit", "64GB", "DDR5-4800"),
+        ("P66675-B21", "HPE 96GB 2Rx4 PC5-4800B-R Smart Kit", "96GB", "DDR5-4800"),
+        ("P43334-B21", "HPE 128GB (1x128GB) Quad Rank x4 DDR5-4800 CAS-46-39-39 EC8 Registered 3DS Smart Memory Kit", "128GB", "DDR5-4800"),
+        ("P43337-B21", "HPE 256GB (1x256GB) Octal Rank x4 DDR5-4800 CAS-46-39-39 EC8 Registered 3DS Smart Memory Kit", "256GB", "DDR5-4800"),
     ]
     create_product_table_with_images(doc, hpe_g11_products, ["Part No.", "Description", "Capacity", "Spec"])
 
@@ -342,17 +345,24 @@ def main():
     create_product_section_header(doc, "DELL SERVER MEMORY", "DDR4/DDR5 Series")
 
     dell_products = [
-        ("AA601616", "Dell 32GB DDR4-2933", "32GB", "DDR4-2933"),
-        ("AA601615", "Dell 64GB DDR4-2933", "64GB", "DDR4-2933"),
-        ("AA783422", "Dell 32GB DDR4-3200", "32GB", "DDR4-3200"),
-        ("AA783423", "Dell 64GB DDR4-3200", "64GB", "DDR4-3200"),
-        ("AB445285", "Dell 128GB DDR4-3200", "128GB", "DDR4-3200"),
-        ("AC239377", "Dell 16GB DDR5-4800", "16GB", "DDR5-4800"),
-        ("AC239378", "Dell 32GB DDR5-4800", "32GB", "DDR5-4800"),
-        ("AC239379", "Dell 64GB DDR5-4800", "64GB", "DDR5-4800"),
-        ("AC830716", "Dell 16GB DDR5-5600", "16GB", "DDR5-5600"),
-        ("AC830717", "Dell 32GB DDR5-5600", "32GB", "DDR5-5600"),
-        ("AC830718", "Dell 64GB DDR5-5600", "64GB", "DDR5-5600"),
+        ("AA601616", "SNP8WKDYC/32G 32GB PC4-23400 DDR4-2933MHz 2Rx4 R640/R740/R840/R940/T640", "32GB", "DDR4-2933"),
+        ("AA601615", "SNPW403YC/64G 64GB 2Rx4 DDR4 RDIMM 2933 MT/s R640/R740/R840/R940/T640", "64GB", "DDR4-2933"),
+        ("AA579531", "SNP8WKDYC/32G 32GB 2Rx4 2933MHz PC4-23400 R640/R740/R840/R940/T640", "32GB", "DDR4-2933"),
+        ("AA579530", "SNPW403YC/64G 64GB 2Rx4 DDR4 RDIMM 2933 MT/s R640/R740/R840/R940/T640", "64GB", "DDR4-2933"),
+        ("AA783422", "SNP75X1VC/32G 32GB 2Rx4 DDR4 RDIMM 3200 MT/s R6515/R6525/R740/R840/R940/T640/R740XD/R7515/R7525", "32GB", "DDR4-3200"),
+        ("AA783423", "SNPP2MYX/64G 64GB 2RX4 DDR4 RDIMM 3200 MT/s R6515/R6525/R7515/C6525/R7525", "64GB", "DDR4-3200"),
+        ("AA799110", "SNPP2MYX/64G 64GB 2Rx4 DDR4 RDIMM 3200 MT/s R6515/R6525/R7515/C6525/R7525", "64GB", "DDR4-3200"),
+        ("AA810828", "SNPP2MYX/64G 64GB 2Rx4 DDR4 RDIMM 3200 MT/s R640/R740/R840/R940/T640", "64GB", "DDR4-3200"),
+        ("AB445285", "SNP7JXF5C/128G 128GB 4Rx4 DDR4 LRDIMM 3200 MT/s R640/R740/R840/R940/T640", "128GB", "DDR4-3200"),
+        ("AC239377", "SNP1V1N1C/16G 16GB 1Rx8 DDR5 RDIMM 4800 MT/s R660/R760/R6615/R7625", "16GB", "DDR5-4800"),
+        ("AC239378", "SNPW08W9C/32G 32GB 2Rx8 DDR5 RDIMM 4800 MT/s R660/R760/R6615/R7625", "32GB", "DDR5-4800"),
+        ("AC239379", "SNP152K5C/64G 64GB 2Rx4 DDR5 RDIMM 4800 MT/s R660/R760/R860/R960", "64GB", "DDR5-4800"),
+        ("AC830716", "SNPSD48RC/16G 16GB PC5-44800 DDR5-5600MHz 1Rx8 RDIMM", "16GB", "DDR5-5600"),
+        ("AC958788", "SNPXH68MC/16G 16G 1Rx8 DDR5 UDIMM 5600 MT/s", "16GB", "DDR5-5600"),
+        ("AC774043", "SNP8D9M0C/32G 32G 2RX8 PC5 5600B-E DDR5 ECC UDIMM", "32GB", "DDR5-5600"),
+        ("AC830717", "SNPP8XPWC/32G 32GB 2RX8 PC5-44800 DDR5-5600B ECC RDIMM", "32GB", "DDR5-5600"),
+        ("AC830718", "SNP58F3NC/64G 64GB 2Rx4 PC5-44800B-R DDR5-5600 RDIMM", "64GB", "DDR5-5600"),
+        ("AC888060", "SNP5DR48C/16G 16GB DDR5-5600 ECC RDIMM", "16GB", "DDR5-5600"),
     ]
     create_product_table_with_images(doc, dell_products, ["Part No.", "Description", "Capacity", "Spec"])
 
@@ -362,18 +372,30 @@ def main():
     create_product_section_header(doc, "LENOVO SERVER MEMORY", "ThinkSystem Series")
 
     lenovo_products = [
-        ("4ZC7A08707", "Lenovo 16GB DDR4-2933", "16GB", "DDR4-2933"),
-        ("4ZC7A08709", "Lenovo 32GB DDR4-2933", "32GB", "DDR4-2933"),
-        ("4ZC7A08710", "Lenovo 64GB DDR4-2933", "64GB", "DDR4-2933"),
-        ("4X77A08634", "Lenovo 32GB DDR4-3200", "32GB", "DDR4-3200"),
-        ("4ZC7A15124", "Lenovo 64GB DDR4-3200", "64GB", "DDR4-3200"),
-        ("4X77A85511", "Lenovo 16GB DDR5-4800", "16GB", "DDR5-4800"),
-        ("4X77A77483", "Lenovo 32GB DDR5-4800", "32GB", "DDR5-4800"),
-        ("4X77A77033", "Lenovo 64GB DDR5-4800", "64GB", "DDR5-4800"),
-        ("4X77A77034", "Lenovo 128GB DDR5-4800", "128GB", "DDR5-4800"),
-        ("4X77A88049", "Lenovo 32GB DDR5-5600", "32GB", "DDR5-5600"),
-        ("4X77A88052", "Lenovo 64GB DDR5-5600", "64GB", "DDR5-5600"),
-        ("4X77A88054", "Lenovo 128GB DDR5-5600", "128GB", "DDR5-5600"),
+        ("4ZC7A08707", "ThinkSystem 01KR353 16GB 1Rx4 PC4-2933Y", "16GB", "DDR4-2933"),
+        ("4ZC7A08709", "ThinkSystem 01KR355 32G 2RX4 PC4-2933Y DDR4 REG ECC", "32GB", "DDR4-2933"),
+        ("4ZC7A08710", "ThinkSystem 01KR356 64G 2Rx4 PC4-2933Y RECC", "64GB", "DDR4-2933"),
+        ("4X77A08634", "ThinkSystem 02JK239 32G 2RX8 DDR4 3200 RDIMM", "32GB", "DDR4-3200"),
+        ("4X77A08633", "ThinkSystem 02JK237 32GB 2Rx4 PC4-3200AA", "32GB", "DDR4-3200"),
+        ("4ZC7A15124", "ThinkSystem 02JG340 64G 2RX4 PC4-3200AA-RDIMM", "64GB", "DDR4-3200"),
+        ("4X77A08635", "ThinkSystem 02JK971 64G 2VX4 DDR4 3200", "64GB", "DDR4-3200"),
+        ("4X77A77496", "ThinkSystem 03GX401 32GB PC4-3200AA ECC UDIMM", "32GB", "DDR4-3200"),
+        ("4X77A85511", "ThinkSystem 16GB TruDDR5 4800 MHz(1Rx8)", "16GB", "DDR5-4800"),
+        ("4X77A77483", "ThinkSystem 32GB TruDDR5 4800MHz(1Rx4)", "32GB", "DDR5-4800"),
+        ("4X77A88512", "ThinkSystem 32GB TruDDR5 4800MHz (2Rx8)", "32GB", "DDR5-4800"),
+        ("4X77A77031", "ThinkSystem 32GB TruDDR5 4800MHz(2Rx8)", "32GB", "DDR5-4800"),
+        ("4X77A81440", "ThinkSystem 03KL461 32G TruDDR5 2RX8 4800", "32GB", "DDR5-4800"),
+        ("4X77A81442", "ThinkSystem 03GX338 64G TruDDR5 2RX4 PC5 4800B", "64GB", "DDR5-4800"),
+        ("4X77A77033", "ThinkSystem 64GB TruDDR5 4800MHz(2Rx4)", "64GB", "DDR5-4800"),
+        ("4X77A77034", "ThinkSystem 128GB TruDDR5 4800MHz 4Rx4 3DS RDIMM", "128GB", "DDR5-4800"),
+        ("4X77A77035", "ThinkSystem 256GB TruDDR5 4800MHz(8Rx4)", "256GB", "DDR5-4800"),
+        ("4X77A88049", "ThinkSystem 32GB TruDDR5 5600MHz(1Rx4)", "32GB", "DDR5-5600"),
+        ("4X77A88051", "ThinkSystem 32GB TruDDR5 5600MHz(2Rx8)", "32GB", "DDR5-5600"),
+        ("4X77A90992", "ThinkSystem 64GB TruDDR5 5600MHz 2Rx4", "64GB", "DDR5-5600"),
+        ("4X77A88052", "ThinkSystem 64GB TruDDR5 5600MHz(2Rx4)", "64GB", "DDR5-5600"),
+        ("4X77A93887", "ThinkSystem 128GB TruDDR5 5600MHz (2Rx4)RDIMM", "128GB", "DDR5-5600"),
+        ("4X77A88054", "ThinkSystem 128GB TruDDR5 5600MHz(4Rx4)", "128GB", "DDR5-5600"),
+        ("4X77A88055", "ThinkSystem 256GB TruDDR5 5600 MHz (8Rx4) 3DS RDIMM", "256GB", "DDR5-5600"),
     ]
     create_product_table_with_images(doc, lenovo_products, ["Part No.", "Description", "Capacity", "Spec"])
 
@@ -382,39 +404,106 @@ def main():
     # ==================== HPE Enterprise HDD ====================
     create_product_section_header(doc, "HPE ENTERPRISE HDD", "SAS HDD Series")
 
-    hdd_title = doc.add_paragraph()
-    run = hdd_title.add_run("▶ Enterprise 10K/15K SAS HDD")
+    # Enterprise 10K SFF
+    hdd_title1 = doc.add_paragraph()
+    run = hdd_title1.add_run("▶ Enterprise 10K SFF (2.5-inch)")
     run.font.size = Pt(14)
     run.font.bold = True
     run.font.color.rgb = RGBColor(126, 4, 29)
     run.font.name = 'Arial'
 
-    hpe_hdd = [
-        ("881457-B21", "HPE 2.4TB SAS 10K SFF", "2.4TB", "10K"),
-        ("872481-B21", "HPE 1.8TB SAS 10K SFF", "1.8TB", "10K"),
-        ("872479-B21", "HPE 1.2TB SAS 10K SFF", "1.2TB", "10K"),
-        ("870759-B21", "HPE 900GB SAS 15K SFF", "900GB", "15K"),
-        ("870757-B21", "HPE 600GB SAS 15K SFF", "600GB", "15K"),
-        ("870753-B21", "HPE 300GB SAS 15K SFF", "300GB", "15K"),
+    hpe_10k_sff = [
+        ("881457-B21", "HPE 2.4TB SAS 12G Enterprise 10K SFF SC 3-year warranty 512e Digitally Signed (DS) firmware HDD", "2.4TB", "10K"),
+        ("872481-B21", "HPE 1.8TB SAS 12G Enterprise 10K SFF SC 3-year warranty 512e DS firmware HDD", "1.8TB", "10K"),
+        ("872479-B21", "HPE 1.2TB SAS 12G Enterprise 10K SFF SC 3-year warranty DS firmware HDD", "1.2TB", "10K"),
+        ("872477-B21", "HPE 600GB SAS 12G Enterprise 10K SFF SC 3-year warranty DS firmware HDD", "600GB", "10K"),
+        ("872475-B21", "HPE 300GB SAS 12G Enterprise 10K SFF SC 3-year warranty DS firmware HDD", "300GB", "10K"),
     ]
-    create_product_table_with_images(doc, hpe_hdd, ["Part No.", "Description", "Capacity", "Speed"])
+    create_product_table_with_images(doc, hpe_10k_sff, ["Part No.", "Description", "Capacity", "Speed"])
 
-    midline_title = doc.add_paragraph()
-    run = midline_title.add_run("▶ Midline 7.2K SAS HDD")
+    # Enterprise 15K SFF
+    hdd_title2 = doc.add_paragraph()
+    run = hdd_title2.add_run("▶ Enterprise 15K SFF (2.5-inch)")
     run.font.size = Pt(14)
     run.font.bold = True
     run.font.color.rgb = RGBColor(126, 4, 29)
     run.font.name = 'Arial'
 
-    hpe_midline = [
-        ("P23863-B21", "HPE 16TB SAS 7.2K LFF", "16TB", "7.2K"),
-        ("P09153-B21", "HPE 14TB SAS 7.2K LFF", "14TB", "7.2K"),
-        ("881779-B21", "HPE 12TB SAS 7.2K LFF", "12TB", "7.2K"),
-        ("857644-B21", "HPE 10TB SAS 7.2K LFF", "10TB", "7.2K"),
-        ("819201-B21", "HPE 8TB SAS 7.2K LFF", "8TB", "7.2K"),
-        ("861754-B21", "HPE 6TB SAS 7.2K LFF", "6TB", "7.2K"),
+    hpe_15k_sff = [
+        ("870759-B21", "HPE 900GB SAS 12G Enterprise 15K SFF SC 3-year warranty DS firmware HDD", "900GB", "15K"),
+        ("870757-B21", "HPE 600GB SAS 12G Enterprise 15K SFF SC 3-year warranty DS firmware HDD", "600GB", "15K"),
+        ("870753-B21", "HPE 300GB SAS 12G Enterprise 15K SFF SC 3-year warranty DS firmware HDD", "300GB", "15K"),
     ]
-    create_product_table_with_images(doc, hpe_midline, ["Part No.", "Description", "Capacity", "Speed"])
+    create_product_table_with_images(doc, hpe_15k_sff, ["Part No.", "Description", "Capacity", "Speed"])
+
+    # Midline 7.2K SFF
+    hdd_title3 = doc.add_paragraph()
+    run = hdd_title3.add_run("▶ Midline 7.2K SFF (2.5-inch)")
+    run.font.size = Pt(14)
+    run.font.bold = True
+    run.font.color.rgb = RGBColor(126, 4, 29)
+    run.font.name = 'Arial'
+
+    hpe_72k_sff = [
+        ("765466-B21", "HPE 2TB SAS 12G Midline 7.2K SFF SC 1-year warranty 512e HDD", "2TB", "7.2K"),
+        ("832514-B21", "HPE 1TB SAS 12G Midline 7.2K SFF SC 1-year warranty DS firmware HDD", "1TB", "7.2K"),
+    ]
+    create_product_table_with_images(doc, hpe_72k_sff, ["Part No.", "Description", "Capacity", "Speed"])
+
+    # Midline 7.2K LFF
+    hdd_title4 = doc.add_paragraph()
+    run = hdd_title4.add_run("▶ Midline 7.2K LFF (3.5-inch)")
+    run.font.size = Pt(14)
+    run.font.bold = True
+    run.font.color.rgb = RGBColor(126, 4, 29)
+    run.font.name = 'Arial'
+
+    hpe_72k_lff = [
+        ("P23863-B21", "HPE 16TB SAS 12G Business Critical 7.2K LFF SC 1-year warranty 512e ISE HDD", "16TB", "7.2K"),
+        ("P09153-B21", "HPE 14TB SAS 12G Midline 7.2K LFF SC 1-year warranty Helium 512e DS firmware HDD", "14TB", "7.2K"),
+        ("881779-B21", "HPE 12TB SAS 12G Midline 7.2K LFF SC 1-year warranty Helium 512e DS firmware HDD", "12TB", "7.2K"),
+        ("857644-B21", "HPE 10TB SAS 12G Midline 7.2K LFF SC 1-year warranty Helium 512e DS firmware HDD", "10TB", "7.2K"),
+        ("819201-B21", "HPE 8TB SAS 12G Midline 7.2K LFF SC 1-year warranty 512e DS firmware HDD", "8TB", "7.2K"),
+        ("861754-B21", "HPE 6TB SAS 12G Midline 7.2K LFF SC 1-year warranty 512e HDD", "6TB", "7.2K"),
+    ]
+    create_product_table_with_images(doc, hpe_72k_lff, ["Part No.", "Description", "Capacity", "Speed"])
+
+    doc.add_page_break()
+
+    # Mission Critical SFF BC
+    hdd_title5 = doc.add_paragraph()
+    run = hdd_title5.add_run("▶ Mission Critical 10K/15K SFF BC")
+    run.font.size = Pt(14)
+    run.font.bold = True
+    run.font.color.rgb = RGBColor(126, 4, 29)
+    run.font.name = 'Arial'
+
+    hpe_mc_sff = [
+        ("P28352-B21", "HPE 2.4TB SAS 12G mission critical 10K SFF BC 3-year warranty 512e HDD", "2.4TB", "10K"),
+        ("P28586-B21", "HPE 1.2TB SAS 12G mission critical 10K SFF BC 3-year warranty HDD", "1.2TB", "10K"),
+        ("P28028-B21", "HPE 300GB SAS 12G mission critical 15K SFF BC 3-year warranty HDD", "300GB", "15K"),
+        ("P40430-B21", "HPE 300GB SAS 12G mission critical 10K SFF BC 3-year warranty HDD", "300GB", "10K"),
+    ]
+    create_product_table_with_images(doc, hpe_mc_sff, ["Part No.", "Description", "Capacity", "Speed"])
+
+    # Business Critical 7.2K LFF LP
+    hdd_title6 = doc.add_paragraph()
+    run = hdd_title6.add_run("▶ Business Critical 7.2K LFF LP (3.5-inch)")
+    run.font.size = Pt(14)
+    run.font.bold = True
+    run.font.color.rgb = RGBColor(126, 4, 29)
+    run.font.name = 'Arial'
+
+    hpe_bc_lff = [
+        ("P37669-B21", "HPE 18TB SAS 12G business critical 7.2K LFF LP 1-year warranty 512e ISE HDD", "18TB", "7.2K"),
+        ("P23608-B21", "HPE 16TB SAS 12G business critical 7.2K LFF LP 1-year warranty 512e ISE HDD", "16TB", "7.2K"),
+        ("P09155-B21", "HPE 14TB SAS 12G MDL 7.2K LFF LP 1-year warranty helium 512e Digitally Signed (DS) firmware HDD", "14TB", "7.2K"),
+        ("881781-B21", "HPE 12TB SAS 12G MDL 7.2K LFF LP 1-year warranty helium 512e DS firmware HDD", "12TB", "7.2K"),
+        ("P09149-B21", "HPE 10TB SAS 12G MDL 7.2K LFF LP 1-year warranty 512e DS firmware HDD", "10TB", "7.2K"),
+        ("834031-B21", "HPE 8TB SAS 12G MDL 7.2K LFF LP 1-year warranty 512e DS firmware HDD", "8TB", "7.2K"),
+        ("861746-B21", "HPE 6TB SAS 12G MDL 7.2K LFF LP 1-year warranty 512e HDD", "6TB", "7.2K"),
+    ]
+    create_product_table_with_images(doc, hpe_bc_lff, ["Part No.", "Description", "Capacity", "Speed"])
 
     doc.add_page_break()
 
