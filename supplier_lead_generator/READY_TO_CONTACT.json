@@ -1,0 +1,242 @@
+{
+  "report_date": "2025-12-21",
+  "total_clients": 12,
+  "all_have_contact_info": true,
+  "whatsapp_count": 5,
+  "email_count": 10,
+
+  "immediate_action": [
+    {
+      "priority": 1,
+      "company": "CompuCenter Bolivia - La Paz",
+      "country": "🇧🇴 Bolivia",
+      "whatsapp": "+591 74055209",
+      "email": "lapaz@compucenter.store",
+      "phone": "+591-2-2457741",
+      "contact_method": "WhatsApp (最快)",
+      "message_template": "Hola! Somos proveedores mayoristas de componentes HP/Dell/Lenovo originales nuevos. ¿Tienen necesidades de compra?"
+    },
+    {
+      "priority": 2,
+      "company": "CompuCenter Bolivia - Santa Cruz",
+      "country": "🇧🇴 Bolivia",
+      "whatsapp": "+591 72590150",
+      "email": "scz@compucenter.store",
+      "phone": "+591-3-3299625",
+      "contact_method": "WhatsApp"
+    },
+    {
+      "priority": 3,
+      "company": "SEPTIPE",
+      "country": "🇵🇪 Peru",
+      "whatsapp": "+51 913-286-291",
+      "email": "SAC@SEPTIPE.COM",
+      "phone": "+51 994-397-587",
+      "website": "https://septipe.com",
+      "contact_method": "WhatsApp或Email"
+    },
+    {
+      "priority": 4,
+      "company": "CAD Gulf LLC",
+      "country": "🇦🇪 UAE",
+      "email": "sales@cadgulf.com",
+      "phone": "+971 4 3311140",
+      "mobile": "+971 58 580 8937",
+      "website": "https://cadgulf.com",
+      "contact_method": "Email"
+    },
+    {
+      "priority": 5,
+      "company": "DSR Tech",
+      "country": "🇦🇪 UAE",
+      "email": "sales@dsrtech.ae",
+      "phone": "+971-4-3544115",
+      "mobile": "+971-56-4110486",
+      "website": "https://www.dsrtech.ae",
+      "contact_method": "Email"
+    }
+  ],
+
+  "all_clients": [
+    {
+      "id": 1,
+      "company": "CompuCenter Bolivia",
+      "country": "Bolivia",
+      "business": "HP/Dell/Lenovo授权经销商",
+      "offices": 3,
+      "la_paz": {
+        "email": "lapaz@compucenter.store",
+        "whatsapp": "+591 74055209",
+        "phone": "+591-2-2457741"
+      },
+      "santa_cruz": {
+        "email": "scz@compucenter.store",
+        "whatsapp": "+591 72590150",
+        "phone": "+591-3-3299625"
+      },
+      "cochabamba": {
+        "email": "cbba@compucenter.store",
+        "whatsapp": "+591 68166678",
+        "phone": "+591-4-4331498"
+      },
+      "website": "https://compucenter.store",
+      "priority": "⭐⭐⭐"
+    },
+    {
+      "id": 2,
+      "company": "SEPTIPE",
+      "country": "Peru",
+      "business": "服务器配件专业经销商",
+      "email": "SAC@SEPTIPE.COM",
+      "whatsapp": "+51 913-286-291",
+      "phone": "+51 994-397-587",
+      "website": "https://septipe.com",
+      "location": "Lima",
+      "priority": "⭐⭐⭐"
+    },
+    {
+      "id": 3,
+      "company": "CAD Gulf LLC",
+      "country": "UAE",
+      "business": "服务器供应商和托管服务",
+      "experience": "30+ years",
+      "email": "sales@cadgulf.com",
+      "phone": "+971 4 3311140",
+      "mobile": "+971 58 580 8937",
+      "website": "https://cadgulf.com",
+      "location": "Dubai",
+      "priority": "⭐⭐⭐"
+    },
+    {
+      "id": 4,
+      "company": "DSR Tech",
+      "country": "UAE",
+      "business": "IT硬件分销商",
+      "email": "sales@dsrtech.ae",
+      "email_alt": "info@dsrtech.ae",
+      "phone": "+971-4-3544115",
+      "mobile": "+971-56-4110486",
+      "website": "https://www.dsrtech.ae",
+      "location": "Dubai",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 5,
+      "company": "Atop Computer Solutions",
+      "country": "UAE",
+      "business": "HP授权经销商",
+      "email": "info@acs-dxb.com",
+      "phone": "+971-4-3518010",
+      "mobile": "+971-50-5386049",
+      "website": "https://www.acs-dxb.com",
+      "location": "Dubai",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 6,
+      "company": "IT Service Peru",
+      "country": "Peru",
+      "business": "技术解决方案集成商",
+      "experience": "19+ years",
+      "email": "ventasits@itservice.com.pe",
+      "email_dell": "daniele.mancin@itservice.com.pe",
+      "phone_dell": "+51 987536249",
+      "website": "https://www.itservice.com.pe",
+      "location": "Lima",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 7,
+      "company": "IT Solutions Bolivia",
+      "country": "Bolivia",
+      "business": "IT基础设施和服务器经销商",
+      "phone": "+591 75007378",
+      "website": "https://www.itsolutions-bo.com",
+      "linkedin": "https://www.linkedin.com/company/it-solutions-bo",
+      "location": "Santa Cruz",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 8,
+      "company": "ITC SERVICIOS Bolivia",
+      "country": "Bolivia",
+      "business": "Tier III数据中心",
+      "phone": "+591-3-343-5155",
+      "email_domain": "@itcservicios.com, @itc-e.com",
+      "website": "https://itc-e.com",
+      "linkedin": "https://bo.linkedin.com/company/itc-servicios-bolivia",
+      "location": "Santa Cruz",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 9,
+      "company": "Server Switch",
+      "country": "Egypt",
+      "business": "IT硬件商店",
+      "email": "Info@serverswitch.net",
+      "phone": "+20 1000 625 150",
+      "website": "https://www.serverswitch.net",
+      "location": "Cairo",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 10,
+      "company": "ServerShop",
+      "country": "UAE",
+      "business": "服务器配件批发商",
+      "whatsapp": "+971-552727451",
+      "website": "https://servershop.ae",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 11,
+      "company": "Liberty UAE",
+      "country": "UAE",
+      "business": "IT硬件供应商",
+      "phone": "+971-4-3797271",
+      "phone_alt": "+971-6-5692017",
+      "mobile": "+971-50-3439951",
+      "website": "https://www.libertyuae.com",
+      "location": "Dubai/Sharjah",
+      "priority": "⭐⭐"
+    },
+    {
+      "id": 12,
+      "company": "IPXON Networks",
+      "country": "Bolivia",
+      "business": "数据中心服务",
+      "phone": "+1 833-471-7100",
+      "website": "https://www.ipxon.com",
+      "contact_page": "https://www.ipxon.com/en-gl/contact",
+      "location": "Santa Cruz",
+      "priority": "⭐"
+    }
+  ],
+
+  "quick_stats": {
+    "by_country": {
+      "Bolivia": 4,
+      "UAE": 5,
+      "Peru": 2,
+      "Egypt": 1
+    },
+    "by_contact_type": {
+      "whatsapp": 5,
+      "email": 10,
+      "phone_only": 2
+    },
+    "by_priority": {
+      "very_high": 3,
+      "high": 7,
+      "medium": 2
+    }
+  },
+
+  "next_steps": [
+    "1. WhatsApp联系: CompuCenter (+591 74055209)",
+    "2. WhatsApp联系: SEPTIPE (+51 913-286-291)",
+    "3. 发邮件: CAD Gulf (sales@cadgulf.com)",
+    "4. 发邮件: DSR Tech (sales@dsrtech.ae)",
+    "5. 发邮件: IT Service Peru (ventasits@itservice.com.pe)"
+  ]
+}

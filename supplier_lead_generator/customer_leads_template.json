@@ -1,0 +1,3418 @@
+{
+  "leads": [
+    {
+      "lead_id": "Peru_001",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .pe 结尾]",
+        "address": "[建议城市: Lima, Arequipa, Trujillo]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Peru import OR procurement OR trading company\"",
+          "filters": "位置=Peru, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Peru buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Peru]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Peru\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Peru",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Cámara de Comercio de Lima",
+              "url": "https://www.camaralima.org.pe",
+              "membership_directory": "会员目录可能需要注册",
+              "data_type": "会员企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Peru trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Peru的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.885892",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Peru_002",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .pe 结尾]",
+        "address": "[建议城市: Lima, Arequipa, Trujillo]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Peru import OR procurement OR trading company\"",
+          "filters": "位置=Peru, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Peru buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Peru]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Peru\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Peru",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Cámara de Comercio de Lima",
+              "url": "https://www.camaralima.org.pe",
+              "membership_directory": "会员目录可能需要注册",
+              "data_type": "会员企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Peru trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Peru的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.885953",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Peru_003",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .pe 结尾]",
+        "address": "[建议城市: Lima, Arequipa, Trujillo]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Peru import OR procurement OR trading company\"",
+          "filters": "位置=Peru, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Peru buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Peru]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Peru\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Peru",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Cámara de Comercio de Lima",
+              "url": "https://www.camaralima.org.pe",
+              "membership_directory": "会员目录可能需要注册",
+              "data_type": "会员企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Peru trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Peru的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.885975",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Peru_004",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .pe 结尾]",
+        "address": "[建议城市: Lima, Arequipa, Trujillo]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Peru import OR procurement OR trading company\"",
+          "filters": "位置=Peru, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Peru buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Peru]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Peru\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Peru",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Cámara de Comercio de Lima",
+              "url": "https://www.camaralima.org.pe",
+              "membership_directory": "会员目录可能需要注册",
+              "data_type": "会员企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Peru trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Peru的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.885995",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Peru_005",
+      "country": "Peru",
+      "country_cn": "秘鲁",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +51 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +51 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .pe 结尾]",
+        "address": "[建议城市: Lima, Arequipa, Trujillo]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Peru import OR procurement OR trading company\"",
+          "filters": "位置=Peru, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Peru buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Peru]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Peru\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Peru",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Cámara de Comercio de Lima",
+              "url": "https://www.camaralima.org.pe",
+              "membership_directory": "会员目录可能需要注册",
+              "data_type": "会员企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Peru trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Peru的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886019",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Bolivia_001",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .bo 结尾]",
+        "address": "[建议城市: La Paz, Santa Cruz, Cochabamba]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Bolivia import OR procurement OR trading company\"",
+          "filters": "位置=Bolivia, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Bolivia buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Bolivia]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Bolivia\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Bolivia",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "CAINCO - Cámara de Industria, Comercio, Servicios y Turismo",
+              "url": "https://www.cainco.org.bo",
+              "membership_directory": "公开的会员名录",
+              "data_type": "企业联系信息"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Bolivia trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Bolivia的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886208",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Bolivia_002",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .bo 结尾]",
+        "address": "[建议城市: La Paz, Santa Cruz, Cochabamba]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Bolivia import OR procurement OR trading company\"",
+          "filters": "位置=Bolivia, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Bolivia buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Bolivia]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Bolivia\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Bolivia",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "CAINCO - Cámara de Industria, Comercio, Servicios y Turismo",
+              "url": "https://www.cainco.org.bo",
+              "membership_directory": "公开的会员名录",
+              "data_type": "企业联系信息"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Bolivia trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Bolivia的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886256",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Bolivia_003",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .bo 结尾]",
+        "address": "[建议城市: La Paz, Santa Cruz, Cochabamba]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Bolivia import OR procurement OR trading company\"",
+          "filters": "位置=Bolivia, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Bolivia buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Bolivia]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Bolivia\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Bolivia",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "CAINCO - Cámara de Industria, Comercio, Servicios y Turismo",
+              "url": "https://www.cainco.org.bo",
+              "membership_directory": "公开的会员名录",
+              "data_type": "企业联系信息"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Bolivia trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Bolivia的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886294",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Bolivia_004",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .bo 结尾]",
+        "address": "[建议城市: La Paz, Santa Cruz, Cochabamba]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Bolivia import OR procurement OR trading company\"",
+          "filters": "位置=Bolivia, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Bolivia buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Bolivia]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Bolivia\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Bolivia",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "CAINCO - Cámara de Industria, Comercio, Servicios y Turismo",
+              "url": "https://www.cainco.org.bo",
+              "membership_directory": "公开的会员名录",
+              "data_type": "企业联系信息"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Bolivia trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Bolivia的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886317",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Bolivia_005",
+      "country": "Bolivia",
+      "country_cn": "玻利维亚",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Agriculture, Textiles]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +591 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +591 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .bo 结尾]",
+        "address": "[建议城市: La Paz, Santa Cruz, Cochabamba]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Bolivia import OR procurement OR trading company\"",
+          "filters": "位置=Bolivia, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Bolivia buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Bolivia]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Bolivia\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Bolivia",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "CAINCO - Cámara de Industria, Comercio, Servicios y Turismo",
+              "url": "https://www.cainco.org.bo",
+              "membership_directory": "公开的会员名录",
+              "data_type": "企业联系信息"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Bolivia trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Bolivia的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886339",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Egypt_001",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Textiles, Food Processing, Chemicals]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .eg 结尾]",
+        "address": "[建议城市: Cairo, Alexandria, Giza]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Egypt import OR procurement OR trading company\"",
+          "filters": "位置=Egypt, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Egypt buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Egypt]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Egypt\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Egypt",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Federation of Egyptian Chambers of Commerce",
+              "url": "https://www.fedcoc.org.eg",
+              "membership_directory": "会员数据库",
+              "data_type": "企业目录"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Egypt trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Egypt的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886599",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Egypt_002",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Textiles, Food Processing, Chemicals]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .eg 结尾]",
+        "address": "[建议城市: Cairo, Alexandria, Giza]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Egypt import OR procurement OR trading company\"",
+          "filters": "位置=Egypt, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Egypt buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Egypt]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Egypt\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Egypt",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Federation of Egyptian Chambers of Commerce",
+              "url": "https://www.fedcoc.org.eg",
+              "membership_directory": "会员数据库",
+              "data_type": "企业目录"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Egypt trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Egypt的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886645",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Egypt_003",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Textiles, Food Processing, Chemicals]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .eg 结尾]",
+        "address": "[建议城市: Cairo, Alexandria, Giza]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Egypt import OR procurement OR trading company\"",
+          "filters": "位置=Egypt, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Egypt buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Egypt]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Egypt\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Egypt",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Federation of Egyptian Chambers of Commerce",
+              "url": "https://www.fedcoc.org.eg",
+              "membership_directory": "会员数据库",
+              "data_type": "企业目录"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Egypt trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Egypt的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886686",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Egypt_004",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Textiles, Food Processing, Chemicals]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .eg 结尾]",
+        "address": "[建议城市: Cairo, Alexandria, Giza]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Egypt import OR procurement OR trading company\"",
+          "filters": "位置=Egypt, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Egypt buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Egypt]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Egypt\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Egypt",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Federation of Egyptian Chambers of Commerce",
+              "url": "https://www.fedcoc.org.eg",
+              "membership_directory": "会员数据库",
+              "data_type": "企业目录"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Egypt trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Egypt的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886708",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Egypt_005",
+      "country": "Egypt",
+      "country_cn": "埃及",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Textiles, Food Processing, Chemicals]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +20 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +20 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .eg 结尾]",
+        "address": "[建议城市: Cairo, Alexandria, Giza]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Egypt import OR procurement OR trading company\"",
+          "filters": "位置=Egypt, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Egypt buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Egypt]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Egypt\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Egypt",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Federation of Egyptian Chambers of Commerce",
+              "url": "https://www.fedcoc.org.eg",
+              "membership_directory": "会员数据库",
+              "data_type": "企业目录"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Egypt trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Egypt的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.886753",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_001",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Oil & Gas, Agriculture]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .kz 结尾]",
+        "address": "[建议城市: Almaty, Nur-Sultan, Shymkent]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Kazakhstan import OR procurement OR trading company\"",
+          "filters": "位置=Kazakhstan, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Kazakhstan buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Kazakhstan]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Kazakhstan\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Kazakhstan",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Chamber of Commerce and Industry of Kazakhstan",
+              "url": "https://www.chamber.kz",
+              "membership_directory": "会员名录",
+              "data_type": "企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Kazakhstan trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Kazakhstan的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887009",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_002",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Oil & Gas, Agriculture]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .kz 结尾]",
+        "address": "[建议城市: Almaty, Nur-Sultan, Shymkent]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Kazakhstan import OR procurement OR trading company\"",
+          "filters": "位置=Kazakhstan, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Kazakhstan buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Kazakhstan]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Kazakhstan\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Kazakhstan",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Chamber of Commerce and Industry of Kazakhstan",
+              "url": "https://www.chamber.kz",
+              "membership_directory": "会员名录",
+              "data_type": "企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Kazakhstan trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Kazakhstan的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887037",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_003",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Oil & Gas, Agriculture]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .kz 结尾]",
+        "address": "[建议城市: Almaty, Nur-Sultan, Shymkent]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Kazakhstan import OR procurement OR trading company\"",
+          "filters": "位置=Kazakhstan, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Kazakhstan buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Kazakhstan]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Kazakhstan\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Kazakhstan",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Chamber of Commerce and Industry of Kazakhstan",
+              "url": "https://www.chamber.kz",
+              "membership_directory": "会员名录",
+              "data_type": "企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Kazakhstan trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Kazakhstan的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887078",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_004",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Oil & Gas, Agriculture]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .kz 结尾]",
+        "address": "[建议城市: Almaty, Nur-Sultan, Shymkent]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Kazakhstan import OR procurement OR trading company\"",
+          "filters": "位置=Kazakhstan, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Kazakhstan buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Kazakhstan]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Kazakhstan\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Kazakhstan",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Chamber of Commerce and Industry of Kazakhstan",
+              "url": "https://www.chamber.kz",
+              "membership_directory": "会员名录",
+              "data_type": "企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Kazakhstan trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Kazakhstan的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887110",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "Kazakhstan_005",
+      "country": "Kazakhstan",
+      "country_cn": "哈萨克斯坦",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Mining, Oil & Gas, Agriculture]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +7 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +7 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .kz 结尾]",
+        "address": "[建议城市: Almaty, Nur-Sultan, Shymkent]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"Kazakhstan import OR procurement OR trading company\"",
+          "filters": "位置=Kazakhstan, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"Kazakhstan buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[Kazakhstan]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"Kazakhstan\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=Kazakhstan",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Chamber of Commerce and Industry of Kazakhstan",
+              "url": "https://www.chamber.kz",
+              "membership_directory": "会员名录",
+              "data_type": "企业联系方式"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"Kazakhstan trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在Kazakhstan的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887139",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "UAE_001",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Trading, Construction, Retail]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .ae 结尾]",
+        "address": "[建议城市: Dubai, Abu Dhabi, Sharjah]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"UAE import OR procurement OR trading company\"",
+          "filters": "位置=UAE, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"UAE buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[UAE]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"UAE\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=UAE",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Dubai Chamber of Commerce",
+              "url": "https://www.dubaichamber.com",
+              "membership_directory": "会员搜索",
+              "data_type": "企业资料"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"UAE trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在UAE的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887395",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "UAE_002",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Trading, Construction, Retail]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .ae 结尾]",
+        "address": "[建议城市: Dubai, Abu Dhabi, Sharjah]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"UAE import OR procurement OR trading company\"",
+          "filters": "位置=UAE, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"UAE buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[UAE]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"UAE\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=UAE",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Dubai Chamber of Commerce",
+              "url": "https://www.dubaichamber.com",
+              "membership_directory": "会员搜索",
+              "data_type": "企业资料"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"UAE trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在UAE的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887457",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "UAE_003",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Trading, Construction, Retail]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .ae 结尾]",
+        "address": "[建议城市: Dubai, Abu Dhabi, Sharjah]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"UAE import OR procurement OR trading company\"",
+          "filters": "位置=UAE, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"UAE buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[UAE]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"UAE\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=UAE",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Dubai Chamber of Commerce",
+              "url": "https://www.dubaichamber.com",
+              "membership_directory": "会员搜索",
+              "data_type": "企业资料"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"UAE trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在UAE的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887492",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "UAE_004",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Trading, Construction, Retail]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .ae 结尾]",
+        "address": "[建议城市: Dubai, Abu Dhabi, Sharjah]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"UAE import OR procurement OR trading company\"",
+          "filters": "位置=UAE, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"UAE buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[UAE]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"UAE\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=UAE",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Dubai Chamber of Commerce",
+              "url": "https://www.dubaichamber.com",
+              "membership_directory": "会员搜索",
+              "data_type": "企业资料"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"UAE trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在UAE的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887538",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    },
+    {
+      "lead_id": "UAE_005",
+      "country": "UAE",
+      "country_cn": "阿联酋",
+      "company_name": "[待收集] - 从以下来源搜索",
+      "company_name_local": "[当地语言名称]",
+      "industry": "[建议: Trading, Construction, Retail]",
+      "company_size": "SME (11-500人)",
+      "contact_info": {
+        "email": "[从网站/LinkedIn/B2B平台收集]",
+        "phone": "[格式: +971 XXXXXXXXX]",
+        "whatsapp": "[通常与电话相同: +971 XXXXXXXXX]",
+        "website": "[搜索公司网站,通常以 .ae 结尾]",
+        "address": "[建议城市: Dubai, Abu Dhabi, Sharjah]",
+        "linkedin_company": "[LinkedIn公司页面URL]",
+        "contact_person": {
+          "name": "[采购经理/进口经理姓名]",
+          "title": "[职位]",
+          "linkedin": "[个人LinkedIn]",
+          "email": "[个人邮箱]"
+        }
+      },
+      "sourcing_status": {
+        "status": "正在寻找供应商",
+        "evidence": "[从哪里发现的: B2B询盘/LinkedIn招聘/新闻]",
+        "products_needed": "[他们需要什么产品]",
+        "current_suppliers": "[尽量确认是否已有稳定供应商]"
+      },
+      "data_collection_guide": {
+        "step1_linkedin": {
+          "action": "在LinkedIn搜索 \"UAE import OR procurement OR trading company\"",
+          "filters": "位置=UAE, 公司规模=11-500",
+          "what_to_collect": "公司名、网站、员工数、行业"
+        },
+        "step2_website": {
+          "action": "访问公司网站",
+          "what_to_collect": "联系邮箱、电话、产品需求、关于我们"
+        },
+        "step3_b2b": {
+          "action": "在Alibaba/TradeKey搜索 \"UAE buyer\"",
+          "what_to_collect": "买家询盘、联系方式、采购需求"
+        },
+        "step4_contact": {
+          "action": "在LinkedIn找采购经理",
+          "what_to_collect": "姓名、职位、联系方式"
+        },
+        "step5_verify": {
+          "action": "验证公司真实性",
+          "what_to_check": "公司注册、网站活跃度、社交媒体"
+        }
+      },
+      "recommended_sources": [
+        {
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/search/results/companies/?geoUrn=[UAE]",
+          "priority": "High"
+        },
+        {
+          "source": "Google",
+          "search_query": "\"UAE\" import companies contact email",
+          "priority": "High"
+        },
+        {
+          "source": "Alibaba Buyers",
+          "url": "https://www.alibaba.com/buyer/search?country=UAE",
+          "priority": "Medium"
+        },
+        {
+          "source": "Chamber of Commerce",
+          "info": [
+            {
+              "name": "Dubai Chamber of Commerce",
+              "url": "https://www.dubaichamber.com",
+              "membership_directory": "会员搜索",
+              "data_type": "企业资料"
+            }
+          ],
+          "priority": "High"
+        },
+        {
+          "source": "Trade Shows",
+          "action": "搜索 \"UAE trade show exhibitors\" 获取参展商名单",
+          "priority": "Medium"
+        }
+      ],
+      "due_diligence_checklist": {
+        "company_verification": {
+          "task": "验证公司注册",
+          "how": "在UAE的公司注册网站查询",
+          "status": "待完成"
+        },
+        "website_check": {
+          "task": "检查网站真实性",
+          "how": "检查域名年龄、SSL证书、内容更新",
+          "status": "待完成"
+        },
+        "social_media": {
+          "task": "社交媒体验证",
+          "how": "检查LinkedIn、Facebook活跃度",
+          "status": "待完成"
+        },
+        "trade_history": {
+          "task": "贸易历史查询",
+          "how": "在ImportGenius/Panjiva查询 (付费)",
+          "status": "可选"
+        },
+        "news_search": {
+          "task": "新闻搜索",
+          "how": "Google搜索 \"公司名\" news",
+          "status": "待完成"
+        },
+        "contact_verification": {
+          "task": "联系方式验证",
+          "how": "验证邮箱格式、电话有效性",
+          "status": "待完成"
+        }
+      },
+      "metadata": {
+        "created_date": "2025-12-21T10:27:05.887575",
+        "data_quality": 0,
+        "completion_status": "0% - 待收集",
+        "compliance": "GDPR compliant - 仅公开信息",
+        "next_action": "开始从LinkedIn搜索"
+      }
+    }
+  ],
+  "collection_guide": {
+    "Peru": {
+      "search_queries": [
+        "Peru importers contact",
+        "Peru companies looking for suppliers",
+        "Peru procurement managers email",
+        "Peru import export companies directory",
+        "Peru chamber of commerce members",
+        "Lima Peru trading companies",
+        "Arequipa Peru trading companies"
+      ],
+      "linkedin_guide": [
+        {
+          "search_url": "https://www.linkedin.com/search/results/companies/",
+          "filters": {
+            "location": "Peru",
+            "company_size": "11-50, 51-200, 201-500",
+            "keywords": "import, procurement, trading, buyer"
+          },
+          "data_to_collect": [
+            "公司名称",
+            "公司网站 (如果公开)",
+            "公司规模",
+            "行业",
+            "位置",
+            "关键员工 (采购经理、进口经理等)"
+          ],
+          "note": "仅收集LinkedIn上公开显示的信息"
+        }
+      ],
+      "b2b_platforms": [
+        {
+          "alibaba": {
+            "url": "https://www.alibaba.com/buyer/search?country=Peru",
+            "search_type": "买家询盘",
+            "data_available": "公司名、联系方式、采购需求"
+          },
+          "tradekey": {
+            "url": "https://www.tradekey.com/buyers/peru/",
+            "search_type": "买家目录",
+            "data_available": "公司信息、联系方式"
+          },
+          "globalsources": {
+            "url": "https://www.globalsources.com/buying-leads.htm",
+            "search_type": "采购需求",
+            "data_available": "询盘信息、买家资料"
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Cámara de Comercio de Lima",
+          "url": "https://www.camaralima.org.pe",
+          "membership_directory": "会员目录可能需要注册",
+          "data_type": "会员企业联系方式"
+        }
+      ]
+    },
+    "Bolivia": {
+      "search_queries": [
+        "Bolivia importers contact",
+        "Bolivia companies looking for suppliers",
+        "Bolivia procurement managers email",
+        "Bolivia import export companies directory",
+        "Bolivia chamber of commerce members",
+        "La Paz Bolivia trading companies",
+        "Santa Cruz Bolivia trading companies"
+      ],
+      "linkedin_guide": [
+        {
+          "search_url": "https://www.linkedin.com/search/results/companies/",
+          "filters": {
+            "location": "Bolivia",
+            "company_size": "11-50, 51-200, 201-500",
+            "keywords": "import, procurement, trading, buyer"
+          },
+          "data_to_collect": [
+            "公司名称",
+            "公司网站 (如果公开)",
+            "公司规模",
+            "行业",
+            "位置",
+            "关键员工 (采购经理、进口经理等)"
+          ],
+          "note": "仅收集LinkedIn上公开显示的信息"
+        }
+      ],
+      "b2b_platforms": [
+        {
+          "alibaba": {
+            "url": "https://www.alibaba.com/buyer/search?country=Bolivia",
+            "search_type": "买家询盘",
+            "data_available": "公司名、联系方式、采购需求"
+          },
+          "tradekey": {
+            "url": "https://www.tradekey.com/buyers/bolivia/",
+            "search_type": "买家目录",
+            "data_available": "公司信息、联系方式"
+          },
+          "globalsources": {
+            "url": "https://www.globalsources.com/buying-leads.htm",
+            "search_type": "采购需求",
+            "data_available": "询盘信息、买家资料"
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "CAINCO - Cámara de Industria, Comercio, Servicios y Turismo",
+          "url": "https://www.cainco.org.bo",
+          "membership_directory": "公开的会员名录",
+          "data_type": "企业联系信息"
+        }
+      ]
+    },
+    "Egypt": {
+      "search_queries": [
+        "Egypt importers contact",
+        "Egypt companies looking for suppliers",
+        "Egypt procurement managers email",
+        "Egypt import export companies directory",
+        "Egypt chamber of commerce members",
+        "Cairo Egypt trading companies",
+        "Alexandria Egypt trading companies"
+      ],
+      "linkedin_guide": [
+        {
+          "search_url": "https://www.linkedin.com/search/results/companies/",
+          "filters": {
+            "location": "Egypt",
+            "company_size": "11-50, 51-200, 201-500",
+            "keywords": "import, procurement, trading, buyer"
+          },
+          "data_to_collect": [
+            "公司名称",
+            "公司网站 (如果公开)",
+            "公司规模",
+            "行业",
+            "位置",
+            "关键员工 (采购经理、进口经理等)"
+          ],
+          "note": "仅收集LinkedIn上公开显示的信息"
+        }
+      ],
+      "b2b_platforms": [
+        {
+          "alibaba": {
+            "url": "https://www.alibaba.com/buyer/search?country=Egypt",
+            "search_type": "买家询盘",
+            "data_available": "公司名、联系方式、采购需求"
+          },
+          "tradekey": {
+            "url": "https://www.tradekey.com/buyers/egypt/",
+            "search_type": "买家目录",
+            "data_available": "公司信息、联系方式"
+          },
+          "globalsources": {
+            "url": "https://www.globalsources.com/buying-leads.htm",
+            "search_type": "采购需求",
+            "data_available": "询盘信息、买家资料"
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Federation of Egyptian Chambers of Commerce",
+          "url": "https://www.fedcoc.org.eg",
+          "membership_directory": "会员数据库",
+          "data_type": "企业目录"
+        }
+      ]
+    },
+    "Kazakhstan": {
+      "search_queries": [
+        "Kazakhstan importers contact",
+        "Kazakhstan companies looking for suppliers",
+        "Kazakhstan procurement managers email",
+        "Kazakhstan import export companies directory",
+        "Kazakhstan chamber of commerce members",
+        "Almaty Kazakhstan trading companies",
+        "Nur-Sultan Kazakhstan trading companies"
+      ],
+      "linkedin_guide": [
+        {
+          "search_url": "https://www.linkedin.com/search/results/companies/",
+          "filters": {
+            "location": "Kazakhstan",
+            "company_size": "11-50, 51-200, 201-500",
+            "keywords": "import, procurement, trading, buyer"
+          },
+          "data_to_collect": [
+            "公司名称",
+            "公司网站 (如果公开)",
+            "公司规模",
+            "行业",
+            "位置",
+            "关键员工 (采购经理、进口经理等)"
+          ],
+          "note": "仅收集LinkedIn上公开显示的信息"
+        }
+      ],
+      "b2b_platforms": [
+        {
+          "alibaba": {
+            "url": "https://www.alibaba.com/buyer/search?country=Kazakhstan",
+            "search_type": "买家询盘",
+            "data_available": "公司名、联系方式、采购需求"
+          },
+          "tradekey": {
+            "url": "https://www.tradekey.com/buyers/kazakhstan/",
+            "search_type": "买家目录",
+            "data_available": "公司信息、联系方式"
+          },
+          "globalsources": {
+            "url": "https://www.globalsources.com/buying-leads.htm",
+            "search_type": "采购需求",
+            "data_available": "询盘信息、买家资料"
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Chamber of Commerce and Industry of Kazakhstan",
+          "url": "https://www.chamber.kz",
+          "membership_directory": "会员名录",
+          "data_type": "企业联系方式"
+        }
+      ]
+    },
+    "UAE": {
+      "search_queries": [
+        "UAE importers contact",
+        "UAE companies looking for suppliers",
+        "UAE procurement managers email",
+        "UAE import export companies directory",
+        "UAE chamber of commerce members",
+        "Dubai UAE trading companies",
+        "Abu Dhabi UAE trading companies"
+      ],
+      "linkedin_guide": [
+        {
+          "search_url": "https://www.linkedin.com/search/results/companies/",
+          "filters": {
+            "location": "UAE",
+            "company_size": "11-50, 51-200, 201-500",
+            "keywords": "import, procurement, trading, buyer"
+          },
+          "data_to_collect": [
+            "公司名称",
+            "公司网站 (如果公开)",
+            "公司规模",
+            "行业",
+            "位置",
+            "关键员工 (采购经理、进口经理等)"
+          ],
+          "note": "仅收集LinkedIn上公开显示的信息"
+        }
+      ],
+      "b2b_platforms": [
+        {
+          "alibaba": {
+            "url": "https://www.alibaba.com/buyer/search?country=UAE",
+            "search_type": "买家询盘",
+            "data_available": "公司名、联系方式、采购需求"
+          },
+          "tradekey": {
+            "url": "https://www.tradekey.com/buyers/uae/",
+            "search_type": "买家目录",
+            "data_available": "公司信息、联系方式"
+          },
+          "globalsources": {
+            "url": "https://www.globalsources.com/buying-leads.htm",
+            "search_type": "采购需求",
+            "data_available": "询盘信息、买家资料"
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Dubai Chamber of Commerce",
+          "url": "https://www.dubaichamber.com",
+          "membership_directory": "会员搜索",
+          "data_type": "企业资料"
+        }
+      ]
+    }
+  },
+  "total_leads": 25,
+  "generated_date": "2025-12-21T10:27:05.887612"
+}
