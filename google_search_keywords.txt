@@ -1,0 +1,195 @@
+# HPE SAS硬盘外贸客户开发 - Google搜索关键词大全
+# 复制以下关键词到Google搜索，找到潜在客户
+
+================================================================================
+一、按Part Number搜索（找具体产品采购商）
+================================================================================
+
+"881457-B21" buyer OR wholesale OR distributor
+"872481-B21" importer OR supplier wanted
+"872479-B21" purchase OR procurement
+"P09153-B21" RFQ OR quotation
+"P28352-B21" looking for supplier
+"881779-B21" wholesale price
+"857644-B21" bulk order
+
+================================================================================
+二、美国市场搜索关键词
+================================================================================
+
+# 找分销商/批发商
+"server hard drive wholesaler" USA site:.com
+"HPE distributor" California -site:hpe.com
+"IT equipment wholesale" Texas contact
+"enterprise hard drive supplier" New York
+"data center equipment" Florida wholesale
+"server parts distributor" Chicago email
+
+# 找采购需求
+"looking for" "HPE hard drive" supplier USA
+"RFQ" "server HDD" enterprise
+"wanted" "SAS hard drive" bulk
+site:linkedin.com "purchasing manager" "server storage" USA
+
+# 找邮箱
+"@gmail.com" OR "@yahoo.com" "server hard drive" buyer USA
+inurl:contact "IT equipment wholesaler" USA
+intitle:"contact us" "server parts" wholesale
+
+================================================================================
+三、欧洲市场搜索关键词
+================================================================================
+
+# 英国
+"server hard drive distributor" UK
+"IT equipment wholesaler" London
+"HPE partner" United Kingdom
+"enterprise storage" wholesale UK
+
+# 德国
+"server festplatte grosshandel" Deutschland
+"IT hardware distributor" Germany
+"HPE partner" Deutschland
+"server speicher" wholesale
+
+# 荷兰
+"server hard drive" wholesale Netherlands
+"IT equipment" distributor Amsterdam
+"data center equipment" Netherlands
+
+# 法国
+"disque dur serveur" grossiste France
+"distributeur IT" France
+"HPE partenaire" France
+
+================================================================================
+四、中东市场搜索关键词
+================================================================================
+
+"server hard drive" importer Dubai
+"IT equipment wholesaler" UAE
+"computer hardware" distributor "Saudi Arabia"
+"enterprise storage" supplier Kuwait
+"server parts" wholesale Qatar
+"HPE distributor" Middle East
+
+================================================================================
+五、亚洲市场搜索关键词
+================================================================================
+
+# 新加坡
+"server hard drive" wholesaler Singapore
+"IT equipment distributor" Singapore
+"enterprise storage" supplier Singapore
+
+# 马来西亚
+"server parts" importer Malaysia
+"IT hardware" distributor "Kuala Lumpur"
+
+# 印度
+"server hard drive" importer India
+"IT equipment" wholesaler Mumbai
+"enterprise HDD" distributor Delhi
+
+# 日本
+"server hard drive" distributor Japan
+"IT equipment" wholesaler Tokyo
+
+================================================================================
+六、Google高级搜索指令
+================================================================================
+
+# 找公司网站
+inurl:wholesale "server hard drive"
+inurl:distributor "HPE SAS"
+inurl:products "enterprise HDD" contact
+intitle:wholesale "server storage"
+
+# 找LinkedIn决策人
+site:linkedin.com "IT procurement manager" "server"
+site:linkedin.com "purchasing director" "data center"
+site:linkedin.com "VP supply chain" "IT equipment"
+
+# 找B2B平台买家
+site:alibaba.com "HPE hard drive" buyer
+site:globalsources.com "server storage" RFQ
+site:ec21.com "enterprise HDD" importer
+
+# 排除竞争对手网站
+"HPE hard drive wholesaler" -site:alibaba.com -site:hpe.com
+
+================================================================================
+七、Google Maps搜索关键词
+================================================================================
+
+# 在Google Maps中搜索以下关键词，可以找到本地经销商
+
+# 美国
+IT equipment wholesaler near Dallas, TX
+computer hardware distributor near San Jose, CA
+server parts wholesale near Houston, TX
+data center equipment near Phoenix, AZ
+IT hardware supplier near Atlanta, GA
+
+# 欧洲
+IT hardware distributor near London, UK
+computer equipment wholesaler near Frankfurt, Germany
+server parts supplier near Amsterdam, Netherlands
+IT equipment near Paris, France
+
+================================================================================
+八、黄页网站搜索关键词
+================================================================================
+
+# 在以下网站使用这些关键词搜索：
+# - yellowpages.com
+# - europages.com
+# - thomasnet.com
+# - kompass.com
+
+Computer equipment wholesaler
+Server hardware distributor
+IT equipment supplier
+Data center equipment
+Enterprise storage solutions
+Computer hardware wholesale
+Network equipment distributor
+
+================================================================================
+九、海关数据搜索关键词
+================================================================================
+
+# 在海关数据平台搜索：
+# - importgenius.com
+# - panjiva.com
+# - tendata.com
+
+HS Code: 847170 (hard disk drives)
+HS Code: 8471 (data processing equipment)
+
+Product keywords:
+- server hard drive
+- SAS hard drive
+- enterprise HDD
+- HPE hard drive
+
+================================================================================
+十、社交媒体搜索
+================================================================================
+
+# LinkedIn
+"server hard drive" "we are looking for"
+"HPE" "purchasing manager"
+"IT procurement" "data center"
+
+# Twitter/X
+"server hard drive" supplier
+"HPE" wholesale
+"IT equipment" RFQ
+
+# Facebook Groups
+Server parts buy sell
+IT equipment wholesale
+Data center marketplace
+
+================================================================================
